@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-Hello! Welcome to my website :)
+Hello! Welcome to my website :) My name is Claral Chia!
 
 ```{r}
 1 + 1

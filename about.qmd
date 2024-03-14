@@ -4,8 +4,8 @@ title: "About Me"
 
 Hello! Welcome to my website :)
 
-# DataSet: 1 Million tracks on spotify 
+# DataSet. Source: Kaggle
 ```{r, eval=TRUE,echo=TRUE}
 library(tidyverse)
-read.csv("spotify-2023.csv")
+read.csv("spotify-data.csv" )
 ```

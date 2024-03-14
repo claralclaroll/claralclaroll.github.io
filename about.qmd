@@ -2,10 +2,10 @@
 title: "About Me"
 ---
 
-Hello! Welcome to my website :)]
+Hello! Welcome to my website :)
 
-```{r}
-1 + 1
+# DataSet: 1 Million tracks on spotify 
+```{r, eval=TRUE,echo=TRUE}
+library(tidyverse)
+read.csv("spotify-2023.csv")
 ```
-
-# Data Visualisation

@@ -7,5 +7,9 @@ Hello! Welcome to my website :)
 # DataSet. Source: Kaggle
 ```{r, eval=TRUE,echo=TRUE}
 library(tidyverse)
-read.csv("spotify-data.csv" )
+spotifydata<-read.csv("spotify-data.csv")
+spotifydata %>%
+  select(name,artists, year,danceability, energy, popularity)
+  
+  
 ```

@@ -7,3 +7,7 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 Hello everyone! I am Claral and welcome to my website! My identified dataset can be found in data visualisation under the "About Me" section!.
+
+```{=html}
+<iframe height="400" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/claralgithubapp/ "> </iframe>
+```

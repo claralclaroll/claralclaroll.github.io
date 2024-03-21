@@ -5,9 +5,13 @@ title: "About Me"
 Hello! Welcome to my website :)
 
 # DataSet. Source: Kaggle
+ 
 ```{r, eval=TRUE,echo=TRUE}
 library(tidyverse)
+library(dplyr)
+target<- c("['Robert Schumann', 'Vladimir Horowitz']","['Franz Joseph Haydn', 'Pro Arte Quartet']","['Felix Mendelssohn', 'Vladimir Horowitz']", "['Frédéric Chopin', 'Vladimir Horowitz']", "['Franz Liszt', 'Vladimir Horowitz']","['Sergei Rachmaninoff', 'Vladimir Horowitz']", "['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']")
 spotifydata<-read.csv("spotify-data.csv")
 spotifydata %>%
-  select(name,artists, year,danceability, energy, popularity)
+  select(name,artists, year,danceability, energy, popularity)%>%
+  filter(artists%in%target)
 ```

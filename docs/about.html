@@ -185,1457 +185,459 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>spotifydata<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">"spotify-data.csv"</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>spotifydata <span class="sc">%&gt;%</span></span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(name,artists, year,danceability, energy, popularity)<span class="sc">%&gt;%</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(artists<span class="sc">%in%</span>target)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(artists<span class="sc">%in%</span>target)<span class="sc">%&gt;%</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(popularity<span class="sc">&gt;=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>                                                                                                                       name
-1                                                                                  Fantasiestücke, Op. 111: Più tosto lento
-2                                                                               Polonaise-Fantaisie in A-Flat Major, Op. 61
-3                                                                                               Scherzo a capriccio: Presto
-4                                                                            Valse oubliée No. 1 in F-Sharp Major, S. 215/1
-5                                               Piano Sonata No. 2 in B-Flat Minor, Op. 36: I. Allegro agitato - Meno mosso
-6                                                                            Piano Sonata No. 2, Op. 35: IV. Finale. Presto
-7                                                                                           Nachtstücke, Op. 23: No. 4 in F
-8                                                                             Symphony No. 5 in C Minor, Op. 67: 3. Allegro
-9                                                                                  Andante spianato in E-Flat Major, Op. 22
-10                                                                                         Scherzo No. 1 in B Minor, Op. 20
-11                                                                                 Nocturne in F-Sharp Major, Op. 15, No. 2
-12                                                                                          Nocturne F Minor, Op. 55, No. 1
-13                                                                                         Mazurka in F Minor, Op. 7, No. 3
-14                                                                        Danse macabre, S. 555 (after Camille Saint-Saens)
-15                                                                                               Humoreske, Op. 20: Einfach
-16                                                                                                 Humoreske, Op. 20: Innig
-17                                                                                                       Barcarolle, Op. 60
-18                                                                                            Humoreske, Op. 20: Intermezzo
-19                                                                                 Andante spianato in E-Flat Major, Op. 22
-20                                                                        Étude in G-Flat Major, Op. 10, No. 5 "Black Keys"
-21                                                                  Piano Sonata No. 2, Op. 35: I. Grave - Doppio movimento
-22                                                                                       Nocturne in E Minor, Op. 72, No. 1
-23                                                                                  Sonata No. 3, Op. 14: III: Variation II
-24                                                                              Polonaise-Fantaisie in A-Flat Major, Op. 61
-25                                                               Nocturne in C-Sharp Minor, Op. 27, No. 1 - 2001 Remastered
-26                                                                                 Sonata No. 3, Op. 14: III: Variation III
-27                                                                                          Nocturne F Minor, Op. 55, No. 1
-28                   Haydn: String Quartet No. 5 in F Major, Op. 3 No. 5, Hob. III, 17: III. Menuetto (Attrib. Hoffstetter)
-29                      Haydn: String Quartet No. 62 in C Major, Op. 76 No. 3, Hob. III, 77, "Emperor": IV. Finale (Presto)
-30          Haydn: String Quartet No. 59 in G Minor, Op. 74 No. 3, Hob. III, 74, "The Horseman": III. Menuetto (Allegretto)
-31                                 Haydn: String Quartet No. 57 in C Major, Op. 74 No. 1, Hob. III, 72: I. Allegro moderato
-32                     Haydn: String Quartet No. 52 in E-Flat Major, Op. 64 No. 6, Hob. III, 64: III. Menuetto (Allegretto)
-33                                          Haydn: String Quartet No. 25 in C Major, Op. 20 No. 2, Hob. III, 32: II. Adagio
-34                Haydn: String Quartet No. 30 in E-Flat Major, Op. 33 No. 2, Hob. III, 38, "The Joke": IV. Finale (Presto)
-35                            Haydn: String Quartet No. 52 in E-Flat Major, Op. 64 No. 6, Hob. III, 64: IV. Finale (Presto)
-36                          Haydn: String Quartet No. 59 in G Minor, Op. 74 No. 3, Hob. III, 74, "The Horseman": I. Allegro
-37                                 Haydn: String Quartet No. 44 in E Major, Op. 54 No. 3, Hob. III, 59: II. Largo cantabile
-38                                                 Isoldes Liebestod from Tristan und Isolde, S. 447 (after Richard Wagner)
-39                                                                              Consolation No. 3 in D-Flat Major, S. 172/3
-40                                                                               Polonaise in A-Flat Major, Op. 53 "Heroic"
-41                                                                            Lieder ohne Worte: Spring Song, Op. 62, No. 6
-42                                                            Kinderszenen, Op. 15: No. 1, Von fremden Ländern und Menschen
-43                                                                                  Mazurka in F-Sharp Minor, Op. 59, No. 3
-44                                                                                        Mazurka in B Minor, Op. 33, No. 4
-45                                                                                     Waltz in A-Flat Major, Op. 69, No. 1
-46                                                                                         Mazurka in F Minor, Op. 7, No. 3
-47                                                                        Danse macabre, S. 555 (after Camille Saint-Saens)
-48                                                                                  Mazurka in C-Sharp Minor, Op. 41, No. 4
-49                                                                              Étude in E Major, Op. 10, No. 3 "Tristesse"
-50                                                                                               Humoreske, Op. 20: Einfach
-51                                                                                                                Andantino
-52                                                                              Polonaise-Fantaisie in A-Flat Major, Op. 61
-53                                                                      Piano Sonata No. 2, Op. 35: II. Scherzo - Più lento
-54                                                             Humoreske, Op. 20: Nach und nach immer lebhafter und stärker
-55                                                                                        Mazurka in F Minor, Op. 63, No. 2
-56                                                                                             Fantaisie in F Minor, Op. 49
-57                                                                                   Allegro con brio in A Major "Military"
-58                                                                          Kinderszenen, Op. 15: XIII. Der Dichter spricht
-59                                                                                        Mazurka in A Minor, Op. 17, No. 4
-60                                              Piano Sonata No. 2 in B-Flat Minor, Op. 36: I. Allegro agitato - Meno mosso
-61                                                           Piano Sonata No. 2 in B-Flat Minor, Op. 35: IV. Finale. Presto
-62                                                                                  Nocturne in E-Flat Major, Op. 55, No. 2
-63                                                                                          Humoreske, Op. 20: Zum Beschluß
-64                                     Haydn: String Quartet No. 50 in B-Flat Major, Op. 64 No. 3, Hob. III, 67: II. Adagio
-65                                          Haydn: String Quartet No. 45 in A Major, Op. 55 No. 1, Hob. III, 60: I. Allegro
-66                                 Haydn: String Quartet No. 66 in G Major, Op. 77 No. 1, Hob. III, 81: IV. Finale (Presto)
-67                      Haydn: String Quartet No. 28 in E-Flat Major, Op. 20 No. 1, Hob. III, 31: III. Affettuoso sostenuto
-68                             Haydn: String Quartet No. 58 in F Major, Op. 74 No. 2, Hob. III, 73: III. Menuetto (Allegro)
-69                             Haydn: String Quartet No. 33 in D Major, Op. 33 No. 6, Hob. III, 42: IV. Finale (Allegretto)
-70                       Haydn: String Quartet No. 47 in B-Flat Major, Op. 55 No. 3, Hob. III, 62: II. Adagio ma non troppo
-71                     Haydn: String Quartet No. 32 in C Major, Op. 33 No. 3, Hob. III, 39, "The Bird": I. Allegro moderato
-72                                 Haydn: String Quartet No. 67 in F Major, Op. 77 No. 2, Hob. III, 82: I. Allegro moderato
-73                            Haydn: String Quartet No. 54 in B-Flat Major, Op. 71 No. 1, Hob. III, 69: IV. Finale (Vivace)
-74                                     Haydn: String Quartet No. 54 in B-Flat Major, Op. 71 No. 1, Hob. III, 69: II. Adagio
-75                                                                Rakóczy March, No. 15 from Hungarian Rhapsodies for Piano
-76                                                                                                Barcarolle, Op. 10, No. 3
-77                                                                               Polonaise in A-Flat Major, Op. 53 "Heroic"
-78                            Haydn: String Quartet No. 1 in B-Flat Major, Op. 1 No. 1, Hob. III, 1, "La chasse": I. Presto
-79                     Haydn: String Quartet No. 50 in B-Flat Major, Op. 64 No. 3, Hob. III, 67: III. Menuetto (Allegretto)
-80                    Haydn: String Quartet No. 41 in D Major, Op. 50 No. 6, Hob. III, 49, "La grenouille": II. Poco adagio
-81                                 Haydn: String Quartet No. 58 in F Major, Op. 74 No. 2, Hob. III, 73: IV. Finale (Presto)
-82                                 Haydn: String Quartet No. 57 in C Major, Op. 74 No. 1, Hob. III, 72: IV. Finale (Presto)
-83                          Haydn: String Quartet No. 42 in C Major, Op. 54 No. 2, Hob. III, 57: III. Menuetto (Allegretto)
-84                                 Haydn: String Quartet No. 27 in D Major, Op. 20 No. 4, Hob. III, 34: I. Allegro di molto
-85                                     Haydn: String Quartet No. 54 in B-Flat Major, Op. 71 No. 1, Hob. III, 69: I. Allegro
-86              Haydn: String Quartet No. 63 in B-Flat Major, Op. 76 No. 4, Hob. III, 78, "Sunrise": I. Allegro con spirito
-87                          Haydn: String Quartet No. 1 in B-Flat Major, Op. 1 No. 1, Hob. III, 1, "La chasse": III. Adagio
-88                                    Haydn: String Quartet No. 52 in E-Flat Major, Op. 64 No. 6, Hob. III, 64: II. Andante
-89                                                           Von fremden Ländern und Menschen (From "Kinderszenen", Op. 15)
-90                                                                                              Arabeske in C Major, Op. 18
-91                                                                     Kinderszenen, Op. 15: No. 9, Ritter vom Steckenpferd
-92                                                                                 Kinderszenen, Op. 15: No. 3, Hasche-Mann
-93                                                                      Kinderszenen, Op. 15: No. 12, Kind im Einschlummern
-94                                                                                    Kinderszenen, Op. 15: No. 8, Am Kamin
-95                                                                              Kinderszenen, Op. 15: No. 4, Bittendes Kind
-96                                                                          Kinderszenen, Op. 15: No. 2, Kuriose Geschichte
-97                                                                        Kinderszenen, Op. 15: No. 6, Wichtige Begebenheit
-98                     Haydn: String Quartet No. 51 in G Major, Op. 64 No. 4, Hob. III, 66: III. Adagio cantabile sostenuto
-99       Haydn: String Quartet No. 59 in G Minor, Op. 74 No. 3, Hob. III, 74, "The Horseman": IV. Finale (Allegro con brio)
-100                         Haydn: String Quartet No. 44 in E Major, Op. 54 No. 3, Hob. III, 59: III. Menuetto (Allegretto)
-101                                       Haydn: String Quartet No. 23 in F Minor, Op. 20 No. 5, Hob. III, 35: II. Menuetto
-102  Haydn: String Quartet No. 41 in D Major, Op. 50 No. 6, Hob. III, 49, "La grenouille": IV. Finale (Allegro con spirito)
-103                           Haydn: String Quartet No. 47 in B-Flat Major, Op. 55 No. 3, Hob. III, 62: IV. Finale (Presto)
-104                           Haydn: String Quartet No. 1 in B-Flat Major, Op. 1 No. 1, Hob. III, 1, "La chasse": V. Presto
-105                        Haydn: String Quartet No. 1 in B-Flat Major, Op. 1 No. 1, Hob. III, 1, "La chasse": IV. Menuetto
-106                                                                       Danse macabre, S. 555 (after Camille Saint-Saens)
-107                                                                                       Mazurka in B Minor, Op. 33, No. 4
-108                                                                                Valse oubliée in F-Sharp Major, S. 215/1
-109                                                                                       Mazurka in C Minor, Op. 56, No. 3
-110                                                                            Kinderszenen, Op. 15: No. 11, Fürchtenmachen
-111                                                                       Kinderszenen, Op. 15: No. 13, Der Dichter spricht
-112                                                                     Étude in A-Flat Major, Op. 25, No. 1 "Aeolian Harp"
-113                                                                                 Schwanengesang, S. 560: No. 4 Ständchen
-114                                          Haydn: String Quartet No. 6 in C Major, Op. 1 No. 6, Hob. III, 6: II. Menuetto
-115                                                                           Prélude In G-Sharp Minor, Op.32, No.12 - Live
-116                                  Fantasie in C Major, Op. 17: I. Durchaus phantastisch und leidenschaftlich vorzutragen
-117                                                          Piano Sonata No. 2 in B-Flat Minor, Op. 36: I. Allegro agitato
-118                                                                                         Kinderszenen, Op. 15: Träumerei
-119                                            Fantasie in C Major, Op. 17: III. Langsam getragen. Durchweg leise zu halten
-120                                                                                    Prelude in in B Minor, Op. 28, No. 6
-121                                                                                 Mazurka in C-Sharp Minor, Op. 50, No. 3
-122                                                                                              Allegretto in A-Flat Major
-123                                                                                        Ballade No. 1 in G Minor, Op. 23
-124                                                                     Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244/2
-125                                                                             Consolation No. 3 in D-Flat Major, S. 172/3
-126                                                                                  Consolation No. 2 in E Major, S. 172/2
-127                                                                                        Ballade No. 2 in B Minor, S. 171
-128                                                                  Hungarian Rhapsody No. 19 in D Minor, S. 244/19: Lento
-129                                                                      Hungarian Rhapsody No. 6 in D-Flat Major, S. 244/6
-130                                                                                            Mephisto Waltz No. 1, S. 514
-131                                         Années de pèlerinage, Première année (Suisse), S. 160: No. 6, Vallée d'Obermann
-132                                                                                                 Scherzo &amp; March, S. 177
-133                                                                                         No. 5, Sonetto 104 del Petrarca
-134                                                                         Valses oubliées, S. 215: No. 1 in F-Sharp Major
-135                                                                                         Piano Sonata in B Minor, S. 178
-136                                                  Sonata for Piano in B Minor, S. 178: I. Lento assai - Allegro energico
-137                                                                       Danse macabre, S. 555 (after Camille Saint-Saens)
-138                                                Isoldes Liebestod from Tristan und Isolde, S. 447 (after Richard Wagner)
-139                                                          Wedding March and Variations, S. 410 (after Felix Mendelssohn)
-140                                                              Sonata for Piano in B Minor, S. 178: II. Andante sostenuto
-141                                                                             Consolation No. 4 in D-Flat Major, S. 172/4
-142                                                                            No. 15 in A Minor, S. 244/15 (Rakóczy March)
-143                                                                          Valse oubliée No. 1 in F-Sharp Major, S. 215/1
-144                                                                        Hungarian Rhapsody No. 6 in D-Flat Major, S. 244
-145                                                            Soirées de Vienne, S. 427 No. 6: Allegro con strepito - Live
-146                                                                                                      No. 7, Funérailles
-147                                      Années de pèlerinage, Première année (Suisse), S. 160: No. 5, Au bord d'une source
-148                                    Années de pèlerinage II (Italie), S. 161: No. 5, Sonetto del Petrarca No. 104 - Live
-149                                                                Weinen, Klagen, Sorgen, Zagen, S. 179 (after J. S. Bach)
-150                                                     Sonata for Piano in B Minor, S. 178: III. Allegro energico (fugato)
-151                                                                                             No. 4, Au bord d'une source
-152                                                                                      Prelude, Op. 23, No. 5, in G Minor
-153                                                                                     Träumerei from Kinderszenen, Op. 15
-154                                                                           Lieder ohne Worte: Spring Song, Op. 62, No. 6
-155                                                                                        Ballade No. 1 in G Minor, Op. 23
-156                                                                     Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244/2
-157                                                                                                    Lento, ma non troppo
-158                                                           Kinderszenen, Op. 15: No. 1, Von fremden Ländern und Menschen
-159                                                                                                       Allegro con fuoco
-160                                                                       Étude in G-Flat Major, Op. 10, No. 5 "Black Keys"
-161                                                                                  Nocturne in E-Flat Major, Op. 9, No. 2
-162                                                                                               Humoreske, Op. 20: Hastig
-163                                                                                  Mazurka in B-Flat Minor, Op. 24, No. 4
-164                                                                                   Scherzo No. 2 in B-Flat Minor, Op. 31
-165                                        Piano Sonata No. 2 in B-Flat Minor, Op. 36: III. L'istesso tempo - Allegro molto
-166                                                                          Piano Sonata No. 2, Op. 35: IV. Finale. Presto
-167                                                                                Nocturne in F-Sharp Major, Op. 15, No. 2
-168                                                                                  Mazurka in B-Flat Minor, Op. 24, No. 4
-169                                                                                  Kinderszenen, Op. 15: V. Glückes genug
-170                                                                                                      May Breezes, No. 1
-171                                                                 Piano Sonata No. 2 in B-Flat Minor, Op. 35: II. Scherzo
-172                                                                             Étude in E Major, Op. 10, No. 3 "Tristesse"
-173                                                                                 Sonata No. 3, Op. 14: III: Variation IV
-174                                                                                Grande Polonaise in E-Flat Major, Op. 22
-175                                                                                                                  Presto
-176                                                                        Kinderszenen, Op. 15: XII. Kind im Einschlummern
-177                                                              Lieder ohne Worte: The Shepherd's Complaint, Op. 67, No. 5
-178                                                                                  Consolation No. 5 in E Major, S. 172/5
-179                                                   Etude No. 2 in E-Flat Major, S. 140/2 (after Paganini Caprice No. 17)
-180                                                                   Valse oubliées, S. 215: No. 1 in F-Sharp Major - Live
-181                                                                                Valse oubliée in F-Sharp Major, S. 215/1
-182                                                                       Valses oubliées: No. 1 in F-Sharp Major, S. 215/1
-183                         Haydn: String Quartet No. 63 in B-Flat Major, Op. 76 No. 4, Hob. III, 78, "Sunrise": II. Adagio
-184                   Haydn: String Quartet No. 23 in F Minor, Op. 20 No. 5, Hob. III, 35: IV. Finale (Fuga a due soggetti)
-185                                                                                        Ballade No. 1 in G Minor, Op. 23
-186                                                                                       Nocturne No. 1 in E minor, Op. 72
-187                                                                                Valse oubliée in F-Sharp Major, S. 215/1
-188                                                                              Polonaise in A-flat Major, Op. 53 "Heroic"
-189                                                                                     Träumerei from Kinderszenen, Op. 15
-190     Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): III. Quasi variazioni: Andantino de Clara Wieck
-191                                                                                  Kinderszenen, Op. 15: X. Fast zu ernst
-192                                                                                  Mazurka in D-Flat Major, Op. 30, No. 3
-193                                                                         Piano Sonata No. 2, Op. 35: III. Marche funèbre
-194                                                                       Fantasiestücke, Op. 111: Con forza, assai marcato
-195                                                                                     Träumerei from Kinderszenen, Op. 15
-196                                                                                        Ballade No. 4 in F Minor, Op. 52
-197                                                 Piano Sonata No. 2 in B-Flat Minor, Op. 35: I. Grave - Doppio movimento
-198                                                                                 Impromptu No. 1 in A-Flat Major, Op. 29
-199                                                                                         Humoreske, Op. 20: Noch rascher
-200                                                                                      Nocturne in E Minor, Op. 72, No. 1
-201                                                                         Piano Sonata No. 2, Op. 35: III. Marche funèbre
-202                                                                                     Humoreske, Op. 20: Mit einigem Pomp
-203                                                                                 Mazurka in C-Sharp Minor, Op. 63, No. 3
-204                                                                                 Impromptu No. 1 in A-Flat Major, Op. 29
-205                     Haydn: String Quartet No. 28 in E-Flat Major, Op. 20 No. 1, Hob. III, 31: II. Menuetto (Allegretto)
-206                Haydn: String Quartet No. 67 in F Major, Op. 77 No. 2, Hob. III, 82: II. Menuetto (Presto ma non troppo)
-207                       Haydn: String Quartet No. 42 in C Major, Op. 54 No. 2, Hob. III, 57: IV. Finale (Adagio - Presto)
-208                              Haydn: String Quartet No. 58 in F Major, Op. 74 No. 2, Hob. III, 73: I. Allegro spirituoso
-209                                Haydn: String Quartet No. 43 in G Major, Op. 54 No. 1, Hob. III, 58: I. Allegro con brio
-210                                                                                  Consolation No. 2 in E Major, S. 172/2
-211                                                                                       Nocturne No. 1 in E minor, Op. 72
-212                                                                                  Kinderszenen, Op. 15: No. 7, Träumerei
-213                                                                 Piano Sonata No. 2, Op. 35: I. Grave - Doppio movimento
-214                                                                                Andante spianato in E-Flat Major, Op. 22
-215                                                                                         Waltz in A Minor, Op. 34, No. 2
-216                                                                                Grande Polonaise in E-Flat Major, Op. 22
-217                                                                                                          VII. Träumerei
-218                                                                    Nocturne in F Major, Op. 15, No. 1 - 2001 Remastered
-219                                                                                Kinderszenen, Op. 15: IV. Bittendes Kind
-220                                                                                 Mazurka in C-Sharp Minor, Op. 30, No. 4
-221                                                  Piano Sonata No. 2 in B-Flat Minor, Op. 35: III. Marche funèbre. Lento
-222                                                                                  Scherzo No. 3 in C-Sharp Minor, Op. 39
-223                                                                                 Mazurka in C-Sharp Minor, Op. 50, No. 3
-224                                                                     Nocturne in B Major, Op. 9, No. 3 - 2001 Remastered
-225                                                                                       Mazurka in C Minor, Op. 56, No. 3
-226                                                                                  Kinderszenen, Op. 15: V. Glückes genug
-227                                                                                                            Tempo giusto
-228                                                                                         Humoreske, Op. 20: Zum Beschluß
-229                                                                                 Mazurka in C-Sharp Minor, Op. 30, No. 4
-230                                                                                Kinderszenen, Op. 15: XI. Fürchtenmachen
-231                                Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): I. Allegro brillante
-232                                                                                        Ballade No. 1 in G Minor, Op. 23
-233                                                                       Étude in G-Flat Major, Op. 10, No. 5 "Black Keys"
-234                                                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
-235                                                                                  Sonata No. 3, Op. 14: III: Variation I
-236                                                                                         Étude in F Major, Op. 10, No. 8
-237                                                                            Kinderszenen, Op. 15: II. Kuriose Geschichte
-238                                                                        Kinderszenen, Op. 15: XII. Kind im Einschlummern
-239                                    Haydn: String Quartet No. 6 in C Major, Op. 1 No. 6, Hob. III, 6: V. Finale (Presto)
-240               Haydn: String Quartet No. 62 in C Major, Op. 76 No. 3, Hob. III, 77, "Emperor": II. Poco adagio cantabile
-241             Haydn: String Quartet No. 30 in E-Flat Major, Op. 33 No. 2, Hob. III, 38, "The Joke": II. Scherzo (Allegro)
-242                               Haydn: String Quartet No. 47 in B-Flat Major, Op. 55 No. 3, Hob. III, 62: I. Vivace assai
-243            Haydn: String Quartet No. 63 in B-Flat Major, Op. 76 No. 4, Hob. III, 78, "Sunrise": III. Menuetto (Allegro)
-244              Haydn: String Quartet No. 25 in C Major, Op. 20 No. 2, Hob. III, 32: IV. Fuga a quattro soggetti (Allegro)
-245                      Haydn: String Quartet No. 27 in D Major, Op. 20 No. 4, Hob. III, 34: II. Un poco adagio affettuoso
-246          Haydn: String Quartet No. 5 in F Major, Op. 3 No. 5, Hob. III, 17: II. Andante cantabile (Attrib. Hoffstetter)
-247            Haydn: String Quartet No. 38 in E-Flat Major, Op. 50 No. 3, Hob. III, 46: II. Andante (Piuttosto allegretto)
-248                          Haydn: String Quartet No. 51 in G Major, Op. 64 No. 4, Hob. III, 66: II. Menuetto (Allegretto)
-249                                                                        Étude in G-Flat Major, Op. 10, No. 5 "Black Key"
-250                                                                        Étude in C Minor, Op. 10, No. 12 "Revolutionary"
-251                                                                                    Étude in G-Flat Major, Op. 10, No. 5
-252                                                                                                    Lento, ma non troppo
-253                                                                                 Sonata No. 3, Op. 14: III: Variation II
-254                                                                                    Nachtstücke, Op. 23: No. 3 in D-Flat
-255                                                                            Kinderszenen, Op. 15: II. Kuriose Geschichte
-256                                                                                 Mazurka in C-Sharp Minor, Op. 30, No. 4
-257                                                                                  Scherzo No. 3 in C-Sharp Minor, Op. 39
-258                                                                     Piano Sonata No. 2, Op. 35: II. Scherzo - Più lento
-259                                                                                Kinderszenen, Op. 15: IV. Bittendes Kind
-260                                                                                    Nachtstücke, Op. 23: No. 3 in D-Flat
-261                                                                       Kinderszenen, Op. 15: IX. Ritter von Steckenpferd
-262                                                                                   Étude in C-Sharp Minor, Op. 25, No. 7
-263                           Introduction and Rondo in E-Flat Major, Op. 16: Introduzione. Andante - Rondo. Allegro vivace
-264                                                                                        Scherzo No. 1 in B Minor, Op. 20
-265                                                                                                                  Vivace
-266                                                                               Polonaise in C-Sharp Minor, Op. 26, No. 1
-267                                                                         Piano Sonata No. 2, Op. 35: III. Marche funèbre
-268                                                               Kinderszenen, Op. 15: I. Von fremden Ländern und Menschen
-269                                                                                    Kinderszenen, Op. 15: VIII. Am Kamin
-270                                                                                  Scherzo No. 3 in C-Sharp Minor, Op. 39
-271                                                                             Polonaise-Fantaisie in A-Flat Major, Op. 61
-272                                                                                   Ballade No. 3 in A-Flat Major, Op. 47
-273                                         Haydn: String Quartet No. 42 in C Major, Op. 54 No. 2, Hob. III, 57: II. Adagio
-274                    Haydn: String Quartet No. 54 in B-Flat Major, Op. 71 No. 1, Hob. III, 69: III. Menuetto (Allegretto)
-275                                        Haydn: String Quartet No. 33 in D Major, Op. 33 No. 6, Hob. III, 42: II. Andante
-276                               Haydn: String Quartet No. 58 in F Major, Op. 74 No. 2, Hob. III, 73: II. Andante grazioso
-277                         Haydn: String Quartet No. 25 in C Major, Op. 20 No. 2, Hob. III, 32: III. Menuetto (Allegretto)
-278                                Haydn: String Quartet No. 43 in G Major, Op. 54 No. 1, Hob. III, 58: IV. Finale (Presto)
-279                              Haydn: String Quartet No. 62 in C Major, Op. 76 No. 3, Hob. III, 77, "Emperor": I. Allegro
-280              Haydn: String Quartet No. 30 in E-Flat Major, Op. 33 No. 2, Hob. III, 38, "The Joke": III. Largo sostenuto
-281                             Haydn: String Quartet No. 66 in G Major, Op. 77 No. 1, Hob. III, 81: III. Menuetto (Presto)
-282                                Haydn: String Quartet No. 51 in G Major, Op. 64 No. 4, Hob. III, 66: IV. Finale (Presto)
-283                              Haydn: String Quartet No. 27 in D Major, Op. 20 No. 4, Hob. III, 34: IV. Presto scherzando
-284                 Haydn: String Quartet No. 5 in F Major, Op. 3 No. 5, Hob. III, 17: IV. Scherzando (Attrib. Hoffstetter)
-285       Haydn: String Quartet No. 4 in B-Flat Major, Op. 3 No. 4, Hob. III, 16: I. Allegro moderato (Attrib. Hoffstetter)
-286                                                                                             Arabeske in C Major, Op. 18
-287                                                               Étude No. 2 in A-Flat Major from "Trois Nouvelles Études"
-288                                                                        Étude in C Minor, Op. 10, No. 12 "Revolutionary"
-289                                                                                 Nocturnes, Op. 9, No. 2 in E-Flat Major
-290                                                                                Fantasiestücke, Op. 111: Più tosto lento
-291                                                              Lieder ohne Worte: The Shepherd's Complaint, Op. 67, No. 5
-292                                                                          Kinderszenen, Op. 15: VI. Wichtige Begebenheit
-293                                                                                   Kinderszenen, Op. 15: III. Haschemann
-294                                                                                        Ballade No. 4 in F Minor, Op. 52
-295                                                                             Sonata No. 3, Op. 14: III: Theme: Andantino
-296                                                                                                      Barcarolle, Op. 60
-297                                                                             Polonaise-Fantaisie in A-Flat Major, Op. 61
-298                                                                                Lieder ohne Worte: Élégie, Op. 85, No. 4
-299                                                                                        Ballade No. 1 in G Minor, Op. 23
-300                                                                          Kinderszenen, Op. 15: VI. Wichtige Begebenheit
-301                                                                           Lieder ohne Worte: Spring Song, Op. 62, No. 6
-302                                                                                Humoreske, Op. 20: Sehr rasch und leicht
-303                                                                     Étude in A-Flat Major, Op. 25, No. 1 "Aeolian Harp"
-304                                                                                         Nachtstücke, Op. 23: No. 4 in F
-305                                                                                   Étude in C-Sharp Minor, Op. 10, No. 4
-306                                                                       Fantasiestücke, Op. 111: Con forza, assai marcato
-307                                                                                        Ballade No. 4 in F Minor, Op. 52
-308                                                                                       Mazurka in B Minor, Op. 30, No. 2
-309                                                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
-310                                                                                                Humoreske, Op. 20: Innig
-311                                                                           Symphony No. 5 in C Minor, Op. 67: 4. Allegro
-312                                                                                         Nocturne F Minor, Op. 55, No. 1
-313                                                                             Sonata No. 3, Op. 14: III: Theme: Andantino
-314                                                                                Humoreske, Op. 20: Sehr rasch und leicht
-315                                                               Kinderszenen, Op. 15: I. Von fremden Ländern und Menschen
-316                                                                                     Humoreske, Op. 20: Mit einigem Pomp
-317                                                                                         Waltz in A Minor, Op. 34, No. 2
-318            Haydn: String Quartet No. 32 in C Major, Op. 33 No. 3, Hob. III, 39, "The Bird": II. Scherzando (Allegretto)
-319     Haydn: String Quartet No. 30 in E-Flat Major, Op. 33 No. 2, Hob. III, 38, "The Joke": I. Allegro moderato cantabile
-320                                Haydn: String Quartet No. 51 in G Major, Op. 64 No. 4, Hob. III, 66: I. Allegro con brio
-321                                         Haydn: String Quartet No. 66 in G Major, Op. 77 No. 1, Hob. III, 81: II. Adagio
-322                           Haydn: String Quartet No. 38 in E-Flat Major, Op. 50 No. 3, Hob. III, 46: I. Allegro con brio
-323                                                                                         Waltz in A Minor, Op. 34, No. 2
-324                                                                                   Étude in C-Sharp Minor, Op. 25, No. 7
-325                                                                                    Waltz in A-Flat Major, Op. 69, No. 1
-326                                                                                        Scherzo No. 1 in B Minor, Op. 20
-327                                                                                                      Barcarolle, Op. 60
-328                                                                                                      Barcarolle, Op. 60
-329                                                                        Hungarian Rhapsody No. 6 in D-Flat Major, S. 244
-330                                                                                 Nocturnes, Op. 9, No. 2 in E-Flat Major
-331                                                                                                      Barcarolle, Op. 60
-332                                                                                        Ballade No. 1 in G Minor, Op. 23
-333                                                                          Valse oubliée No. 1 in F-Sharp Major, S. 215/1
-334                                                                                        Ballade No. 4 in F Minor, Op. 52
-335                                                                                  Mazurka in B-Flat Minor, Op. 24, No. 4
-336                                                                                         Humoreske, Op. 20: Sehr lebhaft
-337                                                                                                                  Vivace
-338                                                   Etude No. 2 in E-Flat Major, S. 140/2 (after Paganini Caprice No. 17)
-339                                       Haydn: String Quartet No. 6 in C Major, Op. 1 No. 6, Hob. III, 6: I. Presto assai
-340                                          Haydn: String Quartet No. 6 in C Major, Op. 1 No. 6, Hob. III, 6: IV. Menuetto
-341                    Haydn: String Quartet No. 59 in G Minor, Op. 74 No. 3, Hob. III, 74, "The Horseman": II. Largo assai
-342                                Haydn: String Quartet No. 66 in G Major, Op. 77 No. 1, Hob. III, 81: I. Allegro moderato
-343                          Haydn: String Quartet No. 67 in F Major, Op. 77 No. 2, Hob. III, 82: IV. Finale (Vivace assai)
-344                                       Haydn: String Quartet No. 67 in F Major, Op. 77 No. 2, Hob. III, 82: III. Andante
-345                      Haydn: String Quartet No. 5 in F Major, Op. 3 No. 5, Hob. III, 17: I. Presto (Attrib. Hoffstetter)
-346                               Haydn: String Quartet No. 45 in A Major, Op. 55 No. 1, Hob. III, 60: II. Adagio cantabile
-347                            Haydn: String Quartet No. 32 in C Major, Op. 33 No. 3, Hob. III, 39, "The Bird": III. Adagio
-348                                         Haydn: String Quartet No. 44 in E Major, Op. 54 No. 3, Hob. III, 59: I. Allegro
-349                                Haydn: String Quartet No. 45 in A Major, Op. 55 No. 1, Hob. III, 60: IV. Finale (Vivace)
-350        Haydn: String Quartet No. 41 in D Major, Op. 50 No. 6, Hob. III, 49, "La grenouille": III. Menuetto (Allegretto)
-351                               Haydn: String Quartet No. 50 in B-Flat Major, Op. 64 No. 3, Hob. III, 67: I. Vivace assai
-352                                        Haydn: String Quartet No. 23 in F Minor, Op. 20 No. 5, Hob. III, 35: III. Adagio
-353                     Haydn: String Quartet No. 32 in C Major, Op. 33 No. 3, Hob. III, 39, "The Bird": IV. Rondo (Presto)
-354                        Haydn: String Quartet No. 1 in B-Flat Major, Op. 1 No. 1, Hob. III, 1, "La chasse": II. Menuetto
-355                        Haydn: String Quartet No. 41 in D Major, Op. 50 No. 6, Hob. III, 49, "La grenouille": I. Allegro
-356                                                                      Prélude in D-Flat Major, Op. 28, No. 15 "Raindrop"
-357                                                                                      Nocturne in F Minor, Op. 55, No. 1
-358                                                                                      Prelude, Op. 23, No. 5, in G Minor
-359                                                                                             Scherzo a capriccio: Presto
-360                                                                                                      Barcarolle, Op. 60
-361                                                                                       Nocturne No. 1 in B Major, Op. 62
-362                                                                                           Humoreske, Op. 20: Intermezzo
-363                                                                       Kinderszenen, Op. 15: IX. Ritter von Steckenpferd
-364                                                                                                                 Andante
-365                                                   Etude No. 2 in E-Flat Major, S. 140/2 (after Paganini Caprice No. 17)
-366                                                            Humoreske, Op. 20: Nach und nach immer lebhafter und stärker
-367                                                                                   Étude in C-Sharp Minor, Op. 25, No. 7
-368                                                                                 Mazurka in C-Sharp Minor, Op. 30, No. 4
-369                                                                                                               Sostenuto
-370                                                                                    Kinderszenen, Op. 15: VIII. Am Kamin
-371                                                                                                      May Breezes, No. 1
-372                                                                                Lieder ohne Worte: Élégie, Op. 85, No. 4
-373                           Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): IV. Prestissimo possibile
-374                                                                                       Mazurka in A Minor, Op. 17, No. 4
-375                                                                                Valse oubliée in F-Sharp Major, S. 215/1
-376                                                                                   Kinderszenen, Op. 15: III. Haschemann
-377                                                                                                                 Andante
-378                                                                                        Ballade No. 1 in G Minor, Op. 23
-379                                                                                         Humoreske, Op. 20: Noch rascher
-380                                                          Wedding March and Variations, S. 410 (after Felix Mendelssohn)
-381                                                                            No. 15 in A Minor, S. 244/15 (Rakóczy March)
-382                           Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): IV. Prestissimo possibile
-383                                        Piano Sonata No. 2 in B-Flat Minor, Op. 36: III. L'istesso tempo - Allegro molto
-384                          Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): II. Scherzo: Molto commodo
-385                                                                                        Ballade No. 1 in G Minor, Op. 23
-386                            Haydn: String Quartet No. 57 in C Major, Op. 74 No. 1, Hob. III, 72: III. Menuetto (Allegro)
-387                                          Haydn: String Quartet No. 42 in C Major, Op. 54 No. 2, Hob. III, 57: I. Vivace
-388                    Haydn: String Quartet No. 38 in E-Flat Major, Op. 50 No. 3, Hob. III, 46: III. Menuetto (Allegretto)
-389          Haydn: String Quartet No. 27 in D Major, Op. 20 No. 4, Hob. III, 34: III. Menuetto (Allegretto alla zingarese)
-390              Haydn: String Quartet No. 50 in B-Flat Major, Op. 64 No. 3, Hob. III, 67: IV. Finale (Allegro con spirito)
-391                                           Haydn: String Quartet No. 6 in C Major, Op. 1 No. 6, Hob. III, 6: III. Adagio
-392                             Haydn: String Quartet No. 57 in C Major, Op. 74 No. 1, Hob. III, 72: II. Andantino grazioso
-393                                                                              Kinderszenen, Op. 15: No. 5, Glückes genug
-394                                                                                        Prelude in G-Sharp Minor, Op. 32
-395                                                                                         Étude in E Minor, Op. 25, No. 5
-396                                                                                        Ballade No. 1 in G Minor, Op. 23
-397                                                                                 Mazurkas, Op. 30: No. 3 in D-Flat Major
-398                                                                                     12 études, Op. 10: No. 8 in F Major
-399                                                                           Nocturnes, Op. 55: No. 1 in F Minor (Andante)
-400                                                                                   Scherzo No. 2 in B-Flat Minor, Op. 31
-401                                                                                        Scherzo No. 4 in E Major, Op. 54
-402                                                                                Mazurkas, Op. 50: No. 3 in C-Sharp Minor
-403                                                                                Mazurkas, Op. 30: No. 4 in C-Sharp Minor
-404                                                                            Polonaise in A-Flat Major, Op. 53 "Héroïque"
-405                                                                                 Mazurka in C-Sharp Minor, Op. 30, No. 4
-406                                                                  Symphony No. 5 in C Minor, Op. 67: 2. Andante con moto
-407                                                                                        Ballade No. 1 in G Minor, Op. 23
-408                                                                                    Waltz in A-Flat Major, Op. 69, No. 1
-409                                                              Fantasiestücke, Op. 111: Molto vivace ed appassionatamente
-410                                                                           Lieder ohne Worte: Spring Song, Op. 62, No. 6
-411                                                                                                      Allegro non troppo
-412                                                                 Piano Sonata No. 2, Op. 35: I. Grave - Doppio movimento
-413                                                                                Polonaise No. 5 in F-Sharp Minor, Op. 44
-414                                Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): I. Allegro brillante
-415                                                                                 Mazurka in C-Sharp Minor, Op. 30, No. 4
-416                                                                          Piano Sonata No. 2, Op. 35: IV. Finale. Presto
-417                          Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): II. Scherzo: Molto commodo
-418                                                          Wedding March and Variations, S. 410 (after Felix Mendelssohn)
-419                                                                                    Kinderszenen, Op. 15: VII. Träumerei
-420                                                                                     Humoreske, Op. 20: Einfach und zart
-421                                                                                         Humoreske, Op. 20: Sehr lebhaft
-422                                                                                Kinderszenen, Op. 15: XI. Fürchtenmachen
-423                                                                        Hungarian Rhapsody No. 6 in D-Flat Major, S. 244
-424                                                                                        Scherzo No. 1 in B Minor, Op. 20
-425                                                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
-426                                                                                         Waltz in A Minor, Op. 34, No. 2
-427                                                                         Kinderszenen, Op. 15: XIII. Der Dichter spricht
-428       Haydn: String Quartet No. 4 in B-Flat Major, Op. 3 No. 4, Hob. III, 16: II. Adagio - Presto (Attrib. Hoffstetter)
-429                                Haydn: String Quartet No. 23 in F Minor, Op. 20 No. 5, Hob. III, 35: I. Allegro moderato
-430                           Haydn: String Quartet No. 28 in E-Flat Major, Op. 20 No. 1, Hob. III, 31: I. Allegro moderato
-431                                    Haydn: String Quartet No. 33 in D Major, Op. 33 No. 6, Hob. III, 42: I. Vivace assai
-432                 Haydn: String Quartet No. 62 in C Major, Op. 76 No. 3, Hob. III, 77, "Emperor": III. Menuetto (Allegro)
-433                                Haydn: String Quartet No. 44 in E Major, Op. 54 No. 3, Hob. III, 59: IV. Finale (Presto)
-434                                 Haydn: String Quartet No. 52 in E-Flat Major, Op. 64 No. 6, Hob. III, 64: I. Allegretto
-435                                     Haydn: String Quartet No. 43 in G Major, Op. 54 No. 1, Hob. III, 58: II. Allegretto
-436                                        Haydn: String Quartet No. 25 in C Major, Op. 20 No. 2, Hob. III, 32: I. Moderato
-437                         Haydn: String Quartet No. 43 in G Major, Op. 54 No. 1, Hob. III, 58: III. Menuetto (Allegretto)
-438                           Haydn: String Quartet No. 28 in E-Flat Major, Op. 20 No. 1, Hob. III, 31: IV. Finale (Presto)
-439                             Haydn: String Quartet No. 33 in D Major, Op. 33 No. 6, Hob. III, 42: III. Scherzo (Allegro)
-440                                                                                  Kinderszenen, Op. 15: No. 7, Träumerei
-441                                                                                Mazurkas, Op. 63: No. 3 in C-Sharp Minor
-442                                                                                      Mazurkas, Op. 63: No. 2 in F Minor
-443                                                                                Mazurkas, Op. 59: No. 3 in F-Sharp Minor
-444                                                                                   Étude in C-Sharp Minor, Op. 25, No. 7
-445                                                                                        Scherzo No. 1 in B Minor, Op. 20
-446                                                                                     Humoreske, Op. 20: Einfach und zart
-447                                                                            No. 15 in A Minor, S. 244/15 (Rakóczy March)
-448                                                                                    Kinderszenen, Op. 15: VII. Träumerei
-449                                         Piano Sonata No. 2 in B-Flat Minor, Op. 36: II. Non allegro - Lento - Più mosso
-450                                                                                Valse oubliée in F-Sharp Major, S. 215/1
-451                                                                  Symphony No. 5 in C Minor, Op. 67: 1. Allegro con brio
-452                                                                                               Humoreske, Op. 20: Hastig
-453                                                                                 Sonata No. 3, Op. 14: III: Variation IV
-454                                                              Fantasiestücke, Op. 111: Molto vivace ed appassionatamente
-455                                                                                         Étude in E Minor, Op. 25, No. 5
-456                                                                     Piano Sonata No. 2, Op. 35: II. Scherzo - Più lento
-457                                                                                        Ballade No. 1 in G Minor, Op. 23
-458                                                                            Fantaisie-impromptu in C-Sharp Minor, Op. 66
-459                                                                                Sonata No. 3, Op. 14: III: Variation III
-460                                                                                   Étude in C-Sharp Minor, Op. 10, No. 4
-461                                                                                   Waltz in C-Sharp Minor, Op. 64, No. 2
-462                                                                             Étude in E Major, Op. 10, No. 3 "Tristesse"
-463                                                                                Nocturne in F-Sharp Major, Op. 15, No. 2
-464                                                                                  Sonata No. 3, Op. 14: III: Variation I
-465                                         Piano Sonata No. 2 in B-Flat Minor, Op. 36: II. Non allegro - Lento - Più mosso
-466                                                                                 Mazurka in C-Sharp Minor, Op. 30, No. 4
-467                                                                                   Étude in C-Sharp Minor, Op. 10, No. 4
-468                                                                                Grande Polonaise in E-Flat Major, Op. 22
-469                                                                                      Prelude, Op. 23, No. 5, in G Minor
-470                                                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
-471                                                                                 Impromptu No. 1 in A-Flat Major, Op. 29
-472                                                                                  Kinderszenen, Op. 15: X. Fast zu ernst
-473     Concerto Without Orchestra (Grand Sonata No. 3 in F Minor, Op. 14): III. Quasi variazioni: Andantino de Clara Wieck
-474                                                                                        Scherzo No. 1 in B Minor, Op. 20
-475 Haydn: String Quartet No. 63 in B-Flat Major, Op. 76 No. 4, Hob. III, 78, "Sunrise": IV. Finale (Allegro ma non troppo)
-476                           Haydn: String Quartet No. 38 in E-Flat Major, Op. 50 No. 3, Hob. III, 46: IV. Finale (Presto)
-477                                      Haydn: String Quartet No. 45 in A Major, Op. 55 No. 1, Hob. III, 60: III. Menuetto
-478                                 Haydn: String Quartet No. 47 in B-Flat Major, Op. 55 No. 3, Hob. III, 62: III. Menuetto
-479                                                                                             Scherzo a capriccio: Presto
-480                                                          Von fremden Ländern und Menschen (From "Kinderszenen", Op. 15)
-481                                                                             Kinderszenen, Op. 15: No. 10, Fast zu ernst
-482                                                                                 Prelude No. 12 in G Sharp Minor, Op. 32
-                                                                artists year
-1                              ['Robert Schumann', 'Vladimir Horowitz'] 1928
-2                              ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-3                            ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-4                                  ['Franz Liszt', 'Vladimir Horowitz'] 1928
-5                          ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-6                              ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-7                              ['Robert Schumann', 'Vladimir Horowitz'] 1928
-8   ['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss'] 1928
-9                              ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-10                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-11                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-12                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-13                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-14                                 ['Franz Liszt', 'Vladimir Horowitz'] 1928
-15                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-16                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-17                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-18                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-19                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-20                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-21                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-22                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-23                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-24                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-25                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-26                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-27                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-28                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-29                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-30                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-31                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-32                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-33                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-34                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-35                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-36                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-37                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-38                                 ['Franz Liszt', 'Vladimir Horowitz'] 1942
-39                                 ['Franz Liszt', 'Vladimir Horowitz'] 1942
-40                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1942
-41                           ['Felix Mendelssohn', 'Vladimir Horowitz'] 1946
-42                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-43                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-44                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-45                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-46                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-47                                 ['Franz Liszt', 'Vladimir Horowitz'] 1928
-48                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-49                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-50                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-51                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-52                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-53                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-54                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-55                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-56                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-57                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-58                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-59                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-60                         ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-61                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-62                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-63                             ['Robert Schumann', 'Vladimir Horowitz'] 1928
-64                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-65                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-66                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-67                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-68                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-69                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-70                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-71                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-72                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-73                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-74                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-75                                 ['Franz Liszt', 'Vladimir Horowitz'] 1942
-76                         ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1946
-77                             ['Frédéric Chopin', 'Vladimir Horowitz'] 1963
-78                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-79                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-80                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-81                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-82                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-83                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-84                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-85                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-86                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-87                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-88                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-89                             ['Robert Schumann', 'Vladimir Horowitz'] 1942
-90                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-91                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-92                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-93                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-94                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-95                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-96                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-97                             ['Robert Schumann', 'Vladimir Horowitz'] 1962
-98                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-99                           ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-100                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-101                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-102                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-103                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-104                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-105                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-106                                ['Franz Liszt', 'Vladimir Horowitz'] 1942
-107                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1942
-108                                ['Franz Liszt', 'Vladimir Horowitz'] 1942
-109                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1945
-110                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-111                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-112                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1963
-113                                ['Franz Liszt', 'Vladimir Horowitz'] 1989
-114                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-115                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1986
-116                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-117                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1962
-118                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-119                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-120                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-121                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-122                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-123                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-124                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-125                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-126                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-127                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-128                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-129                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-130                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-131                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-132                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-133                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-134                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-135                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-136                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-137                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-138                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-139                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-140                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-141                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-142                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-143                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-144                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-145                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-146                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-147                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-148                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-149                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-150                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-151                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-152                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1942
-153                            ['Robert Schumann', 'Vladimir Horowitz'] 1942
-154                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1942
-155                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1942
-156                                ['Franz Liszt', 'Vladimir Horowitz'] 1946
-157                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1953
-158                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-159                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-160                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-161                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-162                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-163                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-164                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-165                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-166                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-167                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-168                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-169                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-170                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-171                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-172                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-173                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-174                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-175                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-176                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-177                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-178                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-179                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-180                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-181                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-182                                ['Franz Liszt', 'Vladimir Horowitz'] 1930
-183                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-184                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-185                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1946
-186                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1946
-187                                ['Franz Liszt', 'Vladimir Horowitz'] 1946
-188                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1946
-189                            ['Robert Schumann', 'Vladimir Horowitz'] 1946
-190                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-191                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-192                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-193                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-194                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-195                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-196                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-197                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-198                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-199                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-200                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-201                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-202                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-203                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-204                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-205                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-206                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-207                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-208                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-209                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-210                                ['Franz Liszt', 'Vladimir Horowitz'] 1942
-211                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1942
-212                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-213                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-214                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-215                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-216                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-217                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-218                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-219                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-220                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-221                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-222                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-223                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-224                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-225                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-226                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-227                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-228                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-229                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-230                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-231                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-232                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-233                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-234                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-235                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-236                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-237                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-238                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-239                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-240                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-241                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-242                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-243                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-244                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-245                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-246                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-247                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-248                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-249                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1942
-250                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-251                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-252                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-253                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-254                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-255                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-256                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-257                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-258                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-259                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-260                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-261                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-262                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-263                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-264                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-265                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-266                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-267                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-268                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-269                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-270                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-271                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-272                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-273                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-274                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-275                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-276                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-277                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-278                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-279                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-280                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-281                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-282                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-283                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-284                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-285                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-286                            ['Robert Schumann', 'Vladimir Horowitz'] 1942
-287                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1963
-288                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1963
-289                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-290                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-291                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-292                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-293                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-294                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-295                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-296                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-297                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-298                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-299                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-300                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-301                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-302                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-303                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-304                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-305                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-306                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-307                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-308                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-309                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-310                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-311 ['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss'] 1928
-312                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-313                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-314                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-315                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-316                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-317                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-318                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-319                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-320                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-321                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-322                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-323                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-324                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-325                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-326                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-327                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-328                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-329                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-330                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-331                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-332                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-333                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-334                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-335                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-336                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-337                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-338                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-339                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-340                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-341                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-342                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-343                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-344                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-345                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-346                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-347                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-348                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-349                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-350                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-351                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-352                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-353                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-354                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-355                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-356                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1942
-357                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-358                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-359                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-360                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-361                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-362                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-363                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-364                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-365                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-366                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-367                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-368                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-369                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-370                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-371                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-372                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-373                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-374                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-375                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-376                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-377                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-378                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-379                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-380                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-381                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-382                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-383                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-384                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-385                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-386                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-387                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-388                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-389                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-390                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-391                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-392                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-393                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-394                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1963
-395                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1963
-396                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1965
-397                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-398                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-399                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-400                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-401                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-402                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-403                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-404                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-405                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-406 ['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss'] 1928
-407                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-408                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-409                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-410                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1928
-411                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-412                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-413                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-414                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-415                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-416                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-417                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-418                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-419                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-420                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-421                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-422                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-423                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-424                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-425                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-426                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-427                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-428                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-429                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-430                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-431                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-432                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-433                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-434                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-435                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-436                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-437                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-438                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-439                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-440                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-441                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-442                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-443                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1926
-444                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-445                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-446                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-447                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-448                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-449                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-450                                ['Franz Liszt', 'Vladimir Horowitz'] 1928
-451 ['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss'] 1928
-452                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-453                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-454                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-455                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-456                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-457                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-458                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-459                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-460                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-461                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-462                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-463                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-464                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-465                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-466                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-467                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-468                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-469                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1928
-470                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-471                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-472                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-473                            ['Robert Schumann', 'Vladimir Horowitz'] 1928
-474                            ['Frédéric Chopin', 'Vladimir Horowitz'] 1928
-475                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-476                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-477                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-478                          ['Franz Joseph Haydn', 'Pro Arte Quartet'] 1935
-479                          ['Felix Mendelssohn', 'Vladimir Horowitz'] 1942
-480                            ['Robert Schumann', 'Vladimir Horowitz'] 1946
-481                            ['Robert Schumann', 'Vladimir Horowitz'] 1962
-482                        ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1971
-    danceability  energy popularity
-1         0.3790 0.01350          0
-2         0.2100 0.20400          1
-3         0.4240 0.12000          0
-4         0.4440 0.19700          0
-5         0.3760 0.07190          0
-6         0.1700 0.08230          1
-7         0.3110 0.01070          0
-8         0.3350 0.10500          0
-9         0.2770 0.09000          0
-10        0.3800 0.11900          0
-11        0.3050 0.08300          1
-12        0.3370 0.06990          2
-13        0.3550 0.04520          2
-14        0.3030 0.22600          0
-15        0.3190 0.00217          0
-16        0.4680 0.01840          0
-17        0.2330 0.11300          0
-18        0.3680 0.12400          0
-19        0.1880 0.08910          3
-20        0.4440 0.04310          1
-21        0.2720 0.28100          0
-22        0.2800 0.04630          1
-23        0.3890 0.26300          0
-24        0.3010 0.08230          0
-25        0.4090 0.02240          1
-26        0.3160 0.19100          0
-27        0.2450 0.05770          0
-28        0.4990 0.04050          0
-29        0.3830 0.08590          0
-30        0.5460 0.05800          0
-31        0.4040 0.16700          0
-32        0.5690 0.05800          0
-33        0.3520 0.06100          0
-34        0.5260 0.28700          0
-35        0.5480 0.28700          0
-36        0.4810 0.12100          0
-37        0.3070 0.08010          0
-38        0.2890 0.05810          5
-39        0.2410 0.00614          6
-40        0.2640 0.29100          6
-41        0.4260 0.02070          1
-42        0.4180 0.00637         17
-43        0.2430 0.13500          2
-44        0.2270 0.02270          0
-45        0.3590 0.01360          0
-46        0.3250 0.04810          0
-47        0.3030 0.22600          0
-48        0.2650 0.18500          2
-49        0.2950 0.13800          1
-50        0.3190 0.00217          0
-51        0.3810 0.02810          0
-52        0.3010 0.08230          0
-53        0.2900 0.12400          0
-54        0.3560 0.08930          0
-55        0.3890 0.04700          1
-56        0.3430 0.18700          1
-57        0.3930 0.20000          1
-58        0.3430 0.00267          0
-59        0.3050 0.02230          0
-60        0.3760 0.07190          0
-61        0.2670 0.05330          0
-62        0.3510 0.01290          0
-63        0.4520 0.05580          0
-64        0.2170 0.04560          0
-65        0.4340 0.16000          0
-66        0.6200 0.17200          0
-67        0.0707 0.16900          0
-68        0.4940 0.02920          0
-69        0.6410 0.04620          0
-70        0.2720 0.17400          0
-71        0.4320 0.06090          0
-72        0.4260 0.13000          0
-73        0.4790 0.23300          0
-74        0.1130 0.06010          0
-75        0.2660 0.43800          4
-76        0.2170 0.08290          2
-77        0.2600 0.26500         22
-78        0.6140 0.23000          0
-79        0.5320 0.07440          0
-80        0.2600 0.13900          0
-81        0.4790 0.23400          0
-82        0.5890 0.21900          0
-83        0.6980 0.01860          0
-84        0.3420 0.09170          0
-85        0.4110 0.13900          0
-86        0.4080 0.12900          0
-87        0.3020 0.11700          0
-88        0.1510 0.14500          0
-89        0.4310 0.00632          5
-90        0.1840 0.03650         18
-91        0.2010 0.19200         17
-92        0.4300 0.05790         18
-93        0.3360 0.00736         18
-94        0.3450 0.08410         18
-95        0.3830 0.00479         18
-96        0.4300 0.11100         18
-97        0.4810 0.26700         18
-98        0.1700 0.09770          0
-99        0.5250 0.21700          0
-100       0.7130 0.07840          0
-101       0.4500 0.06910          0
-102       0.5180 0.23500          0
-103       0.6150 0.32800          0
-104       0.6600 0.26400          0
-105       0.5780 0.12500          0
-106       0.3180 0.21300          4
-107       0.2470 0.02110          4
-108       0.3190 0.04980          3
-109       0.2870 0.02280          1
-110       0.2330 0.01460         17
-111       0.4880 0.00232         17
-112       0.2660 0.01110         20
-113       0.3310 0.00750         36
-114       0.5050 0.04170          0
-115       0.2180 0.04270         32
-116       0.2360 0.06990         15
-117       0.3420 0.07840         11
-118       0.3510 0.02000         14
-119       0.2730 0.02150         13
-120       0.2800 0.00500         15
-121       0.2330 0.08670          8
-122       0.2690 0.08270         15
-123       0.2970 0.16200         11
-124       0.3490 0.32600         47
-125       0.2690 0.00856         39
-126       0.2940 0.00684         30
-127       0.2950 0.06960         18
-128       0.3430 0.15000         17
-129       0.4250 0.29700         16
-130       0.3700 0.18900         14
-131       0.2950 0.07130         13
-132       0.4300 0.20300         14
-133       0.2660 0.09660         11
-134       0.3350 0.05730         11
-135       0.3100 0.22000         13
-136       0.3420 0.17600         11
-137       0.3290 0.26300         11
-138       0.3050 0.04570         11
-139       0.3460 0.30000          9
-140       0.3230 0.04290          9
-141       0.3750 0.03250          9
-142       0.3130 0.40500          9
-143       0.3280 0.10600          7
-144       0.4020 0.25500          9
-145       0.3790 0.08770          9
-146       0.2990 0.19600          9
-147       0.2120 0.07680         10
-148       0.2630 0.07510          9
-149       0.3270 0.01930          9
-150       0.2880 0.14500          8
-151       0.2990 0.15900          9
-152       0.4580 0.14500          8
-153       0.3730 0.01480         14
-154       0.4240 0.01780          7
-155       0.3500 0.16000          6
-156       0.3410 0.28000          9
-157       0.2450 0.10400         25
-158       0.3740 0.00526         46
-159       0.2410 0.13700          9
-160       0.4200 0.04080          2
-161       0.3320 0.05840          4
-162       0.2860 0.10900          0
-163       0.3130 0.07310          0
-164       0.2950 0.10000          1
-165       0.4340 0.22800          0
-166       0.2320 0.08770          0
-167       0.2460 0.12300          0
-168       0.2490 0.09050          0
-169       0.3370 0.29400          0
-170       0.3130 0.05770          0
-171       0.3960 0.03840          0
-172       0.3500 0.14300          0
-173       0.3620 0.18100          0
-174       0.4060 0.21700          0
-175       0.4140 0.25200          0
-176       0.2890 0.01690          0
-177       0.4610 0.00875          0
-178       0.3190 0.03150          8
-179       0.5030 0.17600          8
-180       0.3430 0.19300          8
-181       0.3390 0.06000          8
-182       0.3660 0.20800          8
-183       0.1730 0.16200          0
-184       0.5470 0.18300          0
-185       0.3650 0.15900          3
-186       0.2990 0.02700          2
-187       0.3050 0.05150          2
-188       0.2810 0.19200          3
-189       0.3620 0.00865          2
-190       0.2770 0.01230          0
-191       0.4110 0.02280          0
-192       0.2540 0.03600          1
-193       0.3760 0.03420          0
-194       0.3810 0.03380          0
-195       0.4140 0.00803          0
-196       0.3030 0.05290          0
-197       0.2910 0.16200          0
-198       0.3510 0.05920          0
-199       0.3750 0.07790          0
-200       0.2450 0.10300          1
-201       0.3760 0.03420          0
-202       0.4560 0.12200          0
-203       0.3130 0.12900          1
-204       0.3510 0.05920          0
-205       0.3740 0.08790          0
-206       0.5740 0.09640          0
-207       0.3100 0.08430          0
-208       0.6190 0.23600          0
-209       0.4350 0.14700          0
-210       0.3750 0.00707          3
-211       0.3470 0.02880          5
-212       0.4670 0.00890         39
-213       0.2450 0.26400          2
-214       0.2770 0.09000          0
-215       0.2700 0.02330          0
-216       0.3160 0.22100          2
-217       0.4140 0.00803          0
-218       0.2760 0.03120          1
-219       0.3860 0.00760          0
-220       0.4800 0.09020          0
-221       0.4400 0.00586          0
-222       0.4080 0.21400          1
-223       0.3420 0.04150          0
-224       0.2260 0.10700          1
-225       0.3220 0.02430          0
-226       0.3370 0.29400          0
-227       0.3920 0.04450          0
-228       0.4520 0.05580          0
-229       0.3920 0.04970          0
-230       0.3740 0.03370          0
-231       0.3170 0.03940          0
-232       0.3230 0.17600          0
-233       0.4200 0.04080          0
-234       0.2610 0.22900          3
-235       0.3500 0.03520          0
-236       0.2250 0.21900          0
-237       0.4430 0.12800          0
-238       0.2890 0.01690          0
-239       0.6800 0.37300          0
-240       0.2200 0.13600          0
-241       0.5650 0.06290          0
-242       0.3220 0.13200          0
-243       0.5290 0.08840          0
-244       0.6410 0.15100          0
-245       0.1970 0.09880          0
-246       0.3760 0.04060          0
-247       0.3720 0.08590          0
-248       0.6150 0.04250          0
-249       0.3850 0.12600          4
-250       0.2960 0.19000          1
-251       0.4060 0.12300          0
-252       0.2640 0.07150          7
-253       0.3890 0.26300          0
-254       0.3940 0.11400          0
-255       0.4430 0.12800          0
-256       0.3850 0.06610          1
-257       0.4000 0.24100          0
-258       0.2900 0.12400          0
-259       0.3860 0.00760          0
-260       0.3940 0.11400          0
-261       0.2920 0.45100          0
-262       0.2440 0.00793          0
-263       0.3420 0.14600          0
-264       0.3290 0.14800          1
-265       0.4250 0.06350          0
-266       0.3810 0.12200          1
-267       0.3950 0.02790          1
-268       0.4180 0.00843          0
-269       0.3200 0.12500          0
-270       0.4000 0.24100          0
-271       0.3130 0.09550          0
-272       0.3150 0.24000          1
-273       0.2540 0.15100          0
-274       0.5290 0.03470          0
-275       0.1350 0.14800          0
-276       0.2480 0.07380          0
-277       0.3730 0.03380          0
-278       0.5310 0.29300          0
-279       0.5110 0.13200          0
-280       0.1420 0.06910          0
-281       0.6330 0.20600          0
-282       0.5360 0.25100          0
-283       0.4930 0.18400          0
-284       0.6730 0.20500          0
-285       0.6100 0.05950          0
-286       0.2280 0.01870          3
-287       0.2970 0.06000         36
-288       0.2080 0.20100         33
-289       0.2850 0.06780          0
-290       0.3790 0.01350          0
-291       0.4610 0.00875          0
-292       0.4190 0.42100          0
-293       0.3640 0.19300          0
-294       0.3030 0.05290          0
-295       0.5150 0.00553          0
-296       0.2670 0.09930          0
-297       0.3010 0.13700          0
-298       0.3150 0.02390          0
-299       0.3690 0.13100          0
-300       0.4190 0.42100          0
-301       0.4280 0.01880          0
-302       0.3450 0.05380          0
-303       0.2700 0.01390          1
-304       0.3110 0.01070          0
-305       0.2210 0.25100          2
-306       0.3810 0.03380          0
-307       0.3330 0.14600          1
-308       0.4530 0.07350          1
-309       0.2470 0.22400          0
-310       0.4680 0.01840          0
-311       0.3370 0.26600          0
-312       0.2450 0.05770          0
-313       0.5150 0.00553          0
-314       0.3450 0.05380          0
-315       0.4180 0.00843          0
-316       0.4560 0.12200          0
-317       0.2000 0.05810          2
-318       0.3480 0.03840          0
-319       0.4840 0.13100          0
-320       0.4810 0.18900          0
-321       0.2790 0.05700          0
-322       0.6130 0.21900          0
-323       0.2140 0.02400          0
-324       0.3020 0.00944          0
-325       0.3590 0.01360          0
-326       0.4010 0.17000          0
-327       0.2330 0.11300          0
-328       0.2800 0.04060          0
-329       0.4020 0.34100          0
-330       0.2850 0.06780          0
-331       0.2450 0.03640          0
-332       0.3690 0.13100          0
-333       0.4440 0.19700          0
-334       0.3290 0.05740          1
-335       0.2490 0.09050          0
-336       0.3700 0.17200          0
-337       0.3280 0.12900          0
-338       0.5020 0.18800          0
-339       0.5880 0.43700          0
-340       0.5840 0.07840          0
-341       0.1870 0.10500          0
-342       0.5260 0.13000          0
-343       0.5950 0.31600          0
-344       0.2100 0.06070          0
-345       0.6850 0.13000          0
-346       0.2670 0.13800          0
-347       0.2750 0.04640          0
-348       0.3310 0.15000          0
-349       0.5200 0.27800          0
-350       0.7380 0.06070          0
-351       0.5530 0.14900          0
-352       0.2510 0.10800          0
-353       0.5480 0.25900          0
-354       0.4910 0.07940          0
-355       0.3870 0.19500          0
-356       0.3470 0.03170          7
-357       0.2820 0.01410          1
-358       0.4540 0.18700          0
-359       0.4240 0.12000          0
-360       0.2450 0.03640          0
-361       0.2370 0.01660          0
-362       0.3680 0.12400          0
-363       0.2920 0.45100          0
-364       0.2500 0.01210          0
-365       0.5020 0.18800          0
-366       0.3560 0.08930          0
-367       0.2440 0.00793          0
-368       0.4800 0.09020          0
-369       0.3360 0.03040          0
-370       0.3200 0.12500          0
-371       0.3130 0.05770          0
-372       0.3150 0.02390          0
-373       0.3320 0.08990          0
-374       0.2830 0.01890          1
-375       0.4430 0.05310          0
-376       0.3640 0.19300          0
-377       0.2990 0.04410          0
-378       0.2660 0.21100          3
-379       0.3750 0.07790          0
-380       0.3430 0.22400          0
-381       0.2570 0.42400          0
-382       0.3320 0.08990          0
-383       0.4340 0.22800          0
-384       0.4250 0.04600          0
-385       0.2880 0.24100          0
-386       0.4200 0.07190          0
-387       0.5570 0.19500          0
-388       0.6530 0.04160          0
-389       0.5500 0.08760          0
-390       0.5380 0.14400          0
-391       0.4210 0.04640          0
-392       0.4200 0.04450          0
-393       0.3700 0.05800         24
-394       0.2520 0.02920         26
-395       0.4080 0.04320         26
-396       0.3430 0.18200         27
-397       0.3200 0.07280          0
-398       0.3900 0.25000          0
-399       0.2890 0.05590          0
-400       0.3620 0.12200          0
-401       0.3910 0.12600          0
-402       0.2740 0.08810          0
-403       0.4570 0.07070          0
-404       0.3070 0.29500          0
-405       0.4100 0.09230          0
-406       0.2210 0.08230          0
-407       0.3120 0.14300          1
-408       0.3610 0.01340          1
-409       0.3570 0.17200          0
-410       0.4280 0.01880          0
-411       0.3820 0.03760          0
-412       0.2720 0.28100          0
-413       0.3310 0.16600          0
-414       0.3170 0.03940          0
-415       0.4130 0.08320          1
-416       0.2320 0.08770          0
-417       0.4250 0.04600          0
-418       0.3430 0.22400          0
-419       0.4110 0.01050          0
-420       0.5250 0.03320          0
-421       0.3700 0.17200          0
-422       0.3740 0.03370          0
-423       0.4020 0.34100          0
-424       0.2560 0.11800          0
-425       0.2470 0.22400          0
-426       0.3060 0.06170          1
-427       0.3430 0.00267          0
-428       0.4120 0.07930          0
-429       0.3200 0.14900          0
-430       0.3900 0.15900          0
-431       0.5650 0.17700          0
-432       0.3410 0.03370          0
-433       0.4830 0.24100          0
-434       0.3680 0.07150          0
-435       0.4000 0.04160          0
-436       0.4460 0.12300          0
-437       0.5460 0.07490          0
-438       0.5030 0.29000          0
-439       0.6790 0.13600          0
-440       0.4880 0.00973         18
-441       0.3030 0.13000          0
-442       0.3170 0.03780          0
-443       0.3400 0.17600          0
-444       0.2990 0.02330          0
-445       0.2560 0.11800          0
-446       0.5250 0.03320          0
-447       0.2570 0.42400          0
-448       0.4110 0.01050          0
-449       0.3710 0.02840          0
-450       0.4430 0.05310          0
-451       0.3590 0.35700          0
-452       0.2860 0.10900          0
-453       0.3620 0.18100          0
-454       0.3570 0.17200          0
-455       0.3660 0.05630          0
-456       0.3690 0.11400          1
-457       0.2880 0.24100          0
-458       0.1960 0.03430          1
-459       0.3160 0.19100          0
-460       0.2210 0.30400          0
-461       0.3100 0.08890          2
-462       0.3500 0.14300          0
-463       0.2460 0.12300          0
-464       0.3500 0.03520          0
-465       0.3710 0.02840          0
-466       0.4100 0.09230          0
-467       0.2210 0.30400          0
-468       0.4060 0.21700          0
-469       0.4540 0.18700          0
-470       0.2660 0.20300          1
-471       0.2310 0.06980          1
-472       0.4110 0.02280          0
-473       0.2770 0.01230          0
-474       0.3820 0.20500          0
-475       0.5920 0.14100          0
-476       0.5700 0.18800          0
-477       0.6600 0.08190          0
-478       0.5860 0.16800          0
-479       0.4410 0.10900          4
-480       0.3140 0.00479          2
-481       0.3350 0.00513         21
-482       0.2660 0.02950         36</code></pre>
+<pre><code>                                                                                      name
+1                                              Polonaise-Fantaisie in A-Flat Major, Op. 61
+2                                           Piano Sonata No. 2, Op. 35: IV. Finale. Presto
+3                                                 Nocturne in F-Sharp Major, Op. 15, No. 2
+4                                                          Nocturne F Minor, Op. 55, No. 1
+5                                                         Mazurka in F Minor, Op. 7, No. 3
+6                                                 Andante spianato in E-Flat Major, Op. 22
+7                                        Étude in G-Flat Major, Op. 10, No. 5 "Black Keys"
+8                                                       Nocturne in E Minor, Op. 72, No. 1
+9                               Nocturne in C-Sharp Minor, Op. 27, No. 1 - 2001 Remastered
+10                Isoldes Liebestod from Tristan und Isolde, S. 447 (after Richard Wagner)
+11                                             Consolation No. 3 in D-Flat Major, S. 172/3
+12                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
+13                                           Lieder ohne Worte: Spring Song, Op. 62, No. 6
+14                           Kinderszenen, Op. 15: No. 1, Von fremden Ländern und Menschen
+15                                                 Mazurka in F-Sharp Minor, Op. 59, No. 3
+16                                                 Mazurka in C-Sharp Minor, Op. 41, No. 4
+17                                             Étude in E Major, Op. 10, No. 3 "Tristesse"
+18                                                       Mazurka in F Minor, Op. 63, No. 2
+19                                                            Fantaisie in F Minor, Op. 49
+20                                                  Allegro con brio in A Major "Military"
+21                               Rakóczy March, No. 15 from Hungarian Rhapsodies for Piano
+22                                                               Barcarolle, Op. 10, No. 3
+23                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
+24                          Von fremden Ländern und Menschen (From "Kinderszenen", Op. 15)
+25                                                             Arabeske in C Major, Op. 18
+26                                    Kinderszenen, Op. 15: No. 9, Ritter vom Steckenpferd
+27                                                Kinderszenen, Op. 15: No. 3, Hasche-Mann
+28                                     Kinderszenen, Op. 15: No. 12, Kind im Einschlummern
+29                                                   Kinderszenen, Op. 15: No. 8, Am Kamin
+30                                             Kinderszenen, Op. 15: No. 4, Bittendes Kind
+31                                         Kinderszenen, Op. 15: No. 2, Kuriose Geschichte
+32                                       Kinderszenen, Op. 15: No. 6, Wichtige Begebenheit
+33                                       Danse macabre, S. 555 (after Camille Saint-Saens)
+34                                                       Mazurka in B Minor, Op. 33, No. 4
+35                                                Valse oubliée in F-Sharp Major, S. 215/1
+36                                                       Mazurka in C Minor, Op. 56, No. 3
+37                                            Kinderszenen, Op. 15: No. 11, Fürchtenmachen
+38                                       Kinderszenen, Op. 15: No. 13, Der Dichter spricht
+39                                     Étude in A-Flat Major, Op. 25, No. 1 "Aeolian Harp"
+40                                                 Schwanengesang, S. 560: No. 4 Ständchen
+41                                           Prélude In G-Sharp Minor, Op.32, No.12 - Live
+42  Fantasie in C Major, Op. 17: I. Durchaus phantastisch und leidenschaftlich vorzutragen
+43                          Piano Sonata No. 2 in B-Flat Minor, Op. 36: I. Allegro agitato
+44                                                         Kinderszenen, Op. 15: Träumerei
+45            Fantasie in C Major, Op. 17: III. Langsam getragen. Durchweg leise zu halten
+46                                                    Prelude in in B Minor, Op. 28, No. 6
+47                                                 Mazurka in C-Sharp Minor, Op. 50, No. 3
+48                                                              Allegretto in A-Flat Major
+49                                                        Ballade No. 1 in G Minor, Op. 23
+50                                     Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244/2
+51                                             Consolation No. 3 in D-Flat Major, S. 172/3
+52                                                  Consolation No. 2 in E Major, S. 172/2
+53                                                        Ballade No. 2 in B Minor, S. 171
+54                                  Hungarian Rhapsody No. 19 in D Minor, S. 244/19: Lento
+55                                      Hungarian Rhapsody No. 6 in D-Flat Major, S. 244/6
+56                                                            Mephisto Waltz No. 1, S. 514
+57         Années de pèlerinage, Première année (Suisse), S. 160: No. 6, Vallée d'Obermann
+58                                                                 Scherzo &amp; March, S. 177
+59                                                         No. 5, Sonetto 104 del Petrarca
+60                                         Valses oubliées, S. 215: No. 1 in F-Sharp Major
+61                                                         Piano Sonata in B Minor, S. 178
+62                  Sonata for Piano in B Minor, S. 178: I. Lento assai - Allegro energico
+63                                       Danse macabre, S. 555 (after Camille Saint-Saens)
+64                Isoldes Liebestod from Tristan und Isolde, S. 447 (after Richard Wagner)
+65                          Wedding March and Variations, S. 410 (after Felix Mendelssohn)
+66                              Sonata for Piano in B Minor, S. 178: II. Andante sostenuto
+67                                             Consolation No. 4 in D-Flat Major, S. 172/4
+68                                            No. 15 in A Minor, S. 244/15 (Rakóczy March)
+69                                          Valse oubliée No. 1 in F-Sharp Major, S. 215/1
+70                                        Hungarian Rhapsody No. 6 in D-Flat Major, S. 244
+71                            Soirées de Vienne, S. 427 No. 6: Allegro con strepito - Live
+72                                                                      No. 7, Funérailles
+73      Années de pèlerinage, Première année (Suisse), S. 160: No. 5, Au bord d'une source
+74    Années de pèlerinage II (Italie), S. 161: No. 5, Sonetto del Petrarca No. 104 - Live
+75                                Weinen, Klagen, Sorgen, Zagen, S. 179 (after J. S. Bach)
+76                     Sonata for Piano in B Minor, S. 178: III. Allegro energico (fugato)
+77                                                             No. 4, Au bord d'une source
+78                                                      Prelude, Op. 23, No. 5, in G Minor
+79                                                     Träumerei from Kinderszenen, Op. 15
+80                                           Lieder ohne Worte: Spring Song, Op. 62, No. 6
+81                                                        Ballade No. 1 in G Minor, Op. 23
+82                                     Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244/2
+83                                                                    Lento, ma non troppo
+84                           Kinderszenen, Op. 15: No. 1, Von fremden Ländern und Menschen
+85                                                                       Allegro con fuoco
+86                                       Étude in G-Flat Major, Op. 10, No. 5 "Black Keys"
+87                                                  Nocturne in E-Flat Major, Op. 9, No. 2
+88                                                   Scherzo No. 2 in B-Flat Minor, Op. 31
+89                                                  Consolation No. 5 in E Major, S. 172/5
+90                   Etude No. 2 in E-Flat Major, S. 140/2 (after Paganini Caprice No. 17)
+91                                   Valse oubliées, S. 215: No. 1 in F-Sharp Major - Live
+92                                                Valse oubliée in F-Sharp Major, S. 215/1
+93                                       Valses oubliées: No. 1 in F-Sharp Major, S. 215/1
+94                                                        Ballade No. 1 in G Minor, Op. 23
+95                                                       Nocturne No. 1 in E minor, Op. 72
+96                                                Valse oubliée in F-Sharp Major, S. 215/1
+97                                              Polonaise in A-flat Major, Op. 53 "Heroic"
+98                                                     Träumerei from Kinderszenen, Op. 15
+99                                                  Mazurka in D-Flat Major, Op. 30, No. 3
+100                                                     Nocturne in E Minor, Op. 72, No. 1
+101                                                Mazurka in C-Sharp Minor, Op. 63, No. 3
+102                                                 Consolation No. 2 in E Major, S. 172/2
+103                                                      Nocturne No. 1 in E minor, Op. 72
+104                                                 Kinderszenen, Op. 15: No. 7, Träumerei
+105                                Piano Sonata No. 2, Op. 35: I. Grave - Doppio movimento
+106                                               Grande Polonaise in E-Flat Major, Op. 22
+107                                   Nocturne in F Major, Op. 15, No. 1 - 2001 Remastered
+108                                                 Scherzo No. 3 in C-Sharp Minor, Op. 39
+109                                    Nocturne in B Major, Op. 9, No. 3 - 2001 Remastered
+110                                             Polonaise in A-Flat Major, Op. 53 "Heroic"
+111                                       Étude in G-Flat Major, Op. 10, No. 5 "Black Key"
+112                                       Étude in C Minor, Op. 10, No. 12 "Revolutionary"
+113                                                                   Lento, ma non troppo
+114                                                Mazurka in C-Sharp Minor, Op. 30, No. 4
+115                                                       Scherzo No. 1 in B Minor, Op. 20
+116                                              Polonaise in C-Sharp Minor, Op. 26, No. 1
+117                                        Piano Sonata No. 2, Op. 35: III. Marche funèbre
+118                                                  Ballade No. 3 in A-Flat Major, Op. 47
+119                                                            Arabeske in C Major, Op. 18
+120                              Étude No. 2 in A-Flat Major from "Trois Nouvelles Études"
+121                                       Étude in C Minor, Op. 10, No. 12 "Revolutionary"
+122                                    Étude in A-Flat Major, Op. 25, No. 1 "Aeolian Harp"
+123                                                  Étude in C-Sharp Minor, Op. 10, No. 4
+124                                                       Ballade No. 4 in F Minor, Op. 52
+125                                                      Mazurka in B Minor, Op. 30, No. 2
+126                                                        Waltz in A Minor, Op. 34, No. 2
+127                                                       Ballade No. 4 in F Minor, Op. 52
+128                                     Prélude in D-Flat Major, Op. 28, No. 15 "Raindrop"
+129                                                     Nocturne in F Minor, Op. 55, No. 1
+130                                                      Mazurka in A Minor, Op. 17, No. 4
+131                                                       Ballade No. 1 in G Minor, Op. 23
+132                                             Kinderszenen, Op. 15: No. 5, Glückes genug
+133                                                       Prelude in G-Sharp Minor, Op. 32
+134                                                        Étude in E Minor, Op. 25, No. 5
+135                                                       Ballade No. 1 in G Minor, Op. 23
+136                                                       Ballade No. 1 in G Minor, Op. 23
+137                                                   Waltz in A-Flat Major, Op. 69, No. 1
+138                                                Mazurka in C-Sharp Minor, Op. 30, No. 4
+139                                                        Waltz in A Minor, Op. 34, No. 2
+140                                                 Kinderszenen, Op. 15: No. 7, Träumerei
+141                                    Piano Sonata No. 2, Op. 35: II. Scherzo - Più lento
+142                                           Fantaisie-impromptu in C-Sharp Minor, Op. 66
+143                                                  Waltz in C-Sharp Minor, Op. 64, No. 2
+144                                             Polonaise in A-Flat Major, Op. 53 "Heroic"
+145                                                Impromptu No. 1 in A-Flat Major, Op. 29
+146                                                            Scherzo a capriccio: Presto
+147                         Von fremden Ländern und Menschen (From "Kinderszenen", Op. 15)
+148                                            Kinderszenen, Op. 15: No. 10, Fast zu ernst
+149                                                Prelude No. 12 in G Sharp Minor, Op. 32
+                                         artists year danceability  energy
+1       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.210 0.20400
+2       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.170 0.08230
+3       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.305 0.08300
+4       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.337 0.06990
+5       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.355 0.04520
+6       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.188 0.08910
+7       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.444 0.04310
+8       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.280 0.04630
+9       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.409 0.02240
+10          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.289 0.05810
+11          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.241 0.00614
+12      ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.264 0.29100
+13    ['Felix Mendelssohn', 'Vladimir Horowitz'] 1946        0.426 0.02070
+14      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.418 0.00637
+15      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.243 0.13500
+16      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.265 0.18500
+17      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.295 0.13800
+18      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.389 0.04700
+19      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.343 0.18700
+20      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.393 0.20000
+21          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.266 0.43800
+22  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1946        0.217 0.08290
+23      ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.260 0.26500
+24      ['Robert Schumann', 'Vladimir Horowitz'] 1942        0.431 0.00632
+25      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.184 0.03650
+26      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.201 0.19200
+27      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.430 0.05790
+28      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.336 0.00736
+29      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.345 0.08410
+30      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.383 0.00479
+31      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.430 0.11100
+32      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.481 0.26700
+33          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.318 0.21300
+34      ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.247 0.02110
+35          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.319 0.04980
+36      ['Frédéric Chopin', 'Vladimir Horowitz'] 1945        0.287 0.02280
+37      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.233 0.01460
+38      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.488 0.00232
+39      ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.266 0.01110
+40          ['Franz Liszt', 'Vladimir Horowitz'] 1989        0.331 0.00750
+41  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1986        0.218 0.04270
+42      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.236 0.06990
+43  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1962        0.342 0.07840
+44      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.351 0.02000
+45      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.273 0.02150
+46      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.280 0.00500
+47      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.233 0.08670
+48      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.269 0.08270
+49      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.297 0.16200
+50          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.349 0.32600
+51          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.269 0.00856
+52          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.294 0.00684
+53          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.295 0.06960
+54          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.343 0.15000
+55          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.425 0.29700
+56          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.370 0.18900
+57          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.295 0.07130
+58          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.430 0.20300
+59          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.266 0.09660
+60          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.335 0.05730
+61          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.310 0.22000
+62          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.342 0.17600
+63          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.329 0.26300
+64          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.305 0.04570
+65          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.346 0.30000
+66          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.323 0.04290
+67          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.375 0.03250
+68          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.313 0.40500
+69          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.328 0.10600
+70          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.402 0.25500
+71          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.379 0.08770
+72          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.299 0.19600
+73          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.212 0.07680
+74          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.263 0.07510
+75          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.327 0.01930
+76          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.288 0.14500
+77          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.299 0.15900
+78  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1942        0.458 0.14500
+79      ['Robert Schumann', 'Vladimir Horowitz'] 1942        0.373 0.01480
+80    ['Felix Mendelssohn', 'Vladimir Horowitz'] 1942        0.424 0.01780
+81      ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.350 0.16000
+82          ['Franz Liszt', 'Vladimir Horowitz'] 1946        0.341 0.28000
+83      ['Frédéric Chopin', 'Vladimir Horowitz'] 1953        0.245 0.10400
+84      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.374 0.00526
+85      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.241 0.13700
+86      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.420 0.04080
+87      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.332 0.05840
+88      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.295 0.10000
+89          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.319 0.03150
+90          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.503 0.17600
+91          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.343 0.19300
+92          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.339 0.06000
+93          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.366 0.20800
+94      ['Frédéric Chopin', 'Vladimir Horowitz'] 1946        0.365 0.15900
+95      ['Frédéric Chopin', 'Vladimir Horowitz'] 1946        0.299 0.02700
+96          ['Franz Liszt', 'Vladimir Horowitz'] 1946        0.305 0.05150
+97      ['Frédéric Chopin', 'Vladimir Horowitz'] 1946        0.281 0.19200
+98      ['Robert Schumann', 'Vladimir Horowitz'] 1946        0.362 0.00865
+99      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.254 0.03600
+100     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.245 0.10300
+101     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.313 0.12900
+102         ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.375 0.00707
+103     ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.347 0.02880
+104     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.467 0.00890
+105     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.245 0.26400
+106     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.316 0.22100
+107     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.276 0.03120
+108     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.408 0.21400
+109     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.226 0.10700
+110     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.261 0.22900
+111     ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.385 0.12600
+112     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.296 0.19000
+113     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.264 0.07150
+114     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.385 0.06610
+115     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.329 0.14800
+116     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.381 0.12200
+117     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.395 0.02790
+118     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.315 0.24000
+119     ['Robert Schumann', 'Vladimir Horowitz'] 1942        0.228 0.01870
+120     ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.297 0.06000
+121     ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.208 0.20100
+122     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.270 0.01390
+123     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.221 0.25100
+124     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.333 0.14600
+125     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.453 0.07350
+126     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.200 0.05810
+127     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.329 0.05740
+128     ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.347 0.03170
+129     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.282 0.01410
+130     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.283 0.01890
+131     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.266 0.21100
+132     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.370 0.05800
+133 ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1963        0.252 0.02920
+134     ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.408 0.04320
+135     ['Frédéric Chopin', 'Vladimir Horowitz'] 1965        0.343 0.18200
+136     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.312 0.14300
+137     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.361 0.01340
+138     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.413 0.08320
+139     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.306 0.06170
+140     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.488 0.00973
+141     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.369 0.11400
+142     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.196 0.03430
+143     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.310 0.08890
+144     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.266 0.20300
+145     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.231 0.06980
+146   ['Felix Mendelssohn', 'Vladimir Horowitz'] 1942        0.441 0.10900
+147     ['Robert Schumann', 'Vladimir Horowitz'] 1946        0.314 0.00479
+148     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.335 0.00513
+149 ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1971        0.266 0.02950
+    popularity
+1            1
+2            1
+3            1
+4            2
+5            2
+6            3
+7            1
+8            1
+9            1
+10           5
+11           6
+12           6
+13           1
+14          17
+15           2
+16           2
+17           1
+18           1
+19           1
+20           1
+21           4
+22           2
+23          22
+24           5
+25          18
+26          17
+27          18
+28          18
+29          18
+30          18
+31          18
+32          18
+33           4
+34           4
+35           3
+36           1
+37          17
+38          17
+39          20
+40          36
+41          32
+42          15
+43          11
+44          14
+45          13
+46          15
+47           8
+48          15
+49          11
+50          47
+51          39
+52          30
+53          18
+54          17
+55          16
+56          14
+57          13
+58          14
+59          11
+60          11
+61          13
+62          11
+63          11
+64          11
+65           9
+66           9
+67           9
+68           9
+69           7
+70           9
+71           9
+72           9
+73          10
+74           9
+75           9
+76           8
+77           9
+78           8
+79          14
+80           7
+81           6
+82           9
+83          25
+84          46
+85           9
+86           2
+87           4
+88           1
+89           8
+90           8
+91           8
+92           8
+93           8
+94           3
+95           2
+96           2
+97           3
+98           2
+99           1
+100          1
+101          1
+102          3
+103          5
+104         39
+105          2
+106          2
+107          1
+108          1
+109          1
+110          3
+111          4
+112          1
+113          7
+114          1
+115          1
+116          1
+117          1
+118          1
+119          3
+120         36
+121         33
+122          1
+123          2
+124          1
+125          1
+126          2
+127          1
+128          7
+129          1
+130          1
+131          3
+132         24
+133         26
+134         26
+135         27
+136          1
+137          1
+138          1
+139          1
+140         18
+141          1
+142          1
+143          2
+144          1
+145          1
+146          4
+147          2
+148         21
+149         36</code></pre>
 </div>
 </div>
 

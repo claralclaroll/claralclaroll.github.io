@@ -1,18 +1,71 @@
 ---
-title: "About Me"
+title: "About Dataset"
 ---
 
-Hello! Welcome to my website :)
+Question: How well-liked is classical music today? 
 
 # DataSet. Source: Kaggle
- 
-```{r, eval=TRUE,echo=TRUE}
+
+```{r, eval=TRUE,echo=F}
 library(tidyverse)
+library(randomForest)
 library(dplyr)
 target<- c("['Robert Schumann', 'Vladimir Horowitz']","['Franz Joseph Haydn', 'Pro Arte Quartet']","['Felix Mendelssohn', 'Vladimir Horowitz']", "['Frédéric Chopin', 'Vladimir Horowitz']", "['Franz Liszt', 'Vladimir Horowitz']","['Sergei Rachmaninoff', 'Vladimir Horowitz']", "['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']")
 spotifydata<-read.csv("spotify-data.csv")
-spotifydata %>%
-  select(name,artists, year,danceability, energy, popularity)%>%
+updateddata<- spotifydata %>%
+  select(name,artists, year,danceability, energy, popularity,valence)%>%
   filter(artists%in%target)%>%
-  filter(popularity>=1)
+  filter(popularity >= 1)%>%
+  arrange(year)
+```
+
+```{r, eval=TRUE,echo=F}
+library(tidyverse)
+avgdata<- updateddata %>%
+  group_by(year)%>%
+  summarise(summ = ave(popularity))
+  
+```
+ Popularity of Music Over Time
+      
+```{r, eval=TRUE,echo=F}
+library(ggplot2)
+ggplot(data=avgdata) +
+  aes( x=year, y=summ) +
+  geom_point() +
+  geom_line() + 
+  labs( x= "year", y = "average popularity", title="average popularity of classical pieces over time", caption = "Based on this graph, there is an overall significant increase in average popularity of classical pieces over time. However, this increase is volatile as seen in the random decrease in average popularity in certain years. Nonetheless, the popularity of classical pieces seems to be stabilising as each drop and increase in average popularity is less drastic. This suggests that classical music is becoming increasingly well-liked." )
+```
+
+What types of classical music is well-liked?
+
+1.Energy
+
+```{r, eval=TRUE,echo=F}
+library(ggplot2)
+ggplot(data=updateddata) +
+  aes(x=energy, y= popularity) +
+  geom_point() + 
+  geom_line() +
+  labs(x= "energy levels", y="popularity", title="influence of energy levels of pieces on their popularity", caption= "As seen in the graph, classical music pieces are usually more popular if they are less intense and active. However, we also note that the data points is most dense close to the bottom left of the graph. This reveals that majority of the data points have low energy levels and usually received similarly by the audience. ")
+```
+
+2. danceability
+
+```{r, eval=TRUE,echo=F}
+library(ggplot2)
+ggplot(data=updateddata) +
+  aes(x=danceability, y=popularity) +
+  geom_point() +
+  labs(x= "danceability", y = "popularity", title="influence of danceability of pieces on their popularity",caption = "In general, as seen in the even spread of data, all  types of classical music with different liveliness (as defined in the variable danceability) does not affect the popularity of classical music. This suggests that to the public audience, both danceable and lively pieces of classical music are well-liked.")  
+```
+
+3. Valence (high valence, more upbeat and happy vs sadder)
+
+```{r, eval=TRUE,echo=F}
+library(ggplot2)
+ggplot(data=updateddata) +
+  aes(x=valence, y=popularity) +
+  geom_point() +
+  labs(x= "valence", y = "popularity", title="influence of valence of pieces on their popularity",caption = "As seen in the scatter plot, classical music is significantly more popular when it has lower valence with a score of below 0.5. This suggests that classical music which are happier and more upbeat is more well-liked among the audience rather than pieces which are more somber and sad.")
 ```

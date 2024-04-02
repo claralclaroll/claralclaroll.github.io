@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>claralclaroll.github.io - About Me</title>
+<title>claralclaroll.github.io - About Dataset</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -121,7 +87,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
- <span class="menu-text">About Me</span></a>
+ <span class="menu-text">About Dataset</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -148,7 +114,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">About Dataset</h1>
 </div>
 
 
@@ -163,11 +129,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>Hello! Welcome to my website :)</p>
+<p>Question: How well-liked is classical music today?</p>
 <section id="dataset.-source-kaggle" class="level1">
 <h1>DataSet. Source: Kaggle</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -178,466 +143,65 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+randomForest 4.7-1.1
+
+Type rfNews() to see new features/changes/bug fixes.
+
+
+Attaching package: 'randomForest'
+
+
+The following object is masked from 'package:dplyr':
+
+    combine
+
+
+The following object is masked from 'package:ggplot2':
+
+    margin</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>target<span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"['Robert Schumann', 'Vladimir Horowitz']"</span>,<span class="st">"['Franz Joseph Haydn', 'Pro Arte Quartet']"</span>,<span class="st">"['Felix Mendelssohn', 'Vladimir Horowitz']"</span>, <span class="st">"['Frédéric Chopin', 'Vladimir Horowitz']"</span>, <span class="st">"['Franz Liszt', 'Vladimir Horowitz']"</span>,<span class="st">"['Sergei Rachmaninoff', 'Vladimir Horowitz']"</span>, <span class="st">"['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']"</span>)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>spotifydata<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">"spotify-data.csv"</span>)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>spotifydata <span class="sc">%&gt;%</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(name,artists, year,danceability, energy, popularity)<span class="sc">%&gt;%</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(artists<span class="sc">%in%</span>target)<span class="sc">%&gt;%</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(popularity<span class="sc">&gt;=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>                                                                                      name
-1                                              Polonaise-Fantaisie in A-Flat Major, Op. 61
-2                                           Piano Sonata No. 2, Op. 35: IV. Finale. Presto
-3                                                 Nocturne in F-Sharp Major, Op. 15, No. 2
-4                                                          Nocturne F Minor, Op. 55, No. 1
-5                                                         Mazurka in F Minor, Op. 7, No. 3
-6                                                 Andante spianato in E-Flat Major, Op. 22
-7                                        Étude in G-Flat Major, Op. 10, No. 5 "Black Keys"
-8                                                       Nocturne in E Minor, Op. 72, No. 1
-9                               Nocturne in C-Sharp Minor, Op. 27, No. 1 - 2001 Remastered
-10                Isoldes Liebestod from Tristan und Isolde, S. 447 (after Richard Wagner)
-11                                             Consolation No. 3 in D-Flat Major, S. 172/3
-12                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
-13                                           Lieder ohne Worte: Spring Song, Op. 62, No. 6
-14                           Kinderszenen, Op. 15: No. 1, Von fremden Ländern und Menschen
-15                                                 Mazurka in F-Sharp Minor, Op. 59, No. 3
-16                                                 Mazurka in C-Sharp Minor, Op. 41, No. 4
-17                                             Étude in E Major, Op. 10, No. 3 "Tristesse"
-18                                                       Mazurka in F Minor, Op. 63, No. 2
-19                                                            Fantaisie in F Minor, Op. 49
-20                                                  Allegro con brio in A Major "Military"
-21                               Rakóczy March, No. 15 from Hungarian Rhapsodies for Piano
-22                                                               Barcarolle, Op. 10, No. 3
-23                                              Polonaise in A-Flat Major, Op. 53 "Heroic"
-24                          Von fremden Ländern und Menschen (From "Kinderszenen", Op. 15)
-25                                                             Arabeske in C Major, Op. 18
-26                                    Kinderszenen, Op. 15: No. 9, Ritter vom Steckenpferd
-27                                                Kinderszenen, Op. 15: No. 3, Hasche-Mann
-28                                     Kinderszenen, Op. 15: No. 12, Kind im Einschlummern
-29                                                   Kinderszenen, Op. 15: No. 8, Am Kamin
-30                                             Kinderszenen, Op. 15: No. 4, Bittendes Kind
-31                                         Kinderszenen, Op. 15: No. 2, Kuriose Geschichte
-32                                       Kinderszenen, Op. 15: No. 6, Wichtige Begebenheit
-33                                       Danse macabre, S. 555 (after Camille Saint-Saens)
-34                                                       Mazurka in B Minor, Op. 33, No. 4
-35                                                Valse oubliée in F-Sharp Major, S. 215/1
-36                                                       Mazurka in C Minor, Op. 56, No. 3
-37                                            Kinderszenen, Op. 15: No. 11, Fürchtenmachen
-38                                       Kinderszenen, Op. 15: No. 13, Der Dichter spricht
-39                                     Étude in A-Flat Major, Op. 25, No. 1 "Aeolian Harp"
-40                                                 Schwanengesang, S. 560: No. 4 Ständchen
-41                                           Prélude In G-Sharp Minor, Op.32, No.12 - Live
-42  Fantasie in C Major, Op. 17: I. Durchaus phantastisch und leidenschaftlich vorzutragen
-43                          Piano Sonata No. 2 in B-Flat Minor, Op. 36: I. Allegro agitato
-44                                                         Kinderszenen, Op. 15: Träumerei
-45            Fantasie in C Major, Op. 17: III. Langsam getragen. Durchweg leise zu halten
-46                                                    Prelude in in B Minor, Op. 28, No. 6
-47                                                 Mazurka in C-Sharp Minor, Op. 50, No. 3
-48                                                              Allegretto in A-Flat Major
-49                                                        Ballade No. 1 in G Minor, Op. 23
-50                                     Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244/2
-51                                             Consolation No. 3 in D-Flat Major, S. 172/3
-52                                                  Consolation No. 2 in E Major, S. 172/2
-53                                                        Ballade No. 2 in B Minor, S. 171
-54                                  Hungarian Rhapsody No. 19 in D Minor, S. 244/19: Lento
-55                                      Hungarian Rhapsody No. 6 in D-Flat Major, S. 244/6
-56                                                            Mephisto Waltz No. 1, S. 514
-57         Années de pèlerinage, Première année (Suisse), S. 160: No. 6, Vallée d'Obermann
-58                                                                 Scherzo &amp; March, S. 177
-59                                                         No. 5, Sonetto 104 del Petrarca
-60                                         Valses oubliées, S. 215: No. 1 in F-Sharp Major
-61                                                         Piano Sonata in B Minor, S. 178
-62                  Sonata for Piano in B Minor, S. 178: I. Lento assai - Allegro energico
-63                                       Danse macabre, S. 555 (after Camille Saint-Saens)
-64                Isoldes Liebestod from Tristan und Isolde, S. 447 (after Richard Wagner)
-65                          Wedding March and Variations, S. 410 (after Felix Mendelssohn)
-66                              Sonata for Piano in B Minor, S. 178: II. Andante sostenuto
-67                                             Consolation No. 4 in D-Flat Major, S. 172/4
-68                                            No. 15 in A Minor, S. 244/15 (Rakóczy March)
-69                                          Valse oubliée No. 1 in F-Sharp Major, S. 215/1
-70                                        Hungarian Rhapsody No. 6 in D-Flat Major, S. 244
-71                            Soirées de Vienne, S. 427 No. 6: Allegro con strepito - Live
-72                                                                      No. 7, Funérailles
-73      Années de pèlerinage, Première année (Suisse), S. 160: No. 5, Au bord d'une source
-74    Années de pèlerinage II (Italie), S. 161: No. 5, Sonetto del Petrarca No. 104 - Live
-75                                Weinen, Klagen, Sorgen, Zagen, S. 179 (after J. S. Bach)
-76                     Sonata for Piano in B Minor, S. 178: III. Allegro energico (fugato)
-77                                                             No. 4, Au bord d'une source
-78                                                      Prelude, Op. 23, No. 5, in G Minor
-79                                                     Träumerei from Kinderszenen, Op. 15
-80                                           Lieder ohne Worte: Spring Song, Op. 62, No. 6
-81                                                        Ballade No. 1 in G Minor, Op. 23
-82                                     Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244/2
-83                                                                    Lento, ma non troppo
-84                           Kinderszenen, Op. 15: No. 1, Von fremden Ländern und Menschen
-85                                                                       Allegro con fuoco
-86                                       Étude in G-Flat Major, Op. 10, No. 5 "Black Keys"
-87                                                  Nocturne in E-Flat Major, Op. 9, No. 2
-88                                                   Scherzo No. 2 in B-Flat Minor, Op. 31
-89                                                  Consolation No. 5 in E Major, S. 172/5
-90                   Etude No. 2 in E-Flat Major, S. 140/2 (after Paganini Caprice No. 17)
-91                                   Valse oubliées, S. 215: No. 1 in F-Sharp Major - Live
-92                                                Valse oubliée in F-Sharp Major, S. 215/1
-93                                       Valses oubliées: No. 1 in F-Sharp Major, S. 215/1
-94                                                        Ballade No. 1 in G Minor, Op. 23
-95                                                       Nocturne No. 1 in E minor, Op. 72
-96                                                Valse oubliée in F-Sharp Major, S. 215/1
-97                                              Polonaise in A-flat Major, Op. 53 "Heroic"
-98                                                     Träumerei from Kinderszenen, Op. 15
-99                                                  Mazurka in D-Flat Major, Op. 30, No. 3
-100                                                     Nocturne in E Minor, Op. 72, No. 1
-101                                                Mazurka in C-Sharp Minor, Op. 63, No. 3
-102                                                 Consolation No. 2 in E Major, S. 172/2
-103                                                      Nocturne No. 1 in E minor, Op. 72
-104                                                 Kinderszenen, Op. 15: No. 7, Träumerei
-105                                Piano Sonata No. 2, Op. 35: I. Grave - Doppio movimento
-106                                               Grande Polonaise in E-Flat Major, Op. 22
-107                                   Nocturne in F Major, Op. 15, No. 1 - 2001 Remastered
-108                                                 Scherzo No. 3 in C-Sharp Minor, Op. 39
-109                                    Nocturne in B Major, Op. 9, No. 3 - 2001 Remastered
-110                                             Polonaise in A-Flat Major, Op. 53 "Heroic"
-111                                       Étude in G-Flat Major, Op. 10, No. 5 "Black Key"
-112                                       Étude in C Minor, Op. 10, No. 12 "Revolutionary"
-113                                                                   Lento, ma non troppo
-114                                                Mazurka in C-Sharp Minor, Op. 30, No. 4
-115                                                       Scherzo No. 1 in B Minor, Op. 20
-116                                              Polonaise in C-Sharp Minor, Op. 26, No. 1
-117                                        Piano Sonata No. 2, Op. 35: III. Marche funèbre
-118                                                  Ballade No. 3 in A-Flat Major, Op. 47
-119                                                            Arabeske in C Major, Op. 18
-120                              Étude No. 2 in A-Flat Major from "Trois Nouvelles Études"
-121                                       Étude in C Minor, Op. 10, No. 12 "Revolutionary"
-122                                    Étude in A-Flat Major, Op. 25, No. 1 "Aeolian Harp"
-123                                                  Étude in C-Sharp Minor, Op. 10, No. 4
-124                                                       Ballade No. 4 in F Minor, Op. 52
-125                                                      Mazurka in B Minor, Op. 30, No. 2
-126                                                        Waltz in A Minor, Op. 34, No. 2
-127                                                       Ballade No. 4 in F Minor, Op. 52
-128                                     Prélude in D-Flat Major, Op. 28, No. 15 "Raindrop"
-129                                                     Nocturne in F Minor, Op. 55, No. 1
-130                                                      Mazurka in A Minor, Op. 17, No. 4
-131                                                       Ballade No. 1 in G Minor, Op. 23
-132                                             Kinderszenen, Op. 15: No. 5, Glückes genug
-133                                                       Prelude in G-Sharp Minor, Op. 32
-134                                                        Étude in E Minor, Op. 25, No. 5
-135                                                       Ballade No. 1 in G Minor, Op. 23
-136                                                       Ballade No. 1 in G Minor, Op. 23
-137                                                   Waltz in A-Flat Major, Op. 69, No. 1
-138                                                Mazurka in C-Sharp Minor, Op. 30, No. 4
-139                                                        Waltz in A Minor, Op. 34, No. 2
-140                                                 Kinderszenen, Op. 15: No. 7, Träumerei
-141                                    Piano Sonata No. 2, Op. 35: II. Scherzo - Più lento
-142                                           Fantaisie-impromptu in C-Sharp Minor, Op. 66
-143                                                  Waltz in C-Sharp Minor, Op. 64, No. 2
-144                                             Polonaise in A-Flat Major, Op. 53 "Heroic"
-145                                                Impromptu No. 1 in A-Flat Major, Op. 29
-146                                                            Scherzo a capriccio: Presto
-147                         Von fremden Ländern und Menschen (From "Kinderszenen", Op. 15)
-148                                            Kinderszenen, Op. 15: No. 10, Fast zu ernst
-149                                                Prelude No. 12 in G Sharp Minor, Op. 32
-                                         artists year danceability  energy
-1       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.210 0.20400
-2       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.170 0.08230
-3       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.305 0.08300
-4       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.337 0.06990
-5       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.355 0.04520
-6       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.188 0.08910
-7       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.444 0.04310
-8       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.280 0.04630
-9       ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.409 0.02240
-10          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.289 0.05810
-11          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.241 0.00614
-12      ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.264 0.29100
-13    ['Felix Mendelssohn', 'Vladimir Horowitz'] 1946        0.426 0.02070
-14      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.418 0.00637
-15      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.243 0.13500
-16      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.265 0.18500
-17      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.295 0.13800
-18      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.389 0.04700
-19      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.343 0.18700
-20      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.393 0.20000
-21          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.266 0.43800
-22  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1946        0.217 0.08290
-23      ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.260 0.26500
-24      ['Robert Schumann', 'Vladimir Horowitz'] 1942        0.431 0.00632
-25      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.184 0.03650
-26      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.201 0.19200
-27      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.430 0.05790
-28      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.336 0.00736
-29      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.345 0.08410
-30      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.383 0.00479
-31      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.430 0.11100
-32      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.481 0.26700
-33          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.318 0.21300
-34      ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.247 0.02110
-35          ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.319 0.04980
-36      ['Frédéric Chopin', 'Vladimir Horowitz'] 1945        0.287 0.02280
-37      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.233 0.01460
-38      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.488 0.00232
-39      ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.266 0.01110
-40          ['Franz Liszt', 'Vladimir Horowitz'] 1989        0.331 0.00750
-41  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1986        0.218 0.04270
-42      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.236 0.06990
-43  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1962        0.342 0.07840
-44      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.351 0.02000
-45      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.273 0.02150
-46      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.280 0.00500
-47      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.233 0.08670
-48      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.269 0.08270
-49      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.297 0.16200
-50          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.349 0.32600
-51          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.269 0.00856
-52          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.294 0.00684
-53          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.295 0.06960
-54          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.343 0.15000
-55          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.425 0.29700
-56          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.370 0.18900
-57          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.295 0.07130
-58          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.430 0.20300
-59          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.266 0.09660
-60          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.335 0.05730
-61          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.310 0.22000
-62          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.342 0.17600
-63          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.329 0.26300
-64          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.305 0.04570
-65          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.346 0.30000
-66          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.323 0.04290
-67          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.375 0.03250
-68          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.313 0.40500
-69          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.328 0.10600
-70          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.402 0.25500
-71          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.379 0.08770
-72          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.299 0.19600
-73          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.212 0.07680
-74          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.263 0.07510
-75          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.327 0.01930
-76          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.288 0.14500
-77          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.299 0.15900
-78  ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1942        0.458 0.14500
-79      ['Robert Schumann', 'Vladimir Horowitz'] 1942        0.373 0.01480
-80    ['Felix Mendelssohn', 'Vladimir Horowitz'] 1942        0.424 0.01780
-81      ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.350 0.16000
-82          ['Franz Liszt', 'Vladimir Horowitz'] 1946        0.341 0.28000
-83      ['Frédéric Chopin', 'Vladimir Horowitz'] 1953        0.245 0.10400
-84      ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.374 0.00526
-85      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.241 0.13700
-86      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.420 0.04080
-87      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.332 0.05840
-88      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.295 0.10000
-89          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.319 0.03150
-90          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.503 0.17600
-91          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.343 0.19300
-92          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.339 0.06000
-93          ['Franz Liszt', 'Vladimir Horowitz'] 1930        0.366 0.20800
-94      ['Frédéric Chopin', 'Vladimir Horowitz'] 1946        0.365 0.15900
-95      ['Frédéric Chopin', 'Vladimir Horowitz'] 1946        0.299 0.02700
-96          ['Franz Liszt', 'Vladimir Horowitz'] 1946        0.305 0.05150
-97      ['Frédéric Chopin', 'Vladimir Horowitz'] 1946        0.281 0.19200
-98      ['Robert Schumann', 'Vladimir Horowitz'] 1946        0.362 0.00865
-99      ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.254 0.03600
-100     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.245 0.10300
-101     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.313 0.12900
-102         ['Franz Liszt', 'Vladimir Horowitz'] 1942        0.375 0.00707
-103     ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.347 0.02880
-104     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.467 0.00890
-105     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.245 0.26400
-106     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.316 0.22100
-107     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.276 0.03120
-108     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.408 0.21400
-109     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.226 0.10700
-110     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.261 0.22900
-111     ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.385 0.12600
-112     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.296 0.19000
-113     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.264 0.07150
-114     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.385 0.06610
-115     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.329 0.14800
-116     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.381 0.12200
-117     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.395 0.02790
-118     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.315 0.24000
-119     ['Robert Schumann', 'Vladimir Horowitz'] 1942        0.228 0.01870
-120     ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.297 0.06000
-121     ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.208 0.20100
-122     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.270 0.01390
-123     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.221 0.25100
-124     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.333 0.14600
-125     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.453 0.07350
-126     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.200 0.05810
-127     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.329 0.05740
-128     ['Frédéric Chopin', 'Vladimir Horowitz'] 1942        0.347 0.03170
-129     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.282 0.01410
-130     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.283 0.01890
-131     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.266 0.21100
-132     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.370 0.05800
-133 ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1963        0.252 0.02920
-134     ['Frédéric Chopin', 'Vladimir Horowitz'] 1963        0.408 0.04320
-135     ['Frédéric Chopin', 'Vladimir Horowitz'] 1965        0.343 0.18200
-136     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.312 0.14300
-137     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.361 0.01340
-138     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.413 0.08320
-139     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.306 0.06170
-140     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.488 0.00973
-141     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.369 0.11400
-142     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.196 0.03430
-143     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.310 0.08890
-144     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.266 0.20300
-145     ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.231 0.06980
-146   ['Felix Mendelssohn', 'Vladimir Horowitz'] 1942        0.441 0.10900
-147     ['Robert Schumann', 'Vladimir Horowitz'] 1946        0.314 0.00479
-148     ['Robert Schumann', 'Vladimir Horowitz'] 1962        0.335 0.00513
-149 ['Sergei Rachmaninoff', 'Vladimir Horowitz'] 1971        0.266 0.02950
-    popularity
-1            1
-2            1
-3            1
-4            2
-5            2
-6            3
-7            1
-8            1
-9            1
-10           5
-11           6
-12           6
-13           1
-14          17
-15           2
-16           2
-17           1
-18           1
-19           1
-20           1
-21           4
-22           2
-23          22
-24           5
-25          18
-26          17
-27          18
-28          18
-29          18
-30          18
-31          18
-32          18
-33           4
-34           4
-35           3
-36           1
-37          17
-38          17
-39          20
-40          36
-41          32
-42          15
-43          11
-44          14
-45          13
-46          15
-47           8
-48          15
-49          11
-50          47
-51          39
-52          30
-53          18
-54          17
-55          16
-56          14
-57          13
-58          14
-59          11
-60          11
-61          13
-62          11
-63          11
-64          11
-65           9
-66           9
-67           9
-68           9
-69           7
-70           9
-71           9
-72           9
-73          10
-74           9
-75           9
-76           8
-77           9
-78           8
-79          14
-80           7
-81           6
-82           9
-83          25
-84          46
-85           9
-86           2
-87           4
-88           1
-89           8
-90           8
-91           8
-92           8
-93           8
-94           3
-95           2
-96           2
-97           3
-98           2
-99           1
-100          1
-101          1
-102          3
-103          5
-104         39
-105          2
-106          2
-107          1
-108          1
-109          1
-110          3
-111          4
-112          1
-113          7
-114          1
-115          1
-116          1
-117          1
-118          1
-119          3
-120         36
-121         33
-122          1
-123          2
-124          1
-125          1
-126          2
-127          1
-128          7
-129          1
-130          1
-131          3
-132         24
-133         26
-134         26
-135         27
-136          1
-137          1
-138          1
-139          1
-140         18
-141          1
-142          1
-143          2
-144          1
-145          1
-146          4
-147          2
-148         21
-149         36</code></pre>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Returning more (or less) than 1 row per `summarise()` group was deprecated in
+dplyr 1.1.0.
+ℹ Please use `reframe()` instead.
+ℹ When switching from `summarise()` to `reframe()`, remember that `reframe()`
+  always returns an ungrouped data frame and adjust accordingly.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>`summarise()` has grouped output by 'year'. You can override using the
+`.groups` argument.</code></pre>
+</div>
+</div>
+<p>Popularity of Music Over Time</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="about_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>What types of classical music is well-liked?</p>
+<p>1.Energy</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="about_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ol start="2" type="1">
+<li>danceability</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="about_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<ol start="3" type="1">
+<li>Valence (high valence, more upbeat and happy vs sadder)</li>
+</ol>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="about_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 

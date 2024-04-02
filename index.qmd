@@ -1,12 +1,22 @@
 ---
-title: "claralchia's website"
+title: "Preview of Dataset"
 ---
 
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-Hello everyone! I am Claral and welcome to my website! My identified dataset can be found in data visualisation under the "About Me" section!.
+``` {r, eval=TRUE,echo=TRUE}
+library(tidyverse)
+library(dplyr)
+target<- c("['Robert Schumann', 'Vladimir Horowitz']","['Franz Joseph Haydn', 'Pro Arte Quartet']","['Felix Mendelssohn', 'Vladimir Horowitz']", "['Frédéric Chopin', 'Vladimir Horowitz']", "['Franz Liszt', 'Vladimir Horowitz']","['Sergei Rachmaninoff', 'Vladimir Horowitz']", "['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']")
+spotifydata<-read.csv("spotify-data.csv")
+newdata<- spotifydata %>%
+  select(name,artists, year,danceability, energy, popularity)%>%
+  filter(artists%in%target)%>%
+  filter(popularity>=1)
+head(newdata)
+```
 
 ```{=html}
 <iframe height="400" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/claralgithubapp/ "> </iframe>

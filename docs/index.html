@@ -157,8 +157,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
@@ -177,7 +175,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>target<span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"['Robert Schumann', 'Vladimir Horowitz']"</span>,<span class="st">"['Franz Joseph Haydn', 'Pro Arte Quartet']"</span>,<span class="st">"['Felix Mendelssohn', 'Vladimir Horowitz']"</span>, <span class="st">"['Frédéric Chopin', 'Vladimir Horowitz']"</span>, <span class="st">"['Franz Liszt', 'Vladimir Horowitz']"</span>,<span class="st">"['Sergei Rachmaninoff', 'Vladimir Horowitz']"</span>, <span class="st">"['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']"</span>)</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>spotifydata<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">"spotify-data.csv"</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>newdata<span class="ot">&lt;-</span> spotifydata <span class="sc">%&gt;%</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(name,artists, year,danceability, energy, popularity)<span class="sc">%&gt;%</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(name,artists, year,danceability, energy, popularity,valence)<span class="sc">%&gt;%</span></span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(artists<span class="sc">%in%</span>target)<span class="sc">%&gt;%</span></span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(popularity<span class="sc">&gt;=</span><span class="dv">1</span>)</span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(newdata)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -195,9 +193,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 3 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.305 0.0830          1
 4 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.337 0.0699          2
 5 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.355 0.0452          2
-6 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.188 0.0891          3</code></pre>
+6 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.188 0.0891          3
+  valence
+1  0.0693
+2  0.3460
+3  0.0479
+4  0.1350
+5  0.2760
+6  0.1640</code></pre>
 </div>
 </div>
+<p>Overview of Dataset</p>
+<p>The dataset I am using is filtered from an original, larger dataset that included 1 Million song tracks between 2000 and 2023. This original dataset was retrieved from Spotify platform using the Python library “Spotipy”. This allows users to access music data provided via APIs. The larger dataset collected also includes 19 features, a total of 61,445 unique artists and 82 genres in the data.</p>
+<p>Features/Variables of Dataset</p>
+<ol type="1">
+<li>Popularity refers to the popularity of the track by the public. The popularity rating ranges from 0 to 100. 2.Year refers to the release year of the track. 3.Energy refers to the level of intensity and activity of the piece (from 0 to 1)</li>
+<li>Danceability refers to the level of liveliness of the piece (from 0 to 1)</li>
+<li>Valence refers to the level of music positivity. This means that pieces with higher valence are usually more upbeat and happy, while pieces with lower valence are usually sadder and slower.</li>
+<li>Name refers to the name of the piece</li>
+<li>Artists refers to the artist of the piece</li>
+</ol>
 <iframe height="400" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/claralgithubapp/ "> </iframe>
 
 

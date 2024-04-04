@@ -23,8 +23,8 @@ updateddata<- spotifydata %>%
 library(tidyverse)
 avgdata<- updateddata %>%
   group_by(year)%>%
-  summarise(summ = ave(popularity))
-  
+  reframe(summ = ave(popularity))
+glimpse(avgdata)
 ```
  Popularity of Music Over Time
       
@@ -47,17 +47,17 @@ ggplot(data=updateddata) +
   aes(x=energy, y= popularity) +
   geom_point() + 
   geom_line() +
-  labs(x= "energy levels", y="popularity", title="influence of energy levels of pieces on their popularity", caption= "As seen in the graph, classical music pieces are usually more popular if they are less intense and active. However, we also note that the data points is most dense close to the bottom left of the graph. This reveals that majority of the data points have low energy levels and usually received similarly by the audience. ")
+  labs(x= "energy levels", y="popularity", title="energy levels and popularity of pieces", caption= "As seen in the graph, classical music pieces are usually more popular if they are less intense and active. However, we also note that the data points is most dense close to the bottom left of the graph. This reveals that majority of the data points have low energy levels and usually received similarly by the audience. ")
 ```
 
-2. danceability
+2. Danceability
 
 ```{r, eval=TRUE,echo=F}
 library(ggplot2)
 ggplot(data=updateddata) +
   aes(x=danceability, y=popularity) +
   geom_point() +
-  labs(x= "danceability", y = "popularity", title="influence of danceability of pieces on their popularity",caption = "In general, as seen in the even spread of data, all  types of classical music with different liveliness (as defined in the variable danceability) does not affect the popularity of classical music. This suggests that to the public audience, both danceable and lively pieces of classical music are well-liked.")  
+  labs(x= "danceability", y = "popularity", title="danceability and popularity of pieces",caption = "In general, as seen in the even spread of data, all  types of classical music with different liveliness (as defined in the variable danceability) does not affect the popularity of classical music. This suggests that to the public audience, both danceable and lively pieces of classical music are well-liked.")  
 ```
 
 3. Valence (high valence, more upbeat and happy vs sadder)
@@ -67,5 +67,24 @@ library(ggplot2)
 ggplot(data=updateddata) +
   aes(x=valence, y=popularity) +
   geom_point() +
-  labs(x= "valence", y = "popularity", title="influence of valence of pieces on their popularity",caption = "As seen in the scatter plot, classical music is significantly more popular when it has lower valence with a score of below 0.5. This suggests that classical music which are happier and more upbeat is more well-liked among the audience rather than pieces which are more somber and sad.")
+  labs(x= "valence", y = "popularity", title="valence and its popularity",caption = "As seen in the scatter plot, classical music is significantly more popular when it has lower valence with a score of below 0.5. This suggests that classical music which are happier and more upbeat is more well-liked among the audience rather than pieces which are more somber and sad.")
+```
+
+Classical Music In The Future 
+
+```{r, eval=TRUE,echo=F}
+library(GGally)
+ggpairs(data=avgdata, columns=1:2, title="avgdata", caption= "From the various graphs above, average popularity rating and years are correlated.")
+```
+
+
+```{r, eval=TRUE,echo=F}
+ggplot(data = avgdata, aes(x= year, y= summ))+
+  geom_point()+ 
+  geom_smooth(method = "lm", col ="dodgerblue3") + 
+  theme(panel.background = element_rect(fill = "white"),
+        axis.line.x=element_line(),
+        axis.line.y=element_line()) +
+  ggtitle("Linear Model Fitted to Data")
+  
 ```

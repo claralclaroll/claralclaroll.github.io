@@ -21,12 +21,12 @@ The dataset I am using is filtered from an original, larger dataset that include
 Features/Variables of Dataset 
 
 1. Popularity refers to the popularity of the track by the public. The popularity rating ranges from 0 to 100.
-2.Year refers to the release year of the track. 
-3.Energy refers to the level of intensity and activity of the piece (from 0 to 1)
-4. Danceability refers to the level of liveliness of the piece (from 0 to 1)
+2. Year refers to the release year of the track.
+3. Energy refers to the level of intensity and activity of the piece (from 0 to 1).
+4. Danceability refers to the level of liveliness of the piece (from 0 to 1).
 5. Valence refers to the level of music positivity. This means that pieces with higher valence are usually more upbeat and happy, while pieces with lower valence are usually sadder and slower. 
-6. Name refers to the name of the piece
-7. Artists refers to the artist of the piece
+6. Name refers to the name of the piece.
+7. Artists refers to the artist of the piece.
 
 
 ```{=html}

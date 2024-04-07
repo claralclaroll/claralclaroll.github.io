@@ -29,6 +29,3 @@ Features/Variables of Dataset
 7. Artists refers to the artist of the piece.
 
 
-```{=html}
-<iframe height="400" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/claralgithubapp/ "> </iframe>
-```

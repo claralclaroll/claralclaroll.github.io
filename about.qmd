@@ -80,7 +80,7 @@ ggplot(data=updateddata) +
 ```
 
 
-2. Danceability
+#2. Danceability
 
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +
@@ -92,7 +92,7 @@ ggplot(data=updateddata) +
        This suggests that to the public audience, both danceable and lively pieces of classical music are well-liked.")  
 ```
 
-3. Valence
+#3. Valence
 
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +

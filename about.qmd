@@ -54,7 +54,7 @@ avgdata<- updateddata %>%
 ggplot(data=avgdata) +
   aes( x=year, y=summ) +
   geom_point() +
-  geom_line() + 
+  geom_line( colour= "darkblue") + 
   labs( x= "Year", y = "Average Popularity", title="Average Popularity Of Classical Pieces Over Time",
 caption = 
 "Based on this graph, there is an overall significant increase in average popularity of classical pieces over time.
@@ -72,7 +72,7 @@ drastic. This suggests that classical music is becoming increasingly well-liked.
 ggplot(data=updateddata) +
   aes(x=energy, y= popularity) +
   geom_point() + 
-  geom_line() +
+  geom_line(colour= "darkblue") +
   labs(x= "Energy Levels", y="Popularity", title="Energy Levels And Popularity Of Pieces", 
        caption= "As seen in the graph, classical music pieces are usually more popular if they are less intense and active. 
        However, we also note that the data points is most dense close to the bottom left of the graph. 
@@ -85,7 +85,7 @@ ggplot(data=updateddata) +
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +
   aes(x=danceability, y=popularity) +
-  geom_point() +
+  geom_point(colour= "royalblue3") +
   labs(x= "Danceability", y = "Popularity", title="Danceability And Popularity Of Pieces",
        caption = "In general, as seen in the even spread of data, all types of classical music with different liveliness (as defined in the variable 
        danceability) does not affect the popularity of classical music. 
@@ -97,22 +97,21 @@ ggplot(data=updateddata) +
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +
   aes(x=valence, y=popularity) +
-  geom_point() +
+  geom_point(colour = "royalblue3") +
   labs(x= "Valence", y = "Popularity", title="Valence And Its Popularity",
-       caption = "As seen in the scatter plot, classical music is significantly more popular when it has lower valence with a score of below \n 0.5. This suggests that classical music which are happier and more upbeat is more well-liked among the audience rather than \n pieces which are more somber and sad.")
+       caption = "As seen in the scatter plot, classical music is significantly more popular when it has lower valence with a score of below \n 0.5. This suggests that classical music which are more somber and sad is more well-liked among the audience rather than \n pieces which are more upbeat and happier.")
 ```
 
-Classical Music In The Future 
+**Classical Music In The Future** 
 
 ```{r, eval=TRUE,echo=F}
-
-ggpairs(data=avgdata, columns=1:2, title="Average popularity rating and years")
+ggpairs(data=avgdata, columns=1:2, title="Average popularity rating and years", ggplot2::aes(colour= "royalblue") )
 ```
 
 As seen in the graphs above, the high r-value of 0.771 suggests that average popularity rating and years have a strong positive linear correlation. Hence, it is appropriate to use this dataset to create a prediction model that can reflect the popularity rating of the dataset in the following years. 
 
 ```{=html}
-<iframe height="600" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/App-1/  "> </iframe>
+<iframe height="600" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/App-1/ "> </iframe>
 ```
 
 
@@ -123,7 +122,7 @@ While the dataset I used can be used to predict the popularity of classical musi
 
 ```{r, eval=TRUE,echo=F, warning=FALSE, message=FALSE}
 ggplot(data = avgdata, aes(x= year, y= summ))+
-  geom_point()+ 
+  geom_point(col="royalblue2")+ 
   geom_smooth(method = "lm", col ="pink") + 
   theme(panel.background = element_rect(fill = "white"),
         axis.line.x=element_line(),
@@ -138,3 +137,4 @@ The dataset I have tided for analysis is from an larger dataset. My decision to 
 
 
 **Conclusions**
+From the various forms of analysis done, it appears then, that classical music has cemented its place in the present and in the future. However, it is worthy to note that it is like classical pieces that are lower energy and hence less active and intense. This agrees with my next finding that pieces that are of lower valence more relevant and popular. This suggests thet the public audience prefer pieces that are slower and sadder compared to upbeat, energetic songs. In the future, it is likely that the popularity of classical music will fluctuate a little. However, its popularity as a genre will follow the general trend of an increase. 

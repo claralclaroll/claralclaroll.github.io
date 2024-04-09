@@ -2,9 +2,14 @@
 title: "Preview of Dataset"
 ---
 
-``` {r, eval=TRUE,echo=TRUE}
+```{r, eval=TRUE,echo=F, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(dplyr)
+```
+
+
+``` {r, eval=TRUE,echo=F}
+
 target<- c("['Robert Schumann', 'Vladimir Horowitz']","['Franz Joseph Haydn', 'Pro Arte Quartet']","['Felix Mendelssohn', 'Vladimir Horowitz']", "['Frédéric Chopin', 'Vladimir Horowitz']", "['Franz Liszt', 'Vladimir Horowitz']","['Sergei Rachmaninoff', 'Vladimir Horowitz']", "['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']")
 spotifydata<-read.csv("spotify-data.csv")
 newdata<- spotifydata %>%
@@ -14,11 +19,11 @@ newdata<- spotifydata %>%
 head(newdata)
 ```
 
-Overview of Dataset 
+**Overview of Dataset**
 
 The dataset I am using is filtered from an original, larger dataset that included 1 Million song tracks between 2000 and 2023. This original dataset was retrieved from Spotify platform using the Python library "Spotipy". This allows users to access music data provided via APIs. The larger dataset collected also includes 19 features, a total of 61,445 unique artists and 82 genres in the data.
 
-Features/Variables of Dataset 
+**Features/Variables of Dataset** 
 
 1. Popularity refers to the popularity of the track by the public. The popularity rating ranges from 0 to 100.
 2. Year refers to the release year of the track.

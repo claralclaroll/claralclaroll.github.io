@@ -132,55 +132,22 @@ ul.task-list li input[type="checkbox"] {
 <p>Question: How well-liked is classical music today?</p>
 <section id="dataset.-source-kaggle" class="level1">
 <h1>DataSet. Source: Kaggle</h1>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.4.4     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.0
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
-randomForest 4.7-1.1
-
-Type rfNews() to see new features/changes/bug fixes.
-
-
-Attaching package: 'randomForest'
-
-
-The following object is masked from 'package:dplyr':
-
-    combine
-
-
-The following object is masked from 'package:ggplot2':
-
-    margin</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 149
-Columns: 2
-$ year &lt;int&gt; 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928,…
-$ summ &lt;dbl&gt; 2.368421, 2.368421, 2.368421, 2.368421, 2.368421, 2.368421, 2.368…</code></pre>
-</div>
-</div>
-<p>Popularity of Music Over Time</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<p>What types of classical music is well-liked?</p>
-<p>1.Energy</p>
+<p><strong>Introduction: Why is this important?</strong></p>
+<p>The average percentage of audience remains constant at 1% across many different years from 2017 to 2021. This intriguing fact - that it is a low percentage and a steady, unchanging percentage striked me as curious. I wondered if this percentage is still reflective of today, and if the popularity of classical music would change in the future. Some argue that classical music is timeless and will continue to stand the test of time - just like it has currently. On the contrary, some argue that classical music is “dying” because of the following factors.</p>
+<p>#1 Realistically, less and less people listen each year per capita and even opera houses are kept open by public funding and private donations instead of sales. With lack of sufficient support from governments and lowered interest, it seems inevitable that classical music will fall out of favor.</p>
+<p>#2 Classical music is no longer the same genre as it was - currently it is only comprised and recognised for pieces by the most prominent, superstar composers like Beethoven. There are still classical pieces made currently, but these pieces often go unnoticed and receive no recognition.</p>
+<p>#3 Classical music competes head-on with modern music - which is evolving and changing all the time. Furthermore, as music becomes more experimentally and its form expands, it appears that current popular music could not deviate further from classical music.</p>
+<p><strong>Popularity of Music Over Time</strong></p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="about_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p><strong>What types of classical music is well-liked?</strong></p>
+<p>#1. Energy</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="about_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <ol start="2" type="1">
@@ -188,37 +155,36 @@ $ summ &lt;dbl&gt; 2.368421, 2.368421, 2.368421, 2.368421, 2.368421, 2.368421, 2
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<ol start="3" type="1">
-<li>Valence (high valence, more upbeat and happy vs sadder)</li>
-</ol>
-<div class="cell">
-<div class="cell-output-display">
 <p><img src="about_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
-<p>Classical Music In The Future</p>
+<ol start="3" type="1">
+<li>Valence</li>
+</ol>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Registered S3 method overwritten by 'GGally':
-  method from   
-  +.gg   ggplot2</code></pre>
-</div>
 <div class="cell-output-display">
 <p><img src="about_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>Classical Music In The Future</p>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>`geom_smooth()` using formula = 'y ~ x'</code></pre>
-</div>
 <div class="cell-output-display">
 <p><img src="about_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>As seen in the graphs above, the high r-value of 0.771 suggests that average popularity rating and years have a strong positive linear correlation. Hence, it is appropriate to use this dataset to create a prediction model that can reflect the popularity rating of the dataset in the following years.</p>
 <iframe height="600" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/App-1/  "> </iframe>
+<p><strong>Limitations</strong></p>
+<p>#1 Reliability of Datasets While the dataset I used can be used to predict the popularity of classical music in the future. It is still ultimately a dataset made for years that are outside of the data range of the original dataset. This affects the reliability of the data and the conclusions that I have made. The graph below shows the extent to which the linear regression model I have made is valid as the shaded area visualises its confidence interval.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="about_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>#2 Reflection Of What Classical Music Is Termed.</p>
+<p>The dataset I have tided for analysis is from an larger dataset. My decision to pick out only the most prominent classical composers and musicians narrows the scope to which the findings from this analysis can apply to. Therefore, it may not be sufficient to reflect the genre of “classical music”. Additionally, music classified under classical music is constantly evolving and changing over time. Hence, it would be very easy for the observations made and the dataset gathered to become obselete.</p>
+<p>#3</p>
+<p><strong>Conclusions</strong></p>
 
 
 </section>

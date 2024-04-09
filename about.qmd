@@ -1,5 +1,5 @@
 ---
-title: "About Dataset"
+title: "Data Story: Classical Music "
 ---
 
 Question: How well-liked is classical music today? 
@@ -8,8 +8,15 @@ Question: How well-liked is classical music today?
 
 **Introduction: Why is this important?**
 
-The average percentage of audience remains constant at 1% across many different years from 2017 to  2021. This intriguing fact - that it is a low percentage and a steady, unchanging percentage striked me as curious. I wondered if this percentage is still reflective of today, and if the popularity of classical music would change in the future. 
-Some argue that classical music is timeless and will continue to stand the test of time - just like it has currently. On the contrary, some argue that classical music is "dying" because of the following factors.
+Percentage Audience for Music Genre
+
+```{r, out.height= "800px",out.width= "700px",echo=FALSE,eval=TRUE}
+
+knitr::include_graphics("dataset for listening.png") 
+```
+
+The average percentage of audience remains constant at 1% across many different years from 2017 to  2021. This is an intriguing fact - that *it is a low percentage and a steady, unchanging percentage* striked me as curious. I wondered if this percentage is still reflective of today, and if the popularity of classical music would change in the future. 
+Some argue that classical music is timeless and will continue to stand the test of time - just like it has currently. On the contrary, some argue that classical music is "dying" because of the following factors:
 
 #1 Realistically, less and less people listen each year per capita and even opera houses are kept open by public funding and private donations instead of sales. With lack of sufficient support from governments and lowered interest, it seems inevitable that classical music will fall out of favor. 
 
@@ -56,7 +63,8 @@ Nonetheless, the popularity of classical pieces seems to be stabilising as each 
 drastic. This suggests that classical music is becoming increasingly well-liked.")
 ```
 
-**What types of classical music is well-liked?**
+
+**What *Types* Of Classical Music Is Well-liked?**
 
 #1. Energy
 
@@ -124,10 +132,9 @@ ggplot(data = avgdata, aes(x= year, y= summ))+
 
 ``` 
 
-#2 Reflection Of What Classical Music Is Termed.
+#2 Classical Music Is Constantly Evolving
 
 The dataset I have tided for analysis is from an larger dataset. My decision to pick out only the most prominent classical composers and musicians narrows the scope to which the findings from this analysis can apply to. Therefore, it may not be sufficient to reflect the genre of "classical music". Additionally, music classified under classical music is constantly evolving and changing over time. Hence, it would be very easy for the observations made and the dataset gathered to become obselete. 
 
-#3 
 
 **Conclusions**

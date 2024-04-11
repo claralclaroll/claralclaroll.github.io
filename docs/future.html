@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>claralclaroll.github.io - Preview of Dataset</title>
+<title>claralclaroll.github.io – future</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Preview of Dataset</span></a>
   </li>  
   <li class="nav-item">
@@ -106,60 +106,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Preview of Dataset</h1>
-</div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>                                            name
-1    Polonaise-Fantaisie in A-Flat Major, Op. 61
-2 Piano Sonata No. 2, Op. 35: IV. Finale. Presto
-3       Nocturne in F-Sharp Major, Op. 15, No. 2
-4                Nocturne F Minor, Op. 55, No. 1
-5               Mazurka in F Minor, Op. 7, No. 3
-6       Andante spianato in E-Flat Major, Op. 22
-                                   artists year danceability energy popularity
-1 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.210 0.2040          1
-2 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.170 0.0823          1
-3 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.305 0.0830          1
-4 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.337 0.0699          2
-5 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.355 0.0452          2
-6 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.188 0.0891          3
-  valence
-1  0.0693
-2  0.3460
-3  0.0479
-4  0.1350
-5  0.2760
-6  0.1640</code></pre>
-</div>
-</div>
-<p><strong>Overview of Dataset</strong></p>
-<p>The dataset I am using is filtered from an original, larger dataset that included 1 Million song tracks between 2000 and 2023. This original dataset was retrieved from Spotify platform using the Python library “Spotipy”. This allows users to access music data provided via APIs. The larger dataset collected also includes 19 features, a total of 61,445 unique artists and 82 genres in the data.</p>
-<p><strong>Features/Variables of Dataset</strong></p>
-<ol type="1">
-<li>Popularity refers to the popularity of the track by the public. The popularity rating ranges from 0 to 100.</li>
-<li>Year refers to the release year of the track.</li>
-<li>Energy refers to the level of intensity and activity of the piece (from 0 to 1).</li>
-<li>Danceability refers to the level of liveliness of the piece (from 0 to 1).</li>
-<li>Valence refers to the level of music positivity. This means that pieces with higher valence are usually more upbeat and happy, while pieces with lower valence are usually sadder and slower.</li>
-<li>Name refers to the name of the piece.</li>
-<li>Artists refers to the artist of the piece.</li>
-</ol>
+<hr>
+<p>title : “Data Story: Future Classical Music”</p>
+<hr>
+<p><code>{{r, eval=TRUE,echo=F}} target&lt;- c("['Robert Schumann', 'Vladimir Horowitz']","['Franz Joseph Haydn', 'Pro Arte Quartet']","['Felix Mendelssohn', 'Vladimir Horowitz']", "['Frédéric Chopin', 'Vladimir Horowitz']", "['Franz Liszt', 'Vladimir Horowitz']","['Sergei Rachmaninoff', 'Vladimir Horowitz']", "['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']") spotifydata&lt;-read.csv("spotify-data.csv") updateddata&lt;- spotifydata %&gt;%   select(name,artists, year,danceability, energy, popularity,valence)%&gt;%   filter(artists%in%target) %&gt;%   filter(popularity &gt;= 1) %&gt;%   arrange(year)</code></p>
 
 
 

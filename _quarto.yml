@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Preview of Dataset
       - about.qmd
+      - about copy.qmd
 
 format:
   html:

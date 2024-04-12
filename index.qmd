@@ -7,12 +7,12 @@ library(tidyverse)
 library(dplyr)
 ```
 
-First Dataset
+**First Dataset**
 ``` {r, eval=TRUE,echo=F, message = FALSE, warning = FALSE}
 spotifydata<- read.csv2("spotifyuse.csv", skip =1 )
 head(spotifydata)
 ```
-Second Dataset 
+**Second Dataset** 
 ```{r, eval=TRUE,echo=F, message = F, warning = F}
 library(tidyverse)
 library(randomForest)

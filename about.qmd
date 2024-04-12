@@ -33,10 +33,9 @@ library(GGally)
 ```
 
 ```{r, eval=TRUE,echo=F}
-
 target<- c("['Robert Schumann', 'Vladimir Horowitz']","['Franz Joseph Haydn', 'Pro Arte Quartet']","['Felix Mendelssohn', 'Vladimir Horowitz']", "['Frédéric Chopin', 'Vladimir Horowitz']", "['Franz Liszt', 'Vladimir Horowitz']","['Sergei Rachmaninoff', 'Vladimir Horowitz']", "['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']")
 spotifydata<-read.csv("spotify-data.csv")
-updateddata<- spotifydata %>%
+predictdata<- spotifydata %>%
   select(name,artists, year,danceability, energy, popularity,valence)%>%
   filter(artists%in%target) %>%
   filter(popularity >= 1) %>%
@@ -44,14 +43,19 @@ updateddata<- spotifydata %>%
 ```
 
 ```{r, eval=TRUE,echo=F}
-avgdata<- updateddata %>%
+updateddata<-read.csv2("spotifyuse.csv", skip = 1)
+glimpse(updateddata)
+```
+
+```{r, eval=TRUE,echo=F}
+newdata<- updateddata %>%
   group_by(year)%>%
   reframe(summ = ave(popularity))
 ```
 
 **Popularity of Music Over Time**
 ```{r, eval=TRUE,echo=F}
-ggplot(data=avgdata) +
+ggplot(data=newdata) +
   aes( x=year, y=summ) +
   geom_point() +
   geom_line( colour= "darkblue") + 
@@ -99,8 +103,11 @@ As seen in the scatter plot, classical music is significantly more popular when 
 
 **Classical Music In The Future** 
 
+We will be using the second dataset here.
+
 ```{r, eval=TRUE,echo=F}
-ggpairs(data=avgdata, columns=1:2, title="Average popularity rating and years", ggplot2::aes(colour= "royalblue") )
+library(ggplot2)
+ggpairs(data=newdata, columns=1:2, title="Average popularity rating and years", ggplot2::aes(colour= "royalblue") )
 ```
 
 As seen in the graphs above, the high r-value of 0.771 suggests that average popularity rating and years have a strong positive linear correlation. Hence, it is appropriate to use this dataset to create a prediction model that can reflect the popularity rating of the dataset in the following years. 
@@ -108,7 +115,6 @@ As seen in the graphs above, the high r-value of 0.771 suggests that average pop
 ```{=html}
 <iframe height="600" width="100%" frameborder="no" src="https://claralclaroll.shinyapps.io/App-1/ "> </iframe>
 ```
-
 
 **Limitations**
 

@@ -1,0 +1,1542 @@
+;;;;;;;
+artist_name;track_name;popularity;year;genre;danceability;energy;valence
+Claude Debussy;Rêverie, L. 68: Rêverie;61;2012;classical;0,296;0,00896;0,0673
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: 2. Adagio sostenuto;60;2012;classical;0,194;0,0545;0,0385
+Frédéric Chopin;Waltz in C-sharp minor, Op. 64 No. 2;54;2012;classical;0,191;0,0157;0,0869
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: 1. Moderato;49;2012;classical;0,144;0,111;0,0393
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: 3. Allegro scherzando;43;2012;classical;0,319;0,148;0,067
+Frédéric Chopin;Nocturne in E-Flat Major, Op. 55, No. 2;45;2012;classical;0,209;0,00759;0,0593
+Claude Debussy;Préludes / Book 1, L.117: 8. La fille aux cheveux de lin;40;2012;classical;0,37;0,00375;0,193
+Frédéric Chopin;Ballade No. 4 in F Minor, Op. 52;43;2012;classical;0,184;0,0507;0,0366
+Frédéric Chopin;Nocturne Op.9 No.2 - Arranged by Francisco Tárrega/Mattias Schulstad;39;2012;classical;0,429;0,022;0,158
+Claude Debussy;Suite Bergamasque: Clair de Lune;39;2012;classical;0,375;0,00607;0,0445
+Frédéric Chopin;Études, Op. 25: No. 1 in A-Flat Major;40;2012;classical;0,278;0,0269;0,0343
+Frédéric Chopin;Mazurka in A Minor, Op. 17 No. 4;39;2012;classical;0,157;0,00296;0,0393
+Sergei Rachmaninoff;10 Préludes, Op. 23: No. 10 in G-Flat Major - Live;37;2012;classical;0,302;0,00448;0,0452
+Ludwig van Beethoven;"Piano Sonata No. 8 in C minor, Op. 13 -""Pathétique"": 2. Adagio cantabile";27;2012;classical;0,267;0,0053;0,132
+Frédéric Chopin;24 Préludes, Op. 28: 24. In D Minor - 2011 Recording;28;2012;classical;0,255;0,18;0,0527
+Frédéric Chopin;Études, Op. 25: No. 11 in A Minor;24;2012;classical;0,204;0,239;0,0779
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Hail, O Virgin Mother (Ave Maria)";32;2012;classical;0,147;0,0297;0,0358
+Ludwig van Beethoven;"Piano Concerto No. 5 in E-Flat Major, Op. 73 ""Emperor"": II. Adagio un poco mosso";35;2012;classical;0,261;0,00881;0,0542
+Frédéric Chopin;"Waltz Op. 64, No. 1 in D-Flat Major ""Minute Waltz""";32;2012;classical;0,349;0,0338;0,268
+Frédéric Chopin;Four Mazurkas, Op. 41: II. Andantino;31;2012;classical;0,437;0,0171;0,0377
+Felix Mendelssohn;Violin Concerto in E Minor, Op. 64, MWV O 14: I. Allegro molto appassionata;31;2012;classical;0,25;0,114;0,0624
+Claude Debussy;Cello Sonata in D Minor: III. Finale;31;2012;classical;0,244;0,0714;0,119
+Claude Debussy;Préludes - Book 2, L.123: 10. Canope;30;2012;classical;0,42;0,00383;0,0958
+Frédéric Chopin;Études, Op. 25: No. 5 in E Minor;22;2012;classical;0,31;0,0414;0,0752
+Claude Debussy;Préludes - Book 2, L.123: 11. Les tierces alternées;29;2012;classical;0,279;0,0633;0,157
+Claude Debussy;Préludes - Book 2, L.123: 8. Ondine;29;2012;classical;0,258;0,0274;0,0343
+Claude Debussy;Préludes - Book 2, L.123: 7. La terrasse des audiences du clair de lune;28;2012;classical;0,542;0,00411;0,039
+Frédéric Chopin;Les Sylphides: 7. Valse in C♯ minor, Op. 64, No. 2;30;2012;classical;0,109;0,0319;0,0599
+Frédéric Chopin;Waltz No .7 in C-Sharp Minor, Op. 64 No. 2: Tempo giusto;30;2012;classical;0,239;0,0102;0,121
+Frédéric Chopin;Ballade No. 2 en fa majeur, Op. 38;30;2012;classical;0,268;0,112;0,0455
+Claude Debussy;Romances, L. 79: Romance No. 1;25;2012;classical;0,215;0,0112;0,0668
+Claude Debussy;"Préludes - Book 2, L.123: 6. ""General Lavine"" - eccentric";26;2012;classical;0,48;0,0515;0,238
+Frédéric Chopin;Impromptu No. 1 in A-Flat Major, Op. 29;25;2012;classical;0,204;0,043;0,17
+Ludwig van Beethoven;Symphony No. 7 in A Major, Op. 92: II. Allegretto;29;2012;classical;0,207;0,0356;0,0466
+Sergei Rachmaninoff;Rachmaninov: Symphony No. 2 in E Minor, Op. 27: I. Largo - Allegro moderato;27;2012;classical;0,122;0,0388;0,0363
+Ludwig van Beethoven;Symphony No. 8 in F Major, Op. 93: IV. Allegro vivace;29;2012;classical;0,35;0,169;0,141
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Thanksgiving hymn of Virgin Mary: O victorious leader";26;2012;classical;0,223;0,291;0,238
+Franz Liszt;Paraphrase de concert sur Rigoletto, S. 434: Verdi - Rigoletto: Paraphrase de concert, S434/R267(Hungary);18;2012;classical;0,239;0,232;0,0789
+Claude Debussy;La Mer, L.109: 1. From Dawn Till Noon On The Sea (De l'aube à midi sur la mer);20;2012;classical;0,154;0,0777;0,0364
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Song of Simeon: Lord, now let your servant depart";26;2012;classical;0,196;0,0386;0,0385
+Ludwig van Beethoven;"Bagatelle No. 25 in A Minor, WoO 59 ""Für Elise"": Bagatelle No. 25 in A Minor, WoO 59 ""Für Elise"" - Live";24;2012;classical;0,232;0,023;0,316
+Ludwig van Beethoven;"Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": I. Allegro con brio";25;2012;classical;0,252;0,103;0,192
+Ludwig van Beethoven;"Piano Sonata No. 8 in C minor, Op. 13 -""Pathétique"": 1. Grave - Allegro di molto e con brio";18;2012;classical;0,33;0,175;0,156
+Sergei Rachmaninoff;Rachmaninov: Symphony No. 2 in E Minor, Op. 27: III. Adagio;22;2012;classical;0,0843;0,0179;0,0328
+Ludwig van Beethoven;Piano Sonata No. 31 in A-Flat Major, Op. 110: III. Adagio ma non troppo -;20;2012;classical;0,44;0,00293;0,0355
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Beginning song: Come let us worship";24;2012;classical;0,104;0,094;0,0446
+Felix Mendelssohn;Octet in E Flat Major, Op. 20, MWV R20: I. Allegro moderato, ma con fuoco;17;2012;classical;0,291;0,151;0,23
+Ludwig van Beethoven;"Piano Sonata No. 17 in D Minor, Op. 31 No. 2, ""The Tempest"": III. Allegretto";25;2012;classical;0,205;0,11;0,158
+Felix Mendelssohn;Violin Concerto in E Minor, Op. 64, MWV O 14: III. Allegretto non troppo - Allegro molto vivace;23;2012;classical;0,361;0,163;0,28
+Claude Debussy;Prélude à l'après-midi d'un faune, L.86;18;2012;classical;0,0607;0,0303;0,0317
+Claude Debussy;La Mer, L.109: 2. Play of the Waves (Jeux de vagues);17;2012;classical;0,0967;0,162;0,0377
+Claude Debussy;Rêverie, L. 68;20;2012;classical;0,207;0,0454;0,0504
+Ludwig van Beethoven;"Piano Sonata No. 8 in C minor, Op. 13 -""Pathétique"": 3. Rondo (Allegro)";16;2012;classical;0,364;0,122;0,25
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Blessed is the man";22;2012;classical;0,165;0,0213;0,0363
+Felix Mendelssohn;Violin Concerto in E Minor, Op. 64, MWV O 14: II. Andante;22;2012;classical;0,117;0,0539;0,0354
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Resurrection hymn (Troparion): This day of salvation has com to the world";23;2012;classical;0,192;0,0821;0,0334
+Sergei Rachmaninoff;Rachmaninov: Symphony No. 2 in E Minor, Op. 27: II. Allegro molto;22;2012;classical;0,297;0,108;0,141
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Rhapsody on a Theme of Paganini, Op. 43;21;2012;classical;0,298;0,15;0,0607
+Claude Debussy;Cello Sonata in D Minor: I. Prologue: Lent sostenuto et molto risoluto;20;2012;classical;0,193;0,0443;0,0946
+Claude Debussy;La Mer, L.109: 3. Dialogue Of The Wind And The Sea;16;2012;classical;0,101;0,178;0,0343
+Claude Debussy;Préludes - Book 2, L.123: 5. Bruyères;20;2012;classical;0,332;0,0157;0,189
+Franz Liszt;"Grandes Etudes de Paganini, S141: No. 3 in G sharp minor (""La Campanella"") - Live At The Royal Albert Hall/2012";26;2012;classical;0,359;0,255;0,552
+Franz Liszt;"Etude d'exécution transcendante S.139 : N°3 en fa majeur ""Paysage"" - Remasterisé en 2011 - Multi channel";14;2012;classical;0,484;0,0263;0,0911
+Ludwig van Beethoven;"Piano Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 -""Moonlight"": 3. Presto agitato";15;2012;classical;0,25;0,248;0,15
+Ludwig van Beethoven;"Beethoven: Bagatelle No. 25 in A Minor, WoO 59 ""Für Elise""";23;2012;classical;0,105;0,032;0,458
+Ludwig van Beethoven;"Piano Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 -""Moonlight"": 1. Adagio sostenuto - Live At The Royal Albert Hall/2012";20;2012;classical;0,133;0,00663;0,168
+Frédéric Chopin;Études, Op. 25: No. 8 in D-Flat Major;17;2012;classical;0,297;0,298;0,787
+Claude Debussy;Préludes / Book 1, L.117: 1. Danseuses de Delphes;20;2012;classical;0,517;0,00363;0,0869
+Claude Debussy;Préludes / Book 1, L.117: 2. Voiles;20;2012;classical;0,323;0,00593;0,0364
+Claude Debussy;Prélude à l'après-midi d'un faune, L. 86;17;2012;classical;0,137;0,0419;0,0315
+Ludwig van Beethoven;"Piano Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 -""Moonlight"": 3. Presto agitato - Live At The Royal Albert Hall/2012";20;2012;classical;0,252;0,23;0,0985
+Claude Debussy;Préludes / Book 1, L.117: 5. Les collines d'Anacapri;20;2012;classical;0,213;0,0396;0,0787
+Claude Debussy;Préludes / Book 1, L.117: 6. Des pas sur la neige;19;2012;classical;0,505;0,00106;0,147
+Felix Mendelssohn;Octet in E Flat Major, Op. 20, MWV R20: IV. Presto;13;2012;classical;0,345;0,27;0,537
+Ludwig van Beethoven;Diabelli Variations, Op. 120: Variation XXIV. Fughetta (Andante);19;2012;classical;0,386;0,0164;0,611
+Ludwig van Beethoven;Violin concerto in D Major, Op. 61: III. Rondo - Allegro;20;2012;classical;0,347;0,128;0,24
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: I. Allegro ma non tanto;22;2012;classical;0,262;0,116;0,0467
+Ludwig van Beethoven;"Piano Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 -""Moonlight"": 1. Adagio sostenuto";13;2012;classical;0,288;0,0144;0,159
+Frédéric Chopin;Nocturne No. 13 in C minor, Op. 48 No. 1 - Live At The Royal Albert Hall/2012;17;2012;classical;0,307;0,115;0,0553
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: III. Finale. Alla breve;20;2012;classical;0,356;0,19;0,072
+Claude Debussy;Préludes / Book 1, L.117: 10. La cathédrale engloutie;19;2012;classical;0,473;0,00409;0,0385
+Claude Debussy;Préludes / Book 1, L.117: 3. Le vent dans la plaine;18;2012;classical;0,342;0,0214;0,0641
+Ludwig van Beethoven;Beethoven: Fortepiano and Horn in F op. 17, II. Poco adagio, quasi Andante;21;2012;classical;0,419;0,00728;0,059
+Claude Debussy;Nocturnes, L. 91: 1. Nuages;13;2012;classical;0,0963;0,0052;0,031
+Sergei Rachmaninoff;5 Morceaux de fantaisie, Op. 3: No. 1 Elégie in E-Flat Minor;18;2012;classical;0,27;0,0209;0,0988
+Frédéric Chopin;"Piano Sonata No. 2 in B-Flat Minor, Op. 35 ""Funeral March"": III. Marche funèbre. Lento";21;2012;classical;0,447;0,00323;0,0466
+Frédéric Chopin;"Piano Sonata No. 2 in B-Flat Minor, Op. 35 ""Funeral March"": I. Grave - Doppio movimento";21;2012;classical;0,334;0,12;0,0392
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Psalm 103 (104), ""O praise the Lord""";17;2012;classical;0,0998;0,0259;0,0364
+Ludwig van Beethoven;"Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": II. Marcia funebre: Adagio assai";11;2012;classical;0,188;0,0159;0,0386
+Ludwig van Beethoven;"Piano Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 -""Moonlight"": 2. Allegretto";12;2012;classical;0,432;0,0389;0,593
+Ludwig van Beethoven;"Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": III. Scherzo: Allegro vivace";11;2012;classical;0,383;0,128;0,167
+Ludwig van Beethoven;Symphony No. 1 in C Major, Op. 21: IV. Adagio - Allegro molto;11;2012;classical;0,338;0,102;0,178
+Sergei Rachmaninoff;Piano Sonata No. 2 in B-Flat Minor, Op. 36: I. Allegro agitato;17;2012;classical;0,306;0,0619;0,0395
+Sergei Rachmaninoff;Études-Tableaux, Op. 39: No. 6 in A Minor;18;2012;classical;0,287;0,203;0,232
+Ludwig van Beethoven;Symphony No. 1 in C Major, Op. 21: I. Adagio molto - Allegro con brio;12;2012;classical;0,235;0,0481;0,0627
+Ludwig van Beethoven;Symphony No. 1 in C Major, Op. 21: III. Menuetto - Allegro molto e vivace;11;2012;classical;0,335;0,106;0,124
+Franz Liszt;5 Kleine Klavierstucke, S192/R60: No. 3. Sehr langsam;14;2012;classical;0,587;0,00318;0,464
+Frédéric Chopin;Nocturne in C-Sharp Minor, Op. Posth., KK IVa, No. 16, B. 49;21;2012;classical;0,291;0,00321;0,112
+Claude Debussy;Préludes / Book 1, L.117: 4. Les sons et les parfums tournent dans l'air du soir;17;2012;classical;0,376;0,00582;0,0362
+Ludwig van Beethoven;"Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": IV. Finale: Allegro molto";11;2012;classical;0,299;0,0602;0,0761
+Ludwig van Beethoven;"Fantasia in C Minor, Op. 80 ""Choral Fantasy"": I. Adagio";17;2012;classical;0,338;0,0981;0,0375
+Sergei Rachmaninoff;Bogoroditsye dyevo (Ave Maria);18;2012;classical;0,199;0,0628;0,0607
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": O Joyful Light";17;2012;classical;0,169;0,0369;0,0368
+Ludwig van Beethoven;Beethoven's Fifth;12;2012;classical;0,53;0,422;0,31
+Ludwig van Beethoven;Symphony No. 1 in C Major, Op. 21: II. Andante cantabile con moto;11;2012;classical;0,226;0,012;0,0524
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Hexapsalms: Glory to God on high";18;2012;classical;0,16;0,0338;0,0347
+Claude Debussy;Reverie;17;2012;classical;0,333;0,00347;0,088
+Frédéric Chopin;Grande Valse Brillante, Op. 18, No. 1 in E-Flat Major;19;2012;classical;0,4;0,0755;0,232
+Felix Mendelssohn;Octet in E Flat Major, Op. 20, MWV R20: III. Scherzo (Allegro leggierissimo);11;2012;classical;0,385;0,0689;0,301
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: II. Intermezzo. Adagio;18;2012;classical;0,262;0,0476;0,0379
+Sergei Rachmaninoff;Piano Sonata No. 2 in B-Flat Minor, Op. 36: II. Non allegro. Lento;17;2012;classical;0,256;0,0259;0,0379
+Claude Debussy;2 Arabesques: No. 1 in E Major;17;2012;classical;0,298;0,0138;0,0839
+Frédéric Chopin;Études, Op. 25: No. 12 in C Minor;9;2012;classical;0,284;0,141;0,0397
+Felix Mendelssohn;Octet in E Flat Major, Op. 20, MWV R20: II. Andante;10;2012;classical;0,187;0,0406;0,135
+Sergei Rachmaninoff;Études-Tableaux, Op. 39: No. 5 in E-Flat Minor;16;2012;classical;0,244;0,147;0,0382
+Ludwig van Beethoven;"Piano Sonata No. 23 in F minor, Op. 57 -""Appassionata"": 3. Allegro ma non troppo";10;2012;classical;0,238;0,231;0,215
+Claude Debussy;Nocturnes, L. 91: 3. Sirènes;11;2012;classical;0,0715;0,0405;0,0314
+Claude Debussy;Préludes / Book 1, L.117: 12. Minstrels;15;2012;classical;0,432;0,0428;0,125
+Claude Debussy;La Mer, L. 109, CD 111: II. Jeux de vagues;15;2012;classical;0,0832;0,0388;0,0345
+Claude Debussy;Suite bergamasque: III. Clair de lune;16;2012;classical;0,204;0,00428;0,0399
+Frédéric Chopin;Piano Concerto No. 2 in F Minor, Op. 21: I. Maestoso;19;2012;classical;0,172;0,0923;0,051
+Frédéric Chopin;"Piano Sonata No. 2 in B-Flat Minor, Op. 35 ""Funeral March"": II. Scherzo";18;2012;classical;0,25;0,0222;0,0867
+Frédéric Chopin;Piano Concerto No. 2 in F Minor, Op. 21: II. Larghetto;19;2012;classical;0,232;0,0267;0,0399
+Ludwig van Beethoven;Piano Concerto No. 3 in C Minor, Op. 37: II. Largo;14;2012;classical;0,255;0,0176;0,0392
+Franz Liszt;5 Kleine Klavierstucke, S192/R60: No. 4. Andantino;14;2012;classical;0,601;0,00166;0,277
+Franz Liszt;5 Kleine Klavierstucke, S192/R60: No. 1. Sehr langsam;13;2012;classical;0,502;0,00674;0,0837
+Sergei Rachmaninoff;Piano Sonata No. 2 in B-Flat Minor, Op. 36: III. Allegro molto;14;2012;classical;0,301;0,128;0,0477
+Sergei Rachmaninoff;Études-Tableaux, Op. 39: No. 4 in B Minor;15;2012;classical;0,378;0,175;0,453
+Claude Debussy;Nocturnes, L. 91: 2. Fêtes;11;2012;classical;0,152;0,168;0,045
+Claude Debussy;The Girl With The Flaxen Hair;10;2012;classical;0,467;0,0194;0,158
+Claude Debussy;Préludes / Book 1, L.117: 11. La danse de Puck;15;2012;classical;0,354;0,0385;0,0392
+Claude Debussy;Préludes / Book 1, L.117: 9. La sérénade interrompue;14;2012;classical;0,239;0,0183;0,0708
+Claude Debussy;Images, Book 1, L. 110: No. 1. Reflets dans l'eau;13;2012;classical;0,245;0,0185;0,0338
+Franz Liszt;5 Kleine Klavierstucke, S192/R60: No. 2. Moderato;13;2012;classical;0,397;0,0321;0,036
+Ludwig van Beethoven;"Music To Goethe's Tragedy ""Egmont"" Op. 84: Overture";15;2012;classical;0,224;0,119;0,0696
+Ludwig van Beethoven;Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio;10;2012;classical;0,281;0,126;0,0971
+Sergei Rachmaninoff;Moments Musicaux, Op. 16: No. 4 in E Minor. Presto - Più vivo - Prestissimo;13;2012;classical;0,334;0,195;0,135
+Ludwig van Beethoven;"Piano Sonata No. 23 in F minor, Op. 57 -""Appassionata"": 1. Allegro assai";9;2012;classical;0,292;0,138;0,0393
+Claude Debussy;Préludes / Book 1, L.117: La fille aux cheveux de lin;14;2012;classical;0,392;0,00661;0,118
+Claude Debussy;Préludes / Book 1, L.117: 7. Ce qu'a vu le vent d'ouest;15;2012;classical;0,295;0,107;0,0342
+Frédéric Chopin;12 Études, Op. 10: No. 3 in E Major;46;2013;classical;0,392;0,0536;0,0417
+Ludwig van Beethoven;Für Elise, WoO 59;36;2013;classical;0,296;0,0709;0,192
+Franz Liszt;Années de pèlerinage III, S. 163: No. 4, Les jeux d'eaux à la Villa d'Este;35;2013;classical;0,242;0,126;0,0393
+Ludwig van Beethoven;"European Union: Ode an die Freude (Ode to Joy), ""Praise to Joy…"" [arr. P. Breiner]";42;2013;classical;0,582;0,245;0,542
+Frédéric Chopin;12 Études, Op. 10: No. 4 in C-Sharp Minor;28;2013;classical;0,329;0,167;0,324
+Frédéric Chopin;Polonaise No. 3 in A Major, Op. 40, No. 1 'Military';26;2013;classical;0,326;0,291;0,247
+Frédéric Chopin;"12 Études, Op. 10: No. 1 in C Major ""Waterfall""";26;2013;classical;0,254;0,205;0,0934
+Frédéric Chopin;12 Études, Op. 10: No. 2 in A Minor;25;2013;classical;0,361;0,184;0,372
+Felix Mendelssohn;Mendelssohn: String Quartet No. 6 in F Minor, Op. 80, MWV R37: II. Allegro assai;34;2013;classical;0,352;0,289;0,233
+Ludwig van Beethoven;"Symphony No. 9 in D minor, Op. 125 - ""Choral"": 2. Molto vivace";24;2013;classical;0,308;0,222;0,241
+Frédéric Chopin;Nocturne No. 20 In C Sharp Minor;28;2013;classical;0,249;0,0669;0,051
+Frédéric Chopin;24 Preludes, Op. 28: No. 19 in E-Flat Major;33;2013;classical;0,323;0,0691;0,179
+Frédéric Chopin;12 Études, Op. 10: No. 6 in E-Flat Minor;23;2013;classical;0,298;0,005;0,0571
+Frédéric Chopin;12 Études, Op. 10: No. 12 in C Minor;22;2013;classical;0,315;0,184;0,151
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: I. Allegro ma non tanto - Live;21;2013;classical;0,17;0,054;0,0508
+Frédéric Chopin;12 Études, Op. 10: No. 5 in G-Flat Major;21;2013;classical;0,405;0,0616;0,421
+Franz Liszt;6 Consolations, S. 172: No. 3 in D-Flat Major (Lento, placido);23;2013;classical;0,268;0,00613;0,0857
+Frédéric Chopin;12 Études, Op. 25: No. 11 in A Minor;21;2013;classical;0,405;0,209;0,0929
+Frédéric Chopin;12 Études, Op. 25: No. 1 in A-Flat Major;20;2013;classical;0,288;0,00885;0,0402
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: III. Finale (Alla breve) - Live;19;2013;classical;0,335;0,225;0,0908
+Frédéric Chopin;"12 Études, Op. 25: No. 12 in C Minor ""Ocean""";19;2013;classical;0,202;0,146;0,0389
+Frédéric Chopin;"12 Études, Op. 10: No. 8 in F Major ""Sunshine""";19;2013;classical;0,337;0,14;0,191
+Frédéric Chopin;12 Études, Op. 25: No. 5 in E Minor;19;2013;classical;0,402;0,0398;0,169
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: II. Intermezzo (Adagio) - Live;19;2013;classical;0,137;0,0409;0,0369
+Frédéric Chopin;"12 Études, Op. 25: No. 2 in F Minor ""The Bees""";18;2013;classical;0,26;0,0451;0,328
+Frédéric Chopin;12 Études, Op. 10: No. 9 in F Minor;18;2013;classical;0,298;0,0744;0,0653
+Frédéric Chopin;Cello Sonata in G Minor, Op. 65: III. Largo;22;2013;classical;0,194;0,0357;0,0571
+Frédéric Chopin;12 Études, Op. 25: No. 9 in G-Flat Major;18;2013;classical;0,415;0,28;0,721
+Frédéric Chopin;"12 Études, Op. 10: No. 7 in C Major ""Toccata""";18;2013;classical;0,332;0,15;0,361
+Frédéric Chopin;"12 Études, Op. 10: No. 11 in E-Flat Major ""Arpeggio""";17;2013;classical;0,358;0,0193;0,0711
+Frédéric Chopin;12 Études, Op. 10: No. 10 in A-Flat Major;17;2013;classical;0,295;0,0886;0,252
+Frédéric Chopin;12 Études, Op. 25: No. 7 in C-Sharp Minor;17;2013;classical;0,331;0,00696;0,0811
+Claude Debussy;Suite bergamasque, L.75: 3. Clair de lune;18;2013;classical;0,385;0,00703;0,0392
+Frédéric Chopin;"12 Études, Op. 25: No. 3 in F Major ""The Horseman""";17;2013;classical;0,338;0,0667;0,221
+Frédéric Chopin;12 Études, Op. 25: No. 6 in G-Sharp Minor;17;2013;classical;0,348;0,166;0,189
+Frédéric Chopin;"12 Études, Op. 25: No. 4 in A Minor ""Paganini""";17;2013;classical;0,418;0,121;0,902
+Ludwig van Beethoven;Concerto for violin, cello and piano in C major op. 56 “Triple Concerto” : Largo (attacca);24;2013;classical;0,0787;0,0282;0,0381
+Frédéric Chopin;Nocturne No. 2 in E-Flat Major, Op. 9 No. 2;21;2013;classical;0,294;0,0283;0,0865
+Frédéric Chopin;Berceuse In D Flat, Op. 57: Andante;16;2013;classical;0,318;0,0164;0,0962
+Frédéric Chopin;"12 Études, Op. 25: No. 10 in B Minor ""Octave""";16;2013;classical;0,3;0,203;0,119
+Sergei Rachmaninoff;Cello Sonata in G Minor, Op. 19: III. Andante;21;2013;classical;0,176;0,015;0,0393
+Frédéric Chopin;Nocturne No. 1 in B Flat Minor, Op. 9: No. 1;15;2013;classical;0,415;0,0148;0,039
+Frédéric Chopin;"12 Études, Op. 25: No. 8 in D-Flat Major ""Sixths""";15;2013;classical;0,356;0,262;0,251
+Frédéric Chopin;"Polonaise No. 6 in A-Flat Major, Op. 53 ""Heroic""";15;2013;classical;0,233;0,279;0,213
+Franz Liszt;Wagner - Tannhäuser: Pilgrim's Chorus, S443/R276;25;2013;classical;0,392;0,0359;0,0556
+Sergei Rachmaninoff;Rachmaninov: 13 Preludes, Op. 32: No. 12 in G-Sharp Minor;15;2013;classical;0,206;0,0786;0,0509
+Sergei Rachmaninoff;帕格尼尼主題狂想曲 Rhapsody on a Theme of Paganini - Arr. for Piano & Voice by Zhao Jian;30;2013;classical;0,387;0,119;0,0812
+Ludwig van Beethoven;"Bagatelle No. 25 in A Minor, WoO 59 ""Für Elise"": Poco moto";19;2013;classical;0,344;0,0374;0,349
+Claude Debussy;Préludes / Book 1, L. 117: La fille aux cheveux de lin (Arr. Koncz);22;2013;classical;0,121;0,00466;0,066
+Franz Liszt;3 Sonetti di Petrarca (1st version), S158/R10b: Sonetto No. 47. Benedetto sia 'lgiorno;23;2013;classical;0,359;0,0742;0,0338
+Ludwig van Beethoven;"Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto";17;2013;classical;0,263;0,00325;0,134
+Sergei Rachmaninoff;Sergei Rachmaninoff: Bogoróditse Dévo;21;2013;classical;0,18;0,107;0,0378
+Claude Debussy;Deux Arabesques, L.66: No. 1 Andante con moto;18;2013;classical;0,334;0,0232;0,11
+Franz Liszt;6 Consolations, S. 172: No. 3 In D Flat Major (Lento, placido);17;2013;classical;0,307;0,00598;0,0823
+Ludwig van Beethoven;"Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"": II. Adagio cantabile";16;2013;classical;0,232;0,00244;0,105
+Ludwig van Beethoven;Symphony No. 5 in C minor, Op. 67: 3. Allegro;20;2013;classical;0,346;0,0683;0,279
+Claude Debussy;Beau Soir, L.6;17;2013;classical;0,0736;0,0274;0,0362
+Felix Mendelssohn;Violin Concerto in D Minor, MWV O3: III. Allegro;22;2013;classical;0,358;0,167;0,427
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68, ""Pastoral"": I. Awakening of Cheerful Feelings Upon Arrival in the Country: Allegro ma non troppo";21;2013;classical;0,302;0,0355;0,186
+Claude Debussy;Images - Book 1, L.111: I. Reflets dans l'eau;16;2013;classical;0,365;0,0248;0,0318
+Claude Debussy;ドビュッシー:ベルガマスク組曲〜月の光;36;2013;classical;0,389;0,036;0,0385
+Claude Debussy;Golliwog's Cake-walk;17;2013;classical;0,482;0,132;0,277
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 6 in F Major, Op. 10 No. 2: II. Allegretto;14;2013;classical;0,425;0,0353;0,0599
+Felix Mendelssohn;"Lieder ohne Worte, Op. 19: 6. Andante sostenuto ""Venetian Gondola Song""";17;2013;classical;0,439;0,00983;0,274
+Franz Liszt;Ellens Gesang III (Ave Maria), S558 no.12 (after Schubert’s D839);12;2013;classical;0,211;0,0177;0,0392
+Frédéric Chopin;Polonaise No. 5 in F-Sharp Minor, Op. 44;11;2013;classical;0,297;0,255;0,212
+Claude Debussy;Préludes - Book 1, L.117: VIII. La fille aux cheveux de lin;16;2013;classical;0,383;0,006;0,157
+Sergei Rachmaninoff;"Rachmaninov: Prelude No. 1 in C-Sharp Minor, Op. 3 No. 2 ""The Bells of Moscow""";21;2013;classical;0,489;0,14;0,0662
+Franz Liszt;Wagner - Isoldes Liebestod aus Tristan und Isolde, S447/R280;20;2013;classical;0,247;0,111;0,0347
+Frédéric Chopin;Polonaise No. 1 in C-Sharp Minor, Op. 26, No. 1;10;2013;classical;0,196;0,0425;0,0475
+Frédéric Chopin;Polonaise No. 4 in C Minor, Op. 40, No. 2;10;2013;classical;0,289;0,0909;0,0775
+Ludwig van Beethoven;Piano Sonata No. 28 in A Major, Op. 101: I. Etwas lebhaft und mit der innigsten Empfindung;23;2013;classical;0,396;0,00854;0,0774
+Claude Debussy;Clair De Lune;56;2014;classical;0,202;0,129;0,0793
+Felix Mendelssohn;Lied ohne Worte in F-Sharp Minor, Op. 67/2;55;2014;classical;0,351;0,112;0,396
+Franz Liszt;Die Rose, Romanze aus der Oper Zemir und Azor, S571/R259 (Spohr);48;2014;classical;0,329;0,0171;0,127
+Claude Debussy;Suite Bergamasque, L. 75: III. Clair de lune;48;2014;classical;0,278;0,00448;0,0391
+Sergei Rachmaninoff;Moments musicaux, Op. 16: No. 5 in D-Flat Major. Adagio sostenuto;36;2014;classical;0,317;0,00558;0,0463
+Sergei Rachmaninoff;10 Preludes, Op. 23: No. 5 in G Minor: Alla marcia;46;2014;classical;0,359;0,282;0,177
+Ludwig van Beethoven;"Fantasia in C Minor, Op. 80 ""Choral Fantasy"": II. Finale. Allegro - Allegretto, ma non troppo, quasi andante con moto";36;2014;classical;0,316;0,0659;0,117
+Frédéric Chopin;Piano Concerto No. 1 in E Minor, Op. 11: I. Allegro maestoso;39;2014;classical;0,291;0,132;0,0575
+Felix Mendelssohn;"Lieder ohne Worte, Book 2, Op. 30: VI. Allegretto tranquillo ""Venetianisches Gondellied"", MWV U110";35;2014;classical;0,176;0,00365;0,0708
+Frédéric Chopin;Mazurka No. 43 en sol mineur, Op. Posth. 67 No. 2, WN 64;34;2014;classical;0,37;0,022;0,216
+Frédéric Chopin;Barcarolle in F-Sharp Major, Op. 60;33;2014;classical;0,27;0,0459;0,0383
+Frédéric Chopin;Mazurkas, Op. 67: Mazurka No. 4 in A Minor;35;2014;classical;0,312;0,118;0,12
+Ludwig van Beethoven;"Sonata No. 14 in C-Sharp Minor, Op. 27, No. 2 ""Moonlight"": I. Adagio sostenuto";29;2014;classical;0,112;0,00376;0,104
+Sergei Rachmaninoff;Итальянская полька в Ми Минор;31;2014;classical;0,557;0,0697;0,697
+Franz Liszt;Wiegenlied, S. 198;30;2014;classical;0,305;0,00398;0,106
+Ludwig van Beethoven;Symphony No. 8 in F Major, Op. 93: II. Allegretto scherzando;25;2014;classical;0,451;0,0261;0,254
+Claude Debussy;Petite suite, L65: En bateau;22;2014;classical;0,257;0,0157;0,0487
+Ludwig van Beethoven;Piano Sonata in D Major, Op. 28 - 'Pastoral': I. Allegro;23;2014;classical;0,282;0,0268;0,0819
+Frédéric Chopin;Nocturne No. 20 in C-Sharp Minor, Op. post. (arr. for cello and piano);20;2014;classical;0,202;0,0402;0,0597
+Claude Debussy;Preludes, Book 1: No. 1. Danseuses de Delphes;20;2014;classical;0,394;0,0028;0,086
+Ludwig van Beethoven;Beethoven: Violin Sonata No. 6 in A Major, Op. 30 No. 1: II. Adagio molto espressivo;21;2014;classical;0,148;0,0283;0,0702
+Felix Mendelssohn;Lieder ohne Worte, Book 8, Op. 102: I. Andante un poco agitato, MWV U162;21;2014;classical;0,46;0,023;0,0555
+Felix Mendelssohn;"Lieder ohne Worte, Book 1, Op. 19b: VI. Andante sostenuto ""Venetianisches Gondellied"", MWV U78";25;2014;classical;0,264;0,00804;0,183
+Ludwig van Beethoven;Symphony No. 8 in F Major, Op. 93: I. Allegro vivace e con brio;22;2014;classical;0,223;0,162;0,143
+Frédéric Chopin;12 Etudes, Op. 10: No. 4 In C Sharp Minor;15;2014;classical;0,48;0,311;0,6
+Claude Debussy;Suite bergamasque, L. 75: III. Clair de lune;15;2014;classical;0,125;0,0917;0,0393
+Felix Mendelssohn;Lieder ohne Worte, Book 8, Op. 102: VI. Andante, MWV U172;19;2014;classical;0,445;0,00472;0,256
+Ludwig van Beethoven;Piano Sonata No. 19 in G Minor, Op. 49 No. 1: I. Andante;15;2014;classical;0,307;0,0326;0,24
+Frédéric Chopin;3 Pieces, Op. 11: Mazurka in F-Sharp Minor;25;2014;classical;0,369;0,0765;0,236
+Frédéric Chopin;Etude in C-Sharp Minor, Op. 25/7;26;2014;classical;0,168;0,0116;0,0396
+Frédéric Chopin;Etudes, Op. 25: No. 12 in C Minor 'Ocean' (Molto allego con fuoco);20;2014;classical;0,237;0,179;0,0621
+Frédéric Chopin;"12 Études, Op. 25: No. 5 in E Minor ""Wrong Note""";21;2014;classical;0,396;0,0855;0,187
+Sergei Rachmaninoff;14 Romances, Op. 34: No. 14, Vocalise;23;2014;classical;0,194;0,0663;0,0405
+Ludwig van Beethoven;Serenade in D Major, Op. 8: IV. Allegretto alla Polacca;17;2014;classical;0,428;0,0737;0,257
+Ludwig van Beethoven;Prizeman, Beethoven: Joyful, Joyful, We adore Thee (After Beethoven's Ode to Joy from Symphony No. 9 in D Minor, Op. 125) [Live];22;2014;classical;0,309;0,273;0,142
+Sergei Rachmaninoff;Rachmaninov: 2 Pieces: No. 2, Romance in A Major;16;2014;classical;0,313;0,0337;0,0384
+Felix Mendelssohn;"Symphony No. 3 in A Minor, Op. 56 ""Scottish"": IV. Allegro vivacissimo - Allegro maestoso assai";22;2014;classical;0,35;0,204;0,224
+Frédéric Chopin;Piano Concerto No. 1 In E Minor, Op. 11: 2. Romance (Larghetto) - Live In Kiel / 1968;13;2014;classical;0,196;0,085;0,04
+Sergei Rachmaninoff;"All-Night Vigil, Op. 37, ""Vespers"": Beginning song: Come let us worship";12;2014;classical;0,191;0,0524;0,0399
+Claude Debussy;Préludes, L. 117, Premier Livre: VIII. La fille aux cheveux de lin;23;2014;classical;0,106;0,0122;0,0697
+Frédéric Chopin;Nocturne No. 20 In C-Sharp Minor, Op. Posth.;13;2014;classical;0,484;0,135;0,21
+Felix Mendelssohn;"Song Without Words, Op. 60: I. Andante espressivo ""May Breezes"" (Arr. Kreisler)";24;2014;classical;0,257;0,112;0,0491
+Franz Liszt;Hungarian Rhapsody No. 6 in D-Flat Major, S.244/6;18;2014;classical;0,425;0,167;0,134
+Frédéric Chopin;"12 Etudes, Op. 25: No. 11 In A Minor ""Winter Wind""";12;2014;classical;0,327;0,356;0,0733
+Claude Debussy;Preludes, Book 1: No. 4. Les sons et les parfums tournent dans l'air du soir;15;2014;classical;0,344;0,00516;0,0363
+Claude Debussy;"Valse ""La plus que lente""";19;2014;classical;0,164;0,0652;0,0576
+Claude Debussy;Clair de Lune, L. 32;18;2014;classical;0,396;0,0152;0,0556
+Sergei Rachmaninoff;Rachmaninoff: Vocalise, Op. 34, No. 14;18;2014;classical;0,0708;0,0564;0,035
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation 18;12;2014;classical;0,145;0,0346;0,0431
+Frédéric Chopin;3 Nouvelles études, B.130: No. 1 in F Minor (Andantino);15;2014;classical;0,258;0,0512;0,0668
+Frédéric Chopin;"12 Etudes, Op. 10: No. 12 In C Minor ""Revolutionary""";14;2014;classical;0,189;0,166;0,164
+Claude Debussy;Preludes, Book 1: No. 8. La fille aux cheveux de lin;15;2014;classical;0,219;0,00351;0,169
+Claude Debussy;Preludes, Book 1: No. 5. Les collines d'Anacapri;15;2014;classical;0,29;0,0325;0,0889
+Ludwig van Beethoven;Symphony No. 8 in F Major, Op. 93: III. Tempo di Menuetto;18;2014;classical;0,152;0,0312;0,0911
+Ludwig van Beethoven;Ode to Sorrow (Based on Ode to Joy) [Arr. for String Quartet];14;2014;classical;0,258;0,317;0,259
+Claude Debussy;Ballade;15;2014;classical;0,321;0,00633;0,0372
+Frédéric Chopin;Rondo a la krakowiak in F Major, Op. 14;10;2014;classical;0,361;0,071;0,109
+Ludwig van Beethoven;Sister Act Medley: Joyful, Joyful / Oh Happy Day (Arr. C. Papworth & M. Warren);17;2014;classical;0,324;0,48;0,418
+Claude Debussy;Preludes, Book 1: No. 6. Des pas sur la neige;14;2014;classical;0,329;0,00106;0,0433
+Claude Debussy;Préludes, Book 1, L 117: The Girl with the Flaxen Hair - La fille aux cheveux de lin;20;2014;classical;0,393;0,0421;0,152
+Frédéric Chopin;ワルツ第10番ロ短調作品69の2;18;2014;classical;0,341;0,0336;0,168
+Felix Mendelssohn;Lieder ohne Worte, Book 1, Op. 19b: I. Andante con moto, MWV U86;20;2014;classical;0,347;0,00666;0,135
+Felix Mendelssohn;"Lieder ohne Worte, Book 5, Op. 62: V. Andante con moto ""Venetianisches Gondellied"", MWV U151";18;2014;classical;0,327;0,00707;0,0715
+Felix Mendelssohn;From Songs without Words, Op.19, No. 4;16;2014;classical;0,375;0,00739;0,268
+Sergei Rachmaninoff;Siren: Lilacs, Op. 21, No. 5;10;2014;classical;0,216;0,0155;0,0893
+Ludwig van Beethoven;"Bagatelle No. 25 in A Minor, WoO 59 ""Für Elise""";63;2015;classical;0,289;0,0306;0,118
+Frédéric Chopin;Nocturne Op. 9 No. 2;61;2015;classical;0,446;0,0146;0,0815
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 18 Andante cantabile;52;2015;classical;0,205;0,0525;0,0511
+Claude Debussy;2 Arabesques, L. 66: No. 1 in E Major;55;2015;classical;0,252;0,00676;0,0897
+Frédéric Chopin;Chopin: Berceuse in D-Flat Major, Op. 57;48;2015;classical;0,295;0,0225;0,0397
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68 ""Pastoral"": I. Awakening of Cheerful Feelings Upon Arrival in the Country: Allegro ma non troppo";42;2015;classical;0,302;0,0355;0,186
+Sergei Rachmaninoff;Variations on a Theme of Chopin, Op. 22: Variation No. 16 Lento;36;2015;classical;0,184;0,00188;0,423
+Claude Debussy;Beau Soir, L. 6;34;2015;classical;0,197;0,0216;0,0393
+Ludwig van Beethoven;String Quartet No. 3 in D Major, Op. 18: II. Andante con moto;36;2015;classical;0,206;0,0319;0,0821
+Ludwig van Beethoven;Cello Sonata No. 3 in A Major, Op. 69: II. Scherzo: Allegro molto;29;2015;classical;0,421;0,159;0,34
+Claude Debussy;Preludes, L. 123, Book II: V. Bruyères;33;2015;classical;0,238;0,0208;0,0834
+Frédéric Chopin;"Préludes, Op. 28: No. 15 in D-Flat Major ""Raindrop-Prélude""";29;2015;classical;0,368;0,00464;0,0617
+Claude Debussy;Clair de lune L.75;35;2015;classical;0,396;0,00568;0,0488
+Frédéric Chopin;Waltz Op. 69 No. 2;33;2015;classical;0,367;0,0345;0,0941
+Claude Debussy;Preludes, L. 123, Book II: II. Feuilles mortes;30;2015;classical;0,389;0,00208;0,0387
+Frédéric Chopin;"Prélude in D Flat Major (""Raindrop""), Op. 28, No. 15";23;2015;classical;0,296;0,0223;0,0837
+Frédéric Chopin;Berceuse in D Flat Major, Op. 57;24;2015;classical;0,219;0,0323;0,0605
+Frédéric Chopin;Nocturne in C Sharp Minor;24;2015;classical;0,241;0,0912;0,0784
+Frédéric Chopin;Nocturne in G Minor;22;2015;classical;0,297;0,0963;0,308
+Claude Debussy;Petite suite, L. 65: En bateau;27;2015;classical;0,411;0,0154;0,0515
+Sergei Rachmaninoff;Vespers, Op. 37: VI. Bogoroditse Devo;20;2015;classical;0,146;0,016;0,0377
+Claude Debussy;Deux Arabesques, L66: No. 1: Andantino con moto;20;2015;classical;0,268;0,0124;0,0726
+Frédéric Chopin;Piano Sonata No. 3: Largo;20;2015;classical;0,297;0,012;0,108
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 7 Meno mosso, a tempo moderato;18;2015;classical;0,393;0,00306;0,303
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 12 Tempo di minuetto;17;2015;classical;0,288;0,00878;0,0589
+Claude Debussy;Preludes, L. 117, Book I: VIII. La fille aux cheveux de lin;23;2015;classical;0,419;0,00442;0,16
+Frédéric Chopin;Waltz in G-Flat Major, Op. 70 No. 1;24;2015;classical;0,414;0,0575;0,405
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 11 Moderato;17;2015;classical;0,168;0,135;0,0374
+Frédéric Chopin;Sonata In G Minor For Cello & Piano, Op. 65: 1. Allegro moderato;17;2015;classical;0,252;0,156;0,0577
+Frédéric Chopin;12 Etudes, Op. 25: No. 7 in C Sharp Minor;17;2015;classical;0,107;0,0191;0,0571
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 6 L'istesso tempo;16;2015;classical;0,335;0,0265;0,159
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 15 Più vivo scherzando;16;2015;classical;0,25;0,109;0,336
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 8 Tempo I;16;2015;classical;0,448;0,363;0,882
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 24 A tempo un poco meno mosso;16;2015;classical;0,488;0,263;0,434
+Ludwig van Beethoven;String Quartet No. 2 in G Major, Op. 18, No. 2: II. Adagio cantabile - Allegro;21;2015;classical;0,177;0,0794;0,0783
+Frédéric Chopin;Waltzes, Op. 64: II. Tempo giusto;24;2015;classical;0,244;0,0335;0,163
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 9 L'istesso tempo;16;2015;classical;0,539;0,237;0,631
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 19 A tempo vivace;15;2015;classical;0,381;0,122;0,739
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 10 L'istesso tempo;15;2015;classical;0,374;0,201;0,691
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 17 Allegretto;15;2015;classical;0,207;0,0305;0,0395
+Ludwig van Beethoven;String Quartet No. 6 in B-Flat Major, Op. 18 No. 6: II. Adagio ma non troppo;20;2015;classical;0,245;0,024;0,125
+Sergei Rachmaninoff;Sonata In G Minor For Cello & Piano, Op. 19: 1. Lento - Allegro moderato;16;2015;classical;0,182;0,0847;0,0527
+Claude Debussy;Ballade, L. 70;22;2015;classical;0,334;0,0173;0,0358
+Sergei Rachmaninoff;Vocalise, Op. 34, No. 14 (Arr. for Piano By Nikolaj Abramson);20;2015;classical;0,523;0,00754;0,223
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 20 Un poco più vivo;15;2015;classical;0,421;0,134;0,454
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 14 L'istesso tempo;15;2015;classical;0,388;0,29;0,458
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 16 Allegretto;15;2015;classical;0,219;0,00867;0,0393
+Claude Debussy;Clair de Lune (Moonlight) from Suite Bergamasque (1905);18;2015;classical;0,31;0,0288;0,0384
+Felix Mendelssohn;Lied Ohne Worte, Op. 109;22;2015;classical;0,201;0,0617;0,0723
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 22 Marziale. Un poco più vivo. Alla breve;15;2015;classical;0,304;0,253;0,193
+Claude Debussy;"Suite Bergamasque, L. 75: I. ""Prélude""";21;2015;classical;0,385;0,0661;0,12
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: I. Moderato;26;2015;classical;0,162;0,172;0,0386
+Sergei Rachmaninoff;Prélude in C-Sharp Minor, Op. 3 No. 2 (Lento);20;2015;classical;0,425;0,0574;0,0553
+Frédéric Chopin;Polonaise In A Flat Major, Op. 53 - Live;21;2015;classical;0,222;0,137;0,109
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 23 L'istesso tempo;15;2015;classical;0,572;0,381;0,223
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 17 in A-Flat Major;21;2015;classical;0,347;0,0578;0,0382
+Frédéric Chopin;Nocturne in C Minor, Op. 48 No. 1 - Live;20;2015;classical;0,322;0,0694;0,0382
+Frédéric Chopin;24 Préludes, Op. 28: No. 4 in E Minor: Largo - Live;18;2015;classical;0,295;0,00754;0,0368
+Frédéric Chopin;Barcarolle in F Sharp-Major, Op. 60;21;2015;classical;0,258;0,0417;0,0579
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: II. Adagio sostenuto;25;2015;classical;0,133;0,0633;0,0392
+Frédéric Chopin;Cello Sonata in G Minor, Op. 65: I. Allegro moderato;20;2015;classical;0,208;0,106;0,0749
+Sergei Rachmaninoff;Variations on a Theme of Chopin, Op. 22: Variation No. 6 Meno mosso;13;2015;classical;0,371;0,00954;0,097
+Ludwig van Beethoven;Diabelli Variations - 33 Variations on a Waltz by Anton Diabelli, Op. 120: Var. 24 - Fughetta. Andante;19;2015;classical;0,281;0,0185;0,313
+Ludwig van Beethoven;Diabelli Variations - 33 Variations on a Waltz by Anton Diabelli, Op. 120: Var. 3 - L'istesso tempo;24;2015;classical;0,362;0,0158;0,331
+Frédéric Chopin;Nocturne in B-Flat Minor, Op. 9 No. 1;19;2015;classical;0,306;0,0368;0,0633
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68 ""Pastoral"": V. Shepherd's Song: Happy and Thankful Feelings after the Storm: Allegretto";18;2015;classical;0,0998;0,0915;0,0738
+Frédéric Chopin;3 Mazurkas, Op. 63: II. Lento;19;2015;classical;0,283;0,00958;0,124
+Frédéric Chopin;24 Préludes, Op. 28: No. 1 in C Major: Agitato - Live;16;2015;classical;0,239;0,145;0,216
+Sergei Rachmaninoff;Variations on a Theme of Chopin, Op. 22: Variation No. 1 Moderato;12;2015;classical;0,182;0,00349;0,755
+Sergei Rachmaninoff;Vocalise, Op 34, No. 14;12;2015;classical;0,194;0,0452;0,0395
+Frédéric Chopin;Etude No.12 in C Minor, Op.10;15;2015;classical;0,268;0,141;0,108
+Frédéric Chopin;3 Mazurkas, Op. 63: III. Allegretto;18;2015;classical;0,403;0,018;0,316
+Frédéric Chopin;Preludes, Op. 28: No. 13 in F-Sharp Major;17;2015;classical;0,337;0,00309;0,252
+Frédéric Chopin;Nocturnes, Op. 27: No. 2 in D-Flat Major;42;2016;classical;0,394;0,00948;0,0423
+Claude Debussy;La Fille Aux Cheveux De Lin, L. 117;41;2016;classical;0,372;0,00297;0,226
+Franz Liszt;"3 Études de Concert, S. 144: No. 3 in D-Flat Major ""Un sospiro""";43;2016;classical;0,152;0,0568;0,0335
+Sergei Rachmaninoff;The Sleeping Beauty Suite, Op. 66a, TH 234 (Arr. S. Rachmaninoff): IV. Panorama;36;2016;classical;0,498;0,0206;0,165
+Franz Liszt;"Grandes Études de Paganini, S. 141: No. 3 in G-Sharp Minor ""La Campanella""";38;2016;classical;0,268;0,204;0,417
+Claude Debussy;6 Épigraphes antiques, L. 131 (Arr. E. Ansermet for Orchestra): No. 1. Pour invoquer Pan, dieu du vent d'été;31;2016;classical;0,104;0,01;0,073
+Claude Debussy;Debussy: En blanc et noir, pour piano à quatre mains, CD 142, L. 134: I. Avec emportement (Live);34;2016;classical;0,38;0,144;0,0624
+Ludwig van Beethoven;Symphony No. 4 in B-Flat Major, Op. 60: I. Adagio - Allegro vivace;30;2016;classical;0,301;0,0908;0,148
+Frédéric Chopin;"Waltzes, Op. 64: Waltz No. 6 in D-Flat Major, Op. 64, No. 1, ""Minute""";27;2016;classical;0,242;0,0601;0,286
+Frédéric Chopin;Prelude in E Minor, Op. 28, No. 4;32;2016;classical;0,418;0,0101;0,0365
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 4 in E Minor: Presto;30;2016;classical;0,257;0,186;0,0692
+Ludwig van Beethoven;Beethoven: Cello Sonata No. 1 in F Major, Op. 5 No. 1: II. Rondo - Allegro vivace;28;2016;classical;0,302;0,125;0,27
+Frédéric Chopin;Funeral March in C Minor, Op. 72, No. 2;27;2016;classical;0,571;0,00666;0,204
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 5 in D-Flat Major: Adagio sostenuto;29;2016;classical;0,367;0,00259;0,038
+Ludwig van Beethoven;Missa Solemnis in D Major, Op. 123: I. Kyrie;28;2016;classical;0,096;0,0609;0,0359
+Franz Liszt;12 Études d'exécution transcendante, S. 139: No. 4 Mazeppa (Presto);29;2016;classical;0,315;0,332;0,0389
+Franz Liszt;"Étude de Concert in D Flat Major, S144 No. 3: ""Un Sospiro""";25;2016;classical;0,215;0,134;0,0377
+Felix Mendelssohn;"Symphony No. 4 in A Major, Op. 90, MWV N16, ""Italian"": IV. Saltarello (Presto)";27;2016;classical;0,413;0,146;0,298
+Claude Debussy;La plus que lente, L. 121;25;2016;classical;0,406;0,0404;0,0677
+Ludwig van Beethoven;Sonata for Piano and Violin No. 8 in G Major, Op. 30: II. Tempo di minuetto, ma molto moderato e grazioso;25;2016;classical;0,207;0,028;0,156
+Ludwig van Beethoven;"Beethoven: Violin Sonata No. 9 in A Major, Op. 47 ""Kreutzer"": I. Adagio sostenuto - Presto";26;2016;classical;0,323;0,134;0,119
+Franz Liszt;Grandes Études de Paganini, S. 141: No. 6 in A Minor;26;2016;classical;0,371;0,191;0,245
+Felix Mendelssohn;Violin Concerto in D Minor, MWV 03: I. Allegro molto;24;2016;classical;0,314;0,302;0,503
+Sergei Rachmaninoff;Études-tableaux, Op. 39: No. 6 in A Minor: Allegro;25;2016;classical;0,331;0,194;0,162
+Claude Debussy;Suite bergamasque, L.75: 3. Clair de lune - Excerpt / Live From Yellow Lounge;21;2016;classical;0,137;0,0457;0,0398
+Sergei Rachmaninoff;Études-tableaux, Op. 39: No. 2 in A Minor: Lento assai;23;2016;classical;0,241;0,011;0,0393
+Sergei Rachmaninoff;Études-tableaux, Op. 39: No. 5 in E-Flat Minor: Appassionato;24;2016;classical;0,199;0,107;0,0369
+Franz Liszt;"6 Grandes études de Paganini, S. 141: No. 3 in A-Flat Minor ""La campanella""";26;2016;classical;0,369;0,195;0,378
+Franz Liszt;Transcendental Études, S. 139: No. 4, Mazeppa;23;2016;classical;0,342;0,208;0,0576
+Ludwig van Beethoven;Sonatina In G Major, Anh. 5 No. 1;21;2016;classical;0,464;0,0838;0,242
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 1 in B-Flat Minor: Andantino;22;2016;classical;0,189;0,0185;0,0378
+Franz Liszt;12 Études d'exécution transcendante, S. 139: No. 12 Chasse neige (Andante con moto);24;2016;classical;0,213;0,181;0,0383
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 6 in C Major: Maestoso;21;2016;classical;0,219;0,0944;0,0387
+Franz Liszt;Piano Concerto No. 2 in A Major, S. 125: Allegro deciso -;24;2016;classical;0,281;0,316;0,217
+Franz Liszt;12 Études d'exécution transcendante, S. 139: No. 5 Feux follets (Allegretto);24;2016;classical;0,291;0,146;0,358
+Franz Liszt;12 Études d'exécution transcendante, S. 139: No. 1 Prélude (Presto);23;2016;classical;0,385;0,165;0,228
+Franz Liszt;12 Études d'exécution transcendante, S. 139: No. 8 Wilde Jagd (Presto furioso);22;2016;classical;0,423;0,202;0,195
+Felix Mendelssohn;Violin Concerto in D Minor, MWV 03: II. Andante;20;2016;classical;0,163;0,271;0,14
+Frédéric Chopin;"Preludio Op. 28 No. 4 ""The Pain Room"" - Re-Recorded Version";27;2016;classical;0,305;0,00522;0,036
+Sergei Rachmaninoff;Symphony No. 2 in E Minor, Op. 27: III. Adagio;18;2016;classical;0,073;0,0626;0,0347
+Franz Liszt;12 Études d'exécution transcendante, S. 139: No. 2 Molto vivace;22;2016;classical;0,402;0,317;0,37
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 3 in B Minor: Andante cantabile;20;2016;classical;0,46;0,00731;0,128
+Ludwig van Beethoven;Violin Sonata No. 9 in A Minor, Op, 47, “Kreutzer”: I. Adagio sostenuto – Presto;20;2016;classical;0,373;0,244;0,113
+Frédéric Chopin;Nocturnes, Op. 9: No. 1 in B-Flat Minor;22;2016;classical;0,312;0,0198;0,0701
+Franz Liszt;Piano Concerto No. 2 in A Major, S. 125: Marziale un poco meno allegro -;22;2016;classical;0,468;0,3;0,14
+Ludwig van Beethoven;Moonlight Sonata (First Movement from Piano Sonata No. 14, Op. 27 No. 2);56;2017;classical;0,216;0,199;0,339
+Frédéric Chopin;Fantasy on Polish Airs, Op. 13: Largo non troppo;51;2017;classical;0,258;0,00795;0,046
+Frédéric Chopin;"Chopin: Waltz No. 9 in A-Flat Major, Op. 69 No. 1, ""The Farewell Waltz """;45;2017;classical;0,347;0,0169;0,116
+Felix Mendelssohn;Songs without Words, Op. 67, No. 3 in B-Flat Major: Andante tranquillo;44;2017;classical;0,411;0,0248;0,0567
+Sergei Rachmaninoff;Preghiera (Arr. by Fritz Kreisler from Piano Concerto No. 2 in C Minor, Op. 18, 2nd Movement);43;2017;classical;0,221;0,0612;0,0692
+Claude Debussy;L'isle joyeuse, L. 106;44;2017;classical;0,289;0,076;0,0324
+Claude Debussy;Debussy: Piano Trio in G Major, L. 5: III. Andante espressivo;42;2017;classical;0,122;0,0963;0,133
+Frédéric Chopin;"Prelude in D-Flat Major, Op. 28: No. 15. ""Raindrop""";32;2017;classical;0,433;0,0136;0,0626
+Franz Liszt;Liszt: 6 Consolations, S. 172: No. 3 in D-Flat Major;36;2017;classical;0,294;0,00916;0,0663
+Frédéric Chopin;Chopin: Nocturne No. 2 in E-Flat Major, Op. 9 No. 2;38;2017;classical;0,363;0,022;0,0912
+Sergei Rachmaninoff;Morceaux de Fantaisie, Op. 3: 1. Elégie;34;2017;classical;0,203;0,0851;0,0395
+Frédéric Chopin;Andante in E-flat Major, Op. 9, No. 2;32;2017;classical;0,435;0,0333;0,0641
+Claude Debussy;Debussy: Piano Trio in G Major, L. 5: II. Scherzo - Intermezzo - Moderato con allegro;34;2017;classical;0,394;0,0366;0,34
+Felix Mendelssohn;"Overture to ""A Midsummer Night's Dream"", Op. 21: Tempo primo";35;2017;classical;0,24;0,0373;0,0519
+Ludwig van Beethoven;"Piano Sonata No. 14 in C-Sharp Minor, Op. 27, No. 2 ""Moonlight"": I. Adagio sostenuto";31;2017;classical;0,337;0,0191;0,116
+Frédéric Chopin;Chopin: Nocturne No. 4 in F Major, Op. 15 No. 1;34;2017;classical;0,253;0,0264;0,0384
+Frédéric Chopin;Rondo à la Krakowiak in F Major, Op. 14: Introduzione. Andantino quasi Allegretto - Allegro molto;34;2017;classical;0,305;0,00793;0,0698
+Claude Debussy;Debussy: Piano Trio in G Major, L. 5: I. Andantino con moto allegro;33;2017;classical;0,148;0,108;0,178
+Frédéric Chopin;Mazurka in F Minor, Op. Posth. 68: No. 4 Andantino;33;2017;classical;0,297;0,00618;0,149
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: III. Allegro scherzando;33;2017;classical;0,235;0,144;0,0396
+Frédéric Chopin;Chopin: Nocturne No. 21 in C Minor, Op. posth.;29;2017;classical;0,283;0,00952;0,0486
+Sergei Rachmaninoff;6 Songs, Op. 38: No. 3. Daisies (version for piano);31;2017;classical;0,44;0,0542;0,127
+Claude Debussy;Debussy: Piano Trio in G Major, L. 5: IV. Finale - Appassionato;31;2017;classical;0,257;0,202;0,161
+Claude Debussy;Debussy: Cello Sonata in D Minor, L. 135: I. Prologue;30;2017;classical;0,162;0,0241;0,143
+Claude Debussy;Debussy / Orch. Koechlin: Khamma, CD 132, L. 125;28;2017;classical;0,0671;0,0146;0,036
+Claude Debussy;Images I, L. 110: I. Reflets dans l'eau;29;2017;classical;0,331;0,0172;0,0305
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: III. Finale - alla breve;28;2017;classical;0,255;0,208;0,0557
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: II. Intermezzo - Adagio;29;2017;classical;0,138;0,0478;0,037
+Frédéric Chopin;Nocturne in C-Sharp Minor, B. 49 (Arr. for Theremin & Piano);25;2017;classical;0,165;0,0405;0,109
+Ludwig van Beethoven;String Quartet No. 14 in C-Sharp Minor, Op. 131: III. Allegro moderato;29;2017;classical;0,335;0,00568;0,192
+Frédéric Chopin;Chopin: Nocturne No. 20 in C-Sharp Minor, Op. posth.;26;2017;classical;0,255;0,0106;0,0939
+Felix Mendelssohn;"Overture to ""A Midsummer Night's Dream"", Op. 21: Allegro di molto";26;2017;classical;0,278;0,0756;0,134
+Ludwig van Beethoven;Trio n°3, Op. 1: II. Andante cantabile con variazoni;24;2017;classical;0,262;0,0305;0,247
+Frédéric Chopin;"Études, Op. 10: No. 1 in C Major ""Waterfall""";21;2017;classical;0,135;0,316;0,277
+Claude Debussy;Children's Corner, L. 113: I. Doctor Gradus Ad Parnassum;26;2017;classical;0,186;0,0296;0,0432
+Claude Debussy;Debussy: Fantaisie for Piano and Orchestra, CD 72, L. 73: I. Andante - Allegro;25;2017;classical;0,232;0,122;0,0376
+Sergei Rachmaninoff;12 Songs, Op. 21: No. 5. Lilacs (version for piano);26;2017;classical;0,157;0,111;0,152
+Ludwig van Beethoven;Beethoven: Trio for Oboe, Clarinet and Bassoon C Major, Op. 87: II. Adagio;28;2017;classical;0,209;0,0407;0,0788
+Frédéric Chopin;Fantaisie-Impromptu in C-Sharp Minor, Op. 66;21;2017;classical;0,155;0,0522;0,0585
+Ludwig van Beethoven;Beethoven: Trio for Piano, Flute and Bassoon in G Major, WoO 37: II. Adagio;23;2017;classical;0,194;0,0505;0,119
+Claude Debussy;Suite bergamasque, L. 75: I. Prélude;23;2017;classical;0,232;0,0455;0,144
+Ludwig van Beethoven;Trio n°3, Op. 1: I. Allegro con brio;24;2017;classical;0,26;0,0473;0,162
+Frédéric Chopin;Andante Spianato & Grande Polonaise Brillante in G Major / E-Flat Major, Op. 22: Andante spianato. Tranquillo - Semplice;28;2017;classical;0,202;0,00662;0,0575
+Felix Mendelssohn;A Midsummer Night's Dream, Incidental Music, Op. 61: No. 1, Scherzo;23;2017;classical;0,505;0,133;0,584
+Frédéric Chopin;3 Valses, Op. 64: No. 2 in C-Sharp Minor. Tempo giusto;25;2017;classical;0,273;0,0207;0,16
+Claude Debussy;Suite bergamasque, L. 75: IV. Passepied;24;2017;classical;0,362;0,0287;0,18
+Claude Debussy;Printemps, L. 61: I. Très modéré;21;2017;classical;0,14;0,0403;0,033
+Frédéric Chopin;Rondo à la Krakowiak in F Major, Op. 14: Rondo. Allegro non troppo - Poco meno mosso;24;2017;classical;0,338;0,158;0,13
+Claude Debussy;Debussy: Syrinx, L. 129;22;2017;classical;0,143;0,0151;0,0691
+Frédéric Chopin;Chopin: Nocturne No. 1 in B-Flat Minor, Op. 9 No. 1;27;2017;classical;0,308;0,0202;0,0368
+Claude Debussy;Children's Corner, L. 113: VI. Golliwog's Cakewalk;23;2017;classical;0,391;0,0271;0,31
+Claude Debussy;Debussy: Arabesques, L. 74: No. 1;17;2017;classical;0,274;0,0823;0,158
+Felix Mendelssohn;"Symphony No. 4 in A Major, Op. 90 ""Italian"": III. Con moto moderato - 2017 Remastered Version";24;2017;classical;0,209;0,163;0,121
+Frédéric Chopin;3 Valses, Op. 64: No. 3 in A-Flat Major. Moderato;21;2017;classical;0,154;0,0494;0,152
+Felix Mendelssohn;Songs without Words, Op. 19, No. 1 in E Major: Andante con moto;23;2017;classical;0,24;0,0378;0,143
+Felix Mendelssohn;A Midsummer Night's Dream, Incidental Music, Op. 61: No. 7, Nocturne. Con moto tranquillo;22;2017;classical;0,173;0,0115;0,0353
+Frédéric Chopin;Fantasy-Impromptu in C-Sharp Minor, Op. 66;18;2017;classical;0,193;0,0447;0,204
+Ludwig van Beethoven;Symphony No. 5 in C Minor, Op. 67: II. Andante con moto;22;2017;classical;0,134;0,0131;0,0501
+Franz Liszt;Consolations, S. 172: No. 3 in D-Flat Major. Lento placido;23;2017;classical;0,291;0,00493;0,0775
+Claude Debussy;Images I, L. 110: II. Hommage à Rameau;22;2017;classical;0,442;0,00575;0,0386
+Claude Debussy;Children's Corner, L. 113: IV. The Snow is Dancing;21;2017;classical;0,202;0,0222;0,117
+Frédéric Chopin;Nocturne in E-Flat Major, Op. 9 No. 2;20;2017;classical;0,32;0,0139;0,0402
+Claude Debussy;Images I, L. 110: III. Mouvement;20;2017;classical;0,267;0,06;0,0377
+Claude Debussy;Suite bergamasque, L. 75: II. Menuet;20;2017;classical;0,286;0,0322;0,0812
+Ludwig van Beethoven;Piano Concerto No. 2 in B-Flat Major, Op. 19: II. Adagio;13;2017;classical;0,195;0,0402;0,07
+Ludwig van Beethoven;Piano Concerto No. 2 in B-Flat Major, Op. 19: I. Allegro con brio;12;2017;classical;0,365;0,125;0,325
+Ludwig van Beethoven;Piano Concerto No. 2 in B-Flat Major, Op. 19: III. Rondo. Molto allegro;12;2017;classical;0,36;0,22;0,592
+Ludwig van Beethoven;Piano Concerto No. 1 in C Major, Op. 15: III. Rondo. Allegro scherzando;12;2017;classical;0,372;0,162;0,316
+Ludwig van Beethoven;"Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": III. Presto agitato";19;2017;classical;0,311;0,0957;0,15
+Ludwig van Beethoven;Triple Concerto for Violin, Cello & Piano in C Major, Op. 56: II. Largo;20;2017;classical;0,174;0,0138;0,0378
+Claude Debussy;Children's Corner, L. 113: V. The Little Shepherd;22;2017;classical;0,401;0,00216;0,26
+Felix Mendelssohn;"Symphony No. 4 in A Major, Op. 90 ""Italian"": I. Allegro vivace - 2017 Remastered Version";19;2017;classical;0,265;0,358;0,303
+Ludwig van Beethoven;Piano Concerto No. 1 in C Major, Op. 15: I. Allegro con brio;12;2017;classical;0,348;0,092;0,152
+Ludwig van Beethoven;Piano Concerto No. 1 in C Major, Op. 15: II. Largo;12;2017;classical;0,266;0,0114;0,0765
+Sergei Rachmaninoff;Rhapsody on a Theme by Paganini, Op. 43: Var. 18. Andante cantabile - Remastered 2013;17;2017;classical;0,166;0,0591;0,0394
+Frédéric Chopin;Nocturne in C-Sharp Minor, B. 49;20;2017;classical;0,272;0,0122;0,0711
+Claude Debussy;Images II, L. 111: I. Cloches à travers les feuilles;19;2017;classical;0,237;0,0102;0,0296
+Frédéric Chopin;Waltz in A Minor, Op. Posth., B. 150;53;2018;classical;0,461;0,0457;0,122
+Claude Debussy;Préludes / Book 1, L. 117: VIII. La fille aux cheveux de lin;51;2018;classical;0,345;0,00421;0,131
+Claude Debussy;2 Arabesques, L. 66: I. Andantino con moto;48;2018;classical;0,373;0,00783;0,0815
+Frédéric Chopin;Nocturne in C-Sharp Minor, KK IVa No. 16;42;2018;classical;0,275;0,00661;0,0863
+Frédéric Chopin;3 Grandes valses brillantes, Op. 34: No. 2 in A Minor;44;2018;classical;0,33;0,0102;0,101
+Ludwig van Beethoven;Piano Sonata No.20 in G Major, Op. 49 No.2: II. Tempo di Menuetto;39;2018;classical;0,291;0,0573;0,428
+Sergei Rachmaninoff;Prelude in G Minor, Op. 23, No. 5 - Live at Philharmonie, Berlin / 2018;40;2018;classical;0,394;0,216;0,176
+Frédéric Chopin;Nocturne in F-Sharp Minor, Op. 48 No. 2;41;2018;classical;0,37;0,0454;0,11
+Claude Debussy;Debussy: Suite bergamasque, CD 82, L. 75: III. Clair de lune;42;2018;classical;0,387;0,0503;0,061
+Claude Debussy;Deux Arabesques, CD. 74: I. Andantino con moto;41;2018;classical;0,32;0,00784;0,0791
+Ludwig van Beethoven;Egmont Overture, Op. 84 - Remastered;35;2018;classical;0,286;0,125;0,0863
+Claude Debussy;Clair de lune, CD 82/3 (Arr. Koncz);36;2018;classical;0,205;0,0352;0,0379
+Frédéric Chopin;Nocturne in D-Flat Major, Op. 27 No. 2;36;2018;classical;0,375;0,0303;0,0667
+Frédéric Chopin;Nocturne in C-Sharp Minor, Op. 27 No. 1;38;2018;classical;0,307;0,0275;0,0388
+Claude Debussy;Debussy: Preludes, Book 1, L. 117: II. Voiles;36;2018;classical;0,296;0,00564;0,033
+Frédéric Chopin;Nocturne in F Major, Op. 15 No.1;34;2018;classical;0,259;0,00618;0,051
+Felix Mendelssohn;"Symphony No. 2 in B-Flat Major, Op. 52, MWV A18 ""Lobgesang"": Ib. Allegretto un poco agitato";33;2018;classical;0,212;0,0293;0,104
+Frédéric Chopin;Nocturne No. 9 in B, Op. 32 No. 1;34;2018;classical;0,361;0,048;0,0507
+Frédéric Chopin;Waltzes, Op. 69: I. Lento in A-Flat Major;27;2018;classical;0,308;0,00638;0,0607
+Frédéric Chopin;Waltz in C-Sharp Minor, Op. 64 No. 2;34;2018;classical;0,257;0,0253;0,155
+Frédéric Chopin;Waltz in B Minor, Op. 69 No. 2 (Ed. J. Fontana);33;2018;classical;0,442;0,0273;0,264
+Sergei Rachmaninoff;Symphony No. 3 in A Minor, Op. 44: I. Lento - Allegro moderato - Allegro;33;2018;classical;0,0906;0,0213;0,0387
+Frédéric Chopin;Nocturne No. 1 in B flat minor, Op. 9 No. 1;33;2018;classical;0,366;0,00931;0,0393
+Claude Debussy;Debussy: Preludes, Book 1, L. 117: VIII. La fille aux cheveux de lin;31;2018;classical;0,399;0,00605;0,129
+Frédéric Chopin;Piano Concerto No. 1 in E Minor, Op. 11: III. Rondo (Vivace);24;2018;classical;0,339;0,112;0,164
+Claude Debussy;Préludes, Book 1, L. 117: No. 6, Des pas sur la neige;31;2018;classical;0,402;0,000943;0,0905
+Frédéric Chopin;Nocturne in C Minor, Op. 48 No. 1;32;2018;classical;0,276;0,0784;0,0386
+Frédéric Chopin;Preludes, Op. 28: No. 13, Lento;27;2018;classical;0,332;0,00301;0,216
+Claude Debussy;Debussy: Preludes, Book 1, L. 117: V. Les collines d'Anacapri;31;2018;classical;0,289;0,114;0,107
+Felix Mendelssohn;"Symphony No. 4 in A Major, Op. 90, MWV N16 ""Italian"": I. Allegro vivace";33;2018;classical;0,299;0,187;0,231
+Frédéric Chopin;"Waltz in A-Flat Major, Op. 69 No. 1 ""L'adieu"" (Ed. J. Fontana)";29;2018;classical;0,344;0,0157;0,145
+Frédéric Chopin;Nocturne in C Minor, B. 108;26;2018;classical;0,293;0,00773;0,0755
+Frédéric Chopin;Mazurkas, Op. 24: I. Lento in G Minor;26;2018;classical;0,325;0,0062;0,0791
+Claude Debussy;Estampes, L. 100: I. Pagodes;32;2018;classical;0,332;0,0362;0,0612
+Frédéric Chopin;Mazurkas, Op. 67: III. Allegretto in C Major;25;2018;classical;0,425;0,0134;0,076
+Frédéric Chopin;Nocturnes, Op. 37: I. Andante sostenuto in G Minor;24;2018;classical;0,434;0,0063;0,11
+Frédéric Chopin;Nocturnes, Op. 55: I. Andante in F Minor;24;2018;classical;0,405;0,00728;0,0803
+Frédéric Chopin;Nocturnes, Op. 9: II. Andante in E-Flat Major;25;2018;classical;0,451;0,0167;0,0527
+Frédéric Chopin;"Waltz in D-Flat Major, Op. 64 No. 1 ""Minute""";29;2018;classical;0,342;0,0811;0,269
+Frédéric Chopin;Nocturne in E Minor, Op. 72 No. 1;24;2018;classical;0,343;0,00539;0,0709
+Frédéric Chopin;Preludes, Op. 28: No. 4, Largo in E Minor;24;2018;classical;0,474;0,00408;0,0378
+Claude Debussy;Estampes, L. 100: II. La soirée dans Grenade;30;2018;classical;0,346;0,0152;0,0432
+Frédéric Chopin;Nocturnes, Op. 9: No. 2, Andante in E-Flat Major;29;2018;classical;0,377;0,113;0,11
+Frédéric Chopin;Preludes, Op. 28: No. 6, Lento assai in B Minor;24;2018;classical;0,505;0,00357;0,151
+Frédéric Chopin;Preludes, Op. 28: No. 15, Sostenuto in D-Flat Major;23;2018;classical;0,395;0,00371;0,048
+Frédéric Chopin;Waltzes, Op. 69: II. Moderato in B Minor;23;2018;classical;0,436;0,011;0,145
+Frédéric Chopin;Preludes, Op. 28: No. 7, Andantino in A Major;24;2018;classical;0,603;0,00346;0,212
+Claude Debussy;Estampes, L. 100: III. Jardins sous la pluie;29;2018;classical;0,281;0,122;0,0431
+Claude Debussy;2 Arabesques, L. 66: I. Andantino con moto in E Major;28;2018;classical;0,263;0,0673;0,0786
+Claude Debussy;Debussy: Préludes, Livre I, CD 125, L. 117: No. 8, La fille aux cheveux de lin;21;2018;classical;0,266;0,00331;0,163
+Claude Debussy;Élégie, L. 138;28;2018;classical;0,242;0,00209;0,203
+Felix Mendelssohn;"Symphony No. 5 in D Major, Op. 107, MWV N15 ""Reformation"": II. Allegro vivace";29;2018;classical;0,336;0,0878;0,242
+Claude Debussy;Préludes / Book 1, L. 117: I. Danseuses de Delphes;28;2018;classical;0,49;0,00229;0,0816
+Claude Debussy;Préludes / Book 1, L. 117: II. Voiles;27;2018;classical;0,232;0,00267;0,0321
+Sergei Rachmaninoff;6 Romances, Op. 4 - Transcr. for cello and piano by Rachmaninov: 3. The secret night;20;2018;classical;0,25;0,117;0,0694
+Claude Debussy;Préludes / Book 1, L. 117: III. Le vent dans la plaine;27;2018;classical;0,292;0,0277;0,0536
+Claude Debussy;Debussy: 2 Arabesques, CD 74, L. 66: No. 1, Andantino con moto;19;2018;classical;0,274;0,0823;0,158
+Claude Debussy;Préludes / Book 1, L. 117: IV. Les sons et les parfums tournent dans l'air du soir;26;2018;classical;0,411;0,00402;0,0358
+Frédéric Chopin;Ballade No. 1 in G Minor, Op. 23;18;2018;classical;0,24;0,0906;0,0387
+Frédéric Chopin;"Waltz in E-Flat Major, Op. 18 ""Grande valse brillante""";25;2018;classical;0,482;0,0746;0,324
+Claude Debussy;Préludes / Book 1, L. 117: V. Les collines d'Anacapri;26;2018;classical;0,365;0,0741;0,138
+Ludwig van Beethoven;Violin Sonata No. 7 in C Minor, Op. 30, No. 2: II. Adagio cantabile;22;2018;classical;0,332;0,0367;0,199
+Claude Debussy;Préludes, Book 2, L. 123: No. 12, Feux d'artifice;24;2018;classical;0,35;0,0926;0,032
+Felix Mendelssohn;"Symphony No. 4 in A Major, Op. 90, MWV N16 ""Italian"": III. Con moto moderato";24;2018;classical;0,213;0,0222;0,0991
+Claude Debussy;Préludes / Book 1, L. 117: VI. Des pas sur la neige;26;2018;classical;0,399;0,000867;0,0469
+Claude Debussy;Préludes / Book 1, L. 117: X. La cathédrale engloutie;25;2018;classical;0,525;0,00251;0,0549
+Franz Liszt;Valses oubliées, S. 215: No. 1, —;25;2018;classical;0,316;0,0736;0,0566
+Claude Debussy;Préludes / Book 1, L. 117: VII. Ce qu'a vu le vent d'ouest;25;2018;classical;0,251;0,152;0,0336
+Sergei Rachmaninoff;Variations on a Theme of Corelli, Op. 42;24;2018;classical;0,313;0,0258;0,0676
+Claude Debussy;Préludes / Book 1, L. 117: IX. La sérénade interrompue;24;2018;classical;0,282;0,0244;0,0663
+Frédéric Chopin;Waltz in E Minor, Op. Posth., B. 56;24;2018;classical;0,412;0,0686;0,166
+Claude Debussy;Suite bergamasque, L. 75: III. Clair de lune. Andante très expressif;25;2018;classical;0,44;0,00338;0,0717
+Claude Debussy;Deux arabesques, L. 66: No. 1 Andante con moto;25;2018;classical;0,347;0,0248;0,0825
+Frédéric Chopin;Nocturne No. 20 in C-Sharp Minor, Op. posth. (Arr. for Violin and Piano by Milstein);28;2018;classical;0,238;0,0639;0,0385
+Ludwig van Beethoven;ベートーヴェン:ピアノ・ソナタ 第8番 ハ短調 作品13《悲愴》 - II. ADAGIO CANTABILE;33;2018;classical;0,376;0,00473;0,101
+Sergei Rachmaninoff;10 Préludes, Op. 23: No. 5. Alla marcia in G Minor;26;2018;classical;0,379;0,162;0,0814
+Sergei Rachmaninoff;Symphony No. 2 in E Minor, Op. 27: III. Adagio - Live;19;2018;classical;0,107;0,0281;0,0334
+Claude Debussy;Préludes / Book 1, L. 117: XI. La danse de Puck;23;2018;classical;0,308;0,0268;0,0362
+Sergei Rachmaninoff;13 Préludes, Op. 32: No. 5. Moderato in G Major;21;2018;classical;0,236;0,00581;0,109
+Claude Debussy;Préludes / Book 1, L. 117: XII. Minstrels;23;2018;classical;0,476;0,0437;0,287
+Frédéric Chopin;12 Etudes, Op. 10: No. 12 In C Minor;21;2018;classical;0,328;0,261;0,124
+Felix Mendelssohn;"Lieder ohne Worte, Op. 19: No. 6 in G Minor (Andante sostenuto) ""Venetian Gondola Song"", MWV U78";54;2019;classical;0,295;0,00799;0,192
+Franz Liszt;Liebestraum (Love Dream);48;2019;classical;0,337;0,143;0,038
+Frédéric Chopin;Berceuse in D-Flat Major, Op. 57;44;2019;classical;0,276;0,0708;0,137
+Felix Mendelssohn;Mendelssohn: 3 Fantaisies, Op. 16: III. Andante;44;2019;classical;0,296;0,0179;0,0727
+Ludwig van Beethoven;"Piano Concerto No. 5 in E-Flat Major, Op. 73 ""Emperor"": II. Adagio un poco mosso - Live at Konzerthaus Berlin / 2018";44;2019;classical;0,166;0,0363;0,039
+Ludwig van Beethoven;"Piano Sonata No. 14 in C-sharp minor, Op. 27, No. 2, ""Moonlight"": I. Adagio sostenuto";47;2019;classical;0,141;0,00123;0,0843
+Ludwig van Beethoven;"Piano Sonata No. 21 in C Major, Op. 53, ""Waldstein"": I. Allegro con brio";43;2019;classical;0,2;0,0967;0,0845
+Felix Mendelssohn;"Lieder ohne Worte, Book 2, Op. 30 (Excerpts): No. 6 in F-Sharp Minor, MWV U 110 ""Venetianisches Gondellied""";44;2019;classical;0,345;0,0129;0,0399
+Ludwig van Beethoven;Piano Concerto No. 5 in E-Flat Major, Op. 73: II. Adagio un poco mosso;43;2019;classical;0,208;0,0298;0,0392
+Claude Debussy;Rêverie, CD 76;44;2019;classical;0,378;0,0154;0,0746
+Ludwig van Beethoven;Allegretto for String Quartet in B, WoO 210;44;2019;classical;0,326;0,0874;0,192
+Franz Liszt;Liszt: 6 Consolations, S. 172: V. Andantino;40;2019;classical;0,25;0,0146;0,0804
+Ludwig van Beethoven;Cello Sonata in G Minor, Op. 5 No. 2: I. Adagio sostenuto e espressivo - Allegro molto più tosto presto;39;2019;classical;0,205;0,0467;0,0975
+Ludwig van Beethoven;"Piano Sonata No. 8 in C minor, Op. 13, ""Pathétique"": II. Adagio cantabile";41;2019;classical;0,234;0,00304;0,0865
+Ludwig van Beethoven;Piano Sonata No. 1 in F Minor, Op. 2, No. 1: II. Adagio;39;2019;classical;0,337;0,00585;0,175
+Ludwig van Beethoven;String Quartet No. 13 in B-Flat Major, Op. 130: 2. Presto;33;2019;classical;0,462;0,0805;0,384
+Ludwig van Beethoven;String Quartet No. 3 in D Major, Op. 18 No. 3: III. Allegro;33;2019;classical;0,355;0,0568;0,223
+Sergei Rachmaninoff;13 Préludes, Op. 32: No. 5 in G Major. Moderato;35;2019;classical;0,192;0,00577;0,0503
+Ludwig van Beethoven;"Beethoven: String Quartet No. 7 in F Major, Op. 59 No. 1, ""Razumovsky"": IV. Allegro (Russian Theme)";34;2019;classical;0,423;0,344;0,329
+Franz Liszt;Liszt: 6 Consolations, S. 172: III. Lento placido;33;2019;classical;0,2;0,00696;0,128
+Franz Liszt;Chopin / Arr. Liszt: 6 Polish Songs, S. 480: II. Frühling (After Chopin Op. 74 No. 2);33;2019;classical;0,25;0,00776;0,199
+Claude Debussy;Suite bergamasque, CD 82: III. Clair de lune;37;2019;classical;0,33;0,0156;0,038
+Ludwig van Beethoven;"Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": Adagio sostenuto (Excerpt)";34;2019;classical;0,32;0,0108;0,311
+Frédéric Chopin;Nocturne in C Minor, Op. Posthumous;33;2019;classical;0,33;0,0369;0,0904
+Frédéric Chopin;Nocturnes, Op. 9: No. 2 in E-Flat Major (Andante);26;2019;classical;0,405;0,0113;0,0392
+Sergei Rachmaninoff;Sonata In G Minor For Cello & Piano, Op. 19: 3. Andante;27;2019;classical;0,194;0,0367;0,0673
+Frédéric Chopin;"24 Préludes, Op. 28: No. 15 in D Flat Major. Sostenuto ""Raindrop""";35;2019;classical;0,416;0,0325;0,062
+Ludwig van Beethoven;String Quartet No. 13 in B-Flat Major, Op. 130: V. Cavatina. Adagio molto espressivo;26;2019;classical;0,107;0,0268;0,037
+Claude Debussy;Children's Corner, CD 119: I. Doctor Gradus ad Parnassum;33;2019;classical;0,237;0,0668;0,0448
+Claude Debussy;Debussy: Beau Soir, L.6;30;2019;classical;0,199;0,0406;0,037
+Felix Mendelssohn;"Lieder ohne Worte, Op. 67: No. 4 in C Major. Presto ""Spinning Song""";33;2019;classical;0,388;0,359;0,5
+Frédéric Chopin;Impromptu No. 2 in F-Sharp Major, Op. 36;30;2019;classical;0,263;0,0478;0,043
+Frédéric Chopin;Fantaisie Impromptu in C-Sharp Minor, Op. 66;26;2019;classical;0,185;0,125;0,109
+Frédéric Chopin;Nocturne No. 1 in B-Flat Minor, Op. 9 No. 1;33;2019;classical;0,329;0,0162;0,0378
+Frédéric Chopin;Nocturne in F Minor, Op. 55 No. 1;29;2019;classical;0,307;0,0455;0,124
+Felix Mendelssohn;Lieder ohne Worte, Op. 62: VI. Frühlingslied (Arr. by Fritz Kreisler for Violin and Piano);20;2019;classical;0,269;0,0658;0,284
+Ludwig van Beethoven;"Beethoven: Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto (Excerpt)";32;2019;classical;0,214;0,0127;0,297
+Franz Liszt;"Liszt: Années de pèlerinage, Troisième année, ""Italie"", S. 163: IV. Les Jeux d'eaux á la Villa d'Este";24;2019;classical;0,295;0,162;0,0381
+Ludwig van Beethoven;Piano Sonata No. 1 in F Minor, Op. 2, No. 1: I. Allegro;29;2019;classical;0,46;0,0571;0,175
+Felix Mendelssohn;Piano Concerto No. 1 in G Minor, Op. 25, MWV O7: I. Molto allegro con fuoco;27;2019;classical;0,479;0,192;0,293
+Franz Liszt;Liszt: 献呈(シューマンの歌曲による) S.566;31;2019;classical;0,287;0,0843;0,0553
+Ludwig van Beethoven;Piano Sonata No. 30 in E Major, Op. 109: 3. Gesangvoll, mit innigster Empfindung (Andante molto cantabile ed espressivo);24;2019;classical;0,348;0,103;0,0611
+Sergei Rachmaninoff;Vocalise, Op. 34, No. 14 (Arr. for Piano by Trifonov );25;2019;classical;0,238;0,00503;0,0666
+Sergei Rachmaninoff;Symphony No. 2, Op. 27: III. Adagio;22;2019;classical;0,0823;0,0654;0,0357
+Ludwig van Beethoven;Piano Concerto No. 5 in E-Flat Major, Op. 73: I. Allegro;22;2019;classical;0,371;0,164;0,108
+Ludwig van Beethoven;Piano Concerto No. 3 in C Minor, Op. 37: I. Allegro con brio;22;2019;classical;0,342;0,134;0,102
+Ludwig van Beethoven;"Piano Sonata No. 14 in C-sharp minor, Op. 27, No. 2, ""Moonlight"": II. Allegretto";22;2019;classical;0,421;0,013;0,383
+Ludwig van Beethoven;"Piano Sonata No. 15 in D Major, Op. 28, ""Pastorale"": IV. Rondo. Allegro ma non troppo";24;2019;classical;0,251;0,0505;0,172
+Ludwig van Beethoven;Piano Sonata No. 12 in A-Flat Major, Op. 26: I. Andante con variazioni;23;2019;classical;0,255;0,0126;0,178
+Ludwig van Beethoven;Piano Sonata No. 2 in A Major, Op. 2, No. 2: III. Scherzo. Allegretto;24;2019;classical;0,289;0,0264;0,172
+Ludwig van Beethoven;Beethoven: Symphony No. 7 in A Major, Op. 92: II. Allegretto (Excerpt);23;2019;classical;0,239;0,0356;0,0492
+Frédéric Chopin;Nocturne No. 8 in D-Flat Major, Op. 27 No. 2;24;2019;classical;0,344;0,0126;0,0516
+Ludwig van Beethoven;"Piano Sonata No. 15 in D Major, Op. 28, ""Pastorale"": III. Scherzo. Allegro vivace";23;2019;classical;0,419;0,0483;0,228
+Ludwig van Beethoven;String Quartet No. 13 in B-Flat Major, Op. 130: 5. Cavatina. Adagio molto espressivo;24;2019;classical;0,102;0,0171;0,0362
+Ludwig van Beethoven;Piano Concerto No. 4 in G Major, Op. 58: I. Allegro moderato;21;2019;classical;0,297;0,151;0,0634
+Felix Mendelssohn;"Songs Without Words, Op. 62: No. 6, Allegretto grazioso in A Major ""Spring Song""";24;2019;classical;0,174;0,162;0,183
+Ludwig van Beethoven;Piano Sonata No. 1 in F Minor, Op. 2, No. 1: IV. Prestissimo;26;2019;classical;0,42;0,0667;0,162
+Ludwig van Beethoven;No. 31, Op. 110: III. Adagio ma non troppo – Fuga: Allegro ma non troppo;21;2019;classical;0,377;0,0245;0,0376
+Claude Debussy;Bruyères - Home Session;60;2020;classical;0,3;0,0405;0,233
+Sergei Rachmaninoff;12 Songs, Op. 21: V. Lilacs (Transcr. Rachmaninoff for Solo Piano);54;2020;classical;0,168;0,00571;0,0705
+Claude Debussy;Préludes / Book 1, L. 117: 8. La fille aux cheveux de lin;50;2020;classical;0,285;0,00464;0,216
+Franz Liszt;Consolations, S. 172: No. 3, Lento placido;53;2020;classical;0,269;0,00229;0,0882
+Frédéric Chopin;Nocturne No. 19 in E Minor, Op. 72, No. 1;51;2020;classical;0,331;0,00735;0,0944
+Ludwig van Beethoven;Rage Over A Lost Penny, Op. 129;41;2020;classical;0,363;0,193;0,325
+Frédéric Chopin;Nocturne in C Sharp;51;2020;classical;0,261;0,279;0,0619
+Ludwig van Beethoven;"Beethoven: Piano Sonata No. 8 in C Minor, Op. 13, ""Pathétique"": II. Adagio cantabile";46;2020;classical;0,286;0,0028;0,123
+Ludwig van Beethoven;Eroica Dance (Arr. for Piano from Symphony No. 3 in E-Flat Major, Op. 55 by Martin Stadtfeld );42;2020;classical;0,348;0,175;0,42
+Ludwig van Beethoven;Andante in C Major, WoO 211;43;2020;classical;0,5;0,0171;0,39
+Claude Debussy;La Fille aux Cheveux de Lin;39;2020;classical;0,465;0,00696;0,0396
+Ludwig van Beethoven;Beethoven: Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio;38;2020;classical;0,305;0,175;0,161
+Ludwig van Beethoven;Triple Concerto in C Major, Op. 56: 2. Largo - attacca - Live at Philharmonie, Berlin / 2019;35;2020;classical;0,148;0,0978;0,039
+Claude Debussy;Debussy: Arabesque No. 1;35;2020;classical;0,307;0,0634;0,084
+Ludwig van Beethoven;Mass in C Major, Op. 86: II. Gloria;36;2020;classical;0,251;0,262;0,159
+Claude Debussy;Rêverie, L. 68 (Arr. by Badzura);37;2020;classical;0,162;0,0669;0,04
+Ludwig van Beethoven;Symphony No. 7 in A Major, Op. 92: I. Poco sostenuto. Vivace;37;2020;classical;0,331;0,165;0,143
+Ludwig van Beethoven;String Quartet No. 15 in A Minor, Op. 132: III. Molto adagio;35;2020;classical;0,0932;0,0294;0,0456
+Franz Liszt;Liszt: Wiegenlied, S. 198;35;2020;classical;0,283;0,0339;0,0701
+Frédéric Chopin;Piano Concerto No. 1 in E Minor, Op. 11: II. Romance (Larghetto);29;2020;classical;0,215;0,0228;0,0375
+Ludwig van Beethoven;Beethoven: String Quartet No. 1 in F Major, Op. 18 No. 1: III. Scherzo. Allegro molto;35;2020;classical;0,438;0,188;0,426
+Ludwig van Beethoven;"Piano Sonata No. 24 in F-Sharp Major, Op. 78 ""À Thérèse"": I. Adagio cantabile - Allegro ma non troppo";35;2020;classical;0,386;0,0461;0,127
+Felix Mendelssohn;Song Without Words, Op. 109;36;2020;classical;0,138;0,0744;0,0963
+Ludwig van Beethoven;Bagatelle in A Minor, WoO 59 ʻFür Eliseʼ;37;2020;classical;0,296;0,00718;0,128
+Frédéric Chopin;Études, Op. 25: No. 1 in A Flat Major;38;2020;classical;0,217;0,024;0,0391
+Ludwig van Beethoven;String Quartet No. 16 in F Major, Op. 135 (Excerpts Transcr. M. Mussorgsky for Piano): III. Lento assai, cantante e tranquillo;30;2020;classical;0,563;0,00143;0,225
+Ludwig van Beethoven;Piano Concerto No. 5 in E-Flat Major, Op. 73 “Emperor”: II. Adagio un poco mosso;30;2020;classical;0,285;0,0201;0,0388
+Frédéric Chopin;Etude Op. 25 : No. 11 in A Minor;35;2020;classical;0,282;0,212;0,0674
+Claude Debussy;Images For Orchestra, L. 122 / 2. Ibéria: 1. Par les rues et par les chemins;28;2020;classical;0,205;0,122;0,234
+Sergei Rachmaninoff;Rachmaninov 2nd Piano Concerto;38;2020;classical;0,104;0,215;0,0367
+Ludwig van Beethoven;Symphony No. 7 in A Major, Op. 92: III. Presto. Trio I und II. Assai meno presto;35;2020;classical;0,334;0,213;0,24
+Ludwig van Beethoven;Minuet in G Major, WoO 10, No. 2;31;2020;classical;0,254;0,0617;0,267
+Ludwig van Beethoven;Symphony No. 7 in A Major, Op. 92: IV. Allegro con brio;34;2020;classical;0,265;0,387;0,217
+Ludwig van Beethoven;Beethoven: Symphony No. 5 in C Minor, Op. 67: II. Andante con moto;33;2020;classical;0,159;0,0161;0,0528
+Ludwig van Beethoven;String Quartet No. 13 in B-Flat Major, Op. 130: V. Cavatina. Adagio molto espressivo (Transcr. M. Balakirev for Piano);28;2020;classical;0,471;0,00263;0,12
+Frédéric Chopin;Chopin: 24 Préludes, Op. 28: No. 4 in E Minor;34;2020;classical;0,256;0,00363;0,0395
+Ludwig van Beethoven;Adelaide, Op. 46;32;2020;classical;0,367;0,0824;0,156
+Ludwig van Beethoven;Triple Concerto in C Major, Op. 56: III. Rondo alla Polacca - Live at Philharmonie, Berlin / 2019;31;2020;classical;0,366;0,303;0,347
+Claude Debussy;Beau Soir, L.6 (Arr. Gretchaninov);29;2020;classical;0,174;0,0146;0,0661
+Ludwig van Beethoven;Beethoven: Symphony No. 5 in C Minor, Op. 67: III. Allegro -;31;2020;classical;0,242;0,0618;0,306
+Frédéric Chopin;Chopin: Nocturne No.1 in B flat minor, Op.9 No.1;23;2020;classical;0,265;0,0179;0,0381
+Frédéric Chopin;"Chopin: 24 Préludes, Op. 28: No. 15 in D-Flat Major, ""Raindrop""";31;2020;classical;0,411;0,00455;0,113
+Ludwig van Beethoven;Beethoven: Symphony No. 5 in C Minor, Op. 67: IV. Allegro - Presto;30;2020;classical;0,25;0,251;0,356
+Ludwig van Beethoven;Beethoven: Symphony No.5 in C minor, Op.67: 1. Allegro con brio;32;2020;classical;0,341;0,298;0,212
+Sergei Rachmaninoff;Zdes' khorosho, Op. 21, No. 7;27;2020;classical;0,206;0,0353;0,0376
+Frédéric Chopin;Prelude, Op. 28, No. 4;33;2020;classical;0,266;0,00275;0,0432
+Ludwig van Beethoven;String Quartet in F Major, Hess 32: IV. Allegretto;29;2020;classical;0,483;0,0831;0,387
+Claude Debussy;Préludes / Book 1, L. 117 - Arr. Dan Golding: Minstrels;27;2020;classical;0,464;0,0954;0,215
+Ludwig van Beethoven;11 Bagatelles, Op. 119: XI. Andante, ma non troppo - Live at Historische Stadthalle Wuppertal / 2019;29;2020;classical;0,409;0,0943;0,369
+Ludwig van Beethoven;"Beethoven: Piano Trio No. 7 in B-Flat Major, Op. 97, ""Archduke"": II. Scherzo. Allegro";29;2020;classical;0,404;0,0538;0,326
+Ludwig van Beethoven;Coriolan Overture, Op. 62;32;2020;classical;0,255;0,207;0,18
+Claude Debussy;Bruyères;26;2020;classical;0,36;0,0476;0,0749
+Ludwig van Beethoven;Polonaise in C Major, Op. 89;28;2020;classical;0,403;0,0831;0,137
+Frédéric Chopin;Etude Op. 10 : No. 1 in C Major;28;2020;classical;0,305;0,119;0,0835
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 2 in A Major, Op. 2 No. 2: III. Scherzo (Allegretto);29;2020;classical;0,37;0,047;0,275
+Sergei Rachmaninoff;Variations on a Theme of Corelli, Op. 42: Variation XIV;28;2020;classical;0,504;0,00241;0,216
+Sergei Rachmaninoff;14 Romances, Op. 34: No. 14 Vocalise (Arr. Kocsis for Piano);27;2020;classical;0,391;0,0159;0,0389
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: I. Moderato (2);28;2020;classical;0,256;0,018;0,0388
+Felix Mendelssohn;Capriccio brillant, Op. 22: Andante;56;2021;classical;0,247;0,00505;0,0391
+Frédéric Chopin;Waltz No. 19 in A Minor, KK IVb (Version for Harp in A Flat Minor);54;2021;classical;0,391;0,0939;0,101
+Sergei Rachmaninoff;Zdes' khorosho ('How Fair This Spot'), Op. 21, No. 7;54;2021;classical;0,254;0,0176;0,0637
+Felix Mendelssohn;"Lieder ohne Worte, Op. 19: No. 6 Andante sostenuto ""Venetianisches Gondellied"" (Arr. Ottensamer for Clarinet and Strings)";51;2021;classical;0,323;0,0326;0,155
+Frédéric Chopin;"24 Preludes, Op. 28: No. 15 in D Flat Major. Sostenuto ""Raindrop""";48;2021;classical;0,401;0,0127;0,0691
+Frédéric Chopin;Sonata In G Minor For Cello & Piano, Op. 65: 3. Largo;40;2021;classical;0,0849;0,00841;0,0528
+Sergei Rachmaninoff;Rachmaninov: Rhapsody on a Theme of Paganini, Op. 43: Variation XVIII. Andante cantabile;44;2021;classical;0,156;0,0273;0,0415
+Franz Liszt;La Campanella;47;2021;classical;0,374;0,298;0,311
+Franz Liszt;Ave Maria, S. 558 (after Schubert, D. 839);44;2021;classical;0,335;0,0287;0,0371
+Frédéric Chopin;Nocturnes, Op. 27: No. 2 in D Flat Major. Lento sostenuto;43;2021;classical;0,224;0,00647;0,0393
+Sergei Rachmaninoff;12 Romances, Op. 21: No. 7, How Fair This Spot (Arr. Sheku Kanneh-Mason for Cello and Piano);42;2021;classical;0,156;0,0645;0,0363
+Ludwig van Beethoven;Piano Sonata in C Major, WoO 51: II. Adagio;41;2021;classical;0,194;0,0269;0,137
+Ludwig van Beethoven;"Beethoven: Sonata No. 23 in F Minor, Op. 57, ""Appassionata"": III. Allegro ma non troppo";43;2021;classical;0,284;0,177;0,126
+Frédéric Chopin;Ballade No. 3 in A Flat Major, Op. 47;34;2021;classical;0,37;0,065;0,0831
+Ludwig van Beethoven;Piano Concerto No. 2 in B Flat Major, Op. 19: II. Adagio;41;2021;classical;0,278;0,0459;0,0757
+Ludwig van Beethoven;Piano Sonata No. 8 in C Minor, Op. 13, 'Pathétique': II. Adagio cantabile;39;2021;classical;0,455;0,00468;0,164
+Frédéric Chopin;"Études, Op. 10: No. 4 in C-Sharp Minor ""Torrent"" - Live";43;2021;classical;0,37;0,213;0,375
+Claude Debussy;Rêverie, CD 76 (Arr. Cullen for Cello and Orchestra);38;2021;classical;0,141;0,0427;0,0393
+Frédéric Chopin;Chopin: Scherzo No. 3 in C-Sharp Minor, Op. 39;42;2021;classical;0,262;0,109;0,0778
+Ludwig van Beethoven;"Piano Sonata No. 25 in G Major, Op. 79 ""Cuckoo"": II. Andante";40;2021;classical;0,302;0,00648;0,0552
+Frédéric Chopin;24 Preludes, Op. 28: No. 1 in C Major. Agitato;37;2021;classical;0,246;0,144;0,0558
+Frédéric Chopin;Nocturnes, Op. 32: No. 1 in B Major. Andante sostenuto;36;2021;classical;0,29;0,00429;0,0931
+Frédéric Chopin;"Chopin: 24 Preludes, Op. 28: No.15 in D-Flat Major, ""Raindrop""";32;2021;classical;0,378;0,00592;0,0823
+Frédéric Chopin;Waltz No. 6 in D-Flat Major, Op. 64/1 'Minute Waltz';34;2021;classical;0,256;0,0794;0,195
+Claude Debussy;Debussy: Rêverie, CD 76, L. 68;33;2021;classical;0,293;0,0216;0,0507
+Frédéric Chopin;"Chopin: 12 Études, Op. 25: No. 1 in A-Flat Major, ""Aeolian Harp""";31;2021;classical;0,248;0,0399;0,0353
+Felix Mendelssohn;6 Lieder, Op. 57: 5. Venetianisches Gondellied, MWV K114;33;2021;classical;0,246;0,0982;0,11
+Frédéric Chopin;Waltz in A Minor, B. 150;34;2021;classical;0,273;0,326;0,227
+Ludwig van Beethoven;Beethoven Variation (After String Quartet No. 13, Op. 130: II);38;2021;classical;0,558;0,257;0,431
+Felix Mendelssohn;Lieder ohne Worte, Op. 102: No. 3 Presto (Arr. Ottensamer for Clarinet and Strings);33;2021;classical;0,427;0,395;0,7
+Felix Mendelssohn;Lieder ohne Worte, Op. 67: No. 2 Allegro leggiero (Arr. Ottensamer for Clarinet and Piano);34;2021;classical;0,197;0,0419;0,176
+Ludwig van Beethoven;"Piano Concerto ""No. 6"" in D Major, Op. 61a: II. Larghetto";30;2021;classical;0,299;0,0229;0,056
+Felix Mendelssohn;String Quartet No. 3, Op. 44 No. 1, MWV R30: II. Menuetto. Up poco allegretto;29;2021;classical;0,194;0,0205;0,058
+Franz Liszt;Berceuse, S. 174;31;2021;classical;0,295;0,0448;0,0377
+Ludwig van Beethoven;"Klavierkonzert Nr. 5 Es-Dur, Op. 73: Piano Concerto No. 5 in E-Flat Major, Op. 73, ""Emperor"": II. Adagio un poco mosso";29;2021;classical;0,256;0,0186;0,0443
+Sergei Rachmaninoff;12 Romances, Op. 21: 7. How Fair This Spot;24;2021;classical;0,231;0,0941;0,0392
+Ludwig van Beethoven;"Symphony No. 9 in D Minor, Op. 125 ""Choral"": IV. Finale (Excerpt: Ode to Joy)";33;2021;classical;0,24;0,494;0,21
+Frédéric Chopin;Chopin: 12 Études, Op. 25: No. 4 in A Minor;24;2021;classical;0,44;0,176;0,761
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation XVIII - Andante cantabile;31;2021;classical;0,136;0,096;0,0394
+Frédéric Chopin;Nocturnes, Op. 9: No. 1 in B Flat Minor. Larghetto;30;2021;classical;0,219;0,00567;0,0386
+Felix Mendelssohn;"Lieder ohne Worte, Op. 62: No. 6 Allegretto grazioso ""Frühlingslied"" (Arr. Ottensamer for Clarinet and Piano)";30;2021;classical;0,354;0,0594;0,514
+Frédéric Chopin;Nocturnes, Op. 9: No. 2 in E Flat Major. Andante;28;2021;classical;0,361;0,00466;0,0405
+Sergei Rachmaninoff;Melody, Op. 21, No. 9;28;2021;classical;0,287;0,0787;0,0772
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68, ""Pastorale"": I. Allegro ma non troppo, ""Awakening of cheerful feelings on arriving in the countryside""";53;2022;classical;0,367;0,0622;0,284
+Claude Debussy;Préludes / Book 1, L. 117: No. 8, The Girl with the Flaxen Hair;49;2022;classical;0,461;0,0104;0,106
+Claude Debussy;Beau soir, L. 6 (L. 84) (Arr. Heifetz for Violin and Piano);48;2022;classical;0,184;0,0365;0,0352
+Ludwig van Beethoven;Violin Concerto in D Major, Op. 61: II. Larghetto;49;2022;classical;0,209;0,0402;0,0514
+Frédéric Chopin;Impromptu No. 1 in A-Flat Major, Op. 29 - Live;49;2022;classical;0,19;0,078;0,151
+Franz Liszt;Liebeslied, S. 566 (After Schumann’s Widmung, Op. 25 No. 1);44;2022;classical;0,354;0,102;0,0487
+Ludwig van Beethoven;"Piano Trio No. 5 in D Major, Op. 70 No. 1 ""Geistertrio"": I. Allegro vivace e con brio - Live";44;2022;classical;0,195;0,0708;0,219
+Ludwig van Beethoven;II. Andante cantabile con variazioni;42;2022;classical;0,284;0,0528;0,329
+Ludwig van Beethoven;Piano Sonata No. 28 in A Major, Op. 101: III. Langsam und sehnsuchtsvoll. Adagio ma non troppo, con affetto - Recorded 2021-2;44;2022;classical;0,351;0,0058;0,047
+Ludwig van Beethoven;Andante favori, WoO 57;42;2022;classical;0,366;0,117;0,0609
+Frédéric Chopin;Nocturne No. 2 in E-Flat Major, Op. 9 No. 2 (Arr. Cullen for Cello and Orchestra);35;2022;classical;0,176;0,0428;0,0545
+Frédéric Chopin;Andante spianato et Grande polonaise brillante, Op. 22: I. Andante spianato;33;2022;classical;0,203;0,00733;0,0806
+Sergei Rachmaninoff;Rachmaninov: Rhapsody on a Theme of Paganini, Op. 43: Variation 18 (Andante cantabile);42;2022;classical;0,176;0,0902;0,0375
+Ludwig van Beethoven;"Symphony No. 9 in D Minor, Op. 125 ""Choral"": IVa. Finale. Presto";40;2022;classical;0,267;0,0124;0,1
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68 ""Pastoral"" (Transcr. Liszt for Piano, S. 464/6): IV. Gewitter. Sturm. Allegro";39;2022;classical;0,284;0,225;0,0398
+Claude Debussy;Préludes / Book 1, L. 117: VIII. La fille aux cheveux de lin (Arr. Garrett / van der Heijden for Violin, Flute and Orchestra);40;2022;classical;0,215;0,275;0,101
+Claude Debussy;Suite bergamasque, L. 75: III. Clair de lune (Arr. for Flute & Piano);36;2022;classical;0,282;0,0366;0,0783
+Felix Mendelssohn;Song without Words, Op. 109;38;2022;classical;0,251;0,106;0,0928
+Frédéric Chopin;"Chopin: 12 Études, Op. 25: No. 1 in A-Flat Major ""Aeolian Harp""";29;2022;classical;0,153;0,0365;0,0359
+Ludwig van Beethoven;Romance in F Major, Op. 50;37;2022;classical;0,322;0,081;0,162
+Frédéric Chopin;Nocturnes, Op. 9: No. 2 in E Flat Major (Transcr. Sarasate for Violin and Piano);36;2022;classical;0,184;0,127;0,0398
+Ludwig van Beethoven;Symphony No. 4 in B-Flat Major, Op. 60: III. Allegro molto e vivace - Trio. Un poco meno allegro;35;2022;classical;0,23;0,0314;0,15
+Frédéric Chopin;Nocturne Op. 27, No. 2;35;2022;classical;0,235;0,0231;0,0393
+Ludwig van Beethoven;Piano Trio No. 3 in C Minor, Op. 1, No. 3: II. Andante cantabile con variazioni;30;2022;classical;0,284;0,0528;0,329
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68, ""Pastorale"": II. Andante molto mosso, ""Scene by the brook""";29;2022;classical;0,245;0,0248;0,18
+Ludwig van Beethoven;"Beethoven: Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"": II. Adagio cantabile";28;2022;classical;0,374;0,00348;0,146
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68, ""Pastorale"": III. Allegro, ""Joyful gathering of countryfolk""";27;2022;classical;0,422;0,126;0,603
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68, ""Pastorale"": IV. Allegro, ""The storm""";27;2022;classical;0,245;0,194;0,0963
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68, ""Pastorale"": V. Allegretto, ""Shepherd's song. Thanksgiving after the storm""";26;2022;classical;0,157;0,0622;0,108
+Sergei Rachmaninoff;6 Romances, Op. 38: V. The Dream;22;2022;classical;0,262;0,103;0,102
+Frédéric Chopin;Le Père Lachaise - 24 Preludes, Op. 28: No. 4 in E Minor;31;2022;classical;0,212;0,0697;0,0558
+Ludwig van Beethoven;Piano Trio No. 3 in C Minor, Op. 1, No. 3: I. Allegro con brio;26;2022;classical;0,286;0,0507;0,209
+Franz Liszt;Hungarian Rhapsody No. 2 in C Sharp Minor, S.244/2 (Arr. Horowitz);28;2022;classical;0,309;0,199;0,17
+Frédéric Chopin;Nocturnes, Op. 62: No. 2 in E Major. Lento;0;2023;classical;0,281;0,0239;0,0779
+Frédéric Chopin;Waltz No. 19 in A minor, Op. posth.;0;2023;classical;0,32;0,0261;0,147
+Frédéric Chopin;Nocturnes, Op. 27: No. 2 in D-Flat Major. Lento sostenuto;0;2023;classical;0,399;0,0179;0,052
+Frédéric Chopin;Prélude No. 25 In C Sharp Minor, Op. 45;0;2023;classical;0,312;0,00886;0,0937
+Frédéric Chopin;Nocturne No. 6 in G Minor, Op. 15 No. 3;0;2023;classical;0,454;0,0159;0,103
+Frédéric Chopin;Nocturne No. 2 In E Flat, Op. 9 No. 2;1;2023;classical;0,337;0,0159;0,075
+Frédéric Chopin;24 Préludes, Op. 28: No. 4 in E Minor;0;2023;classical;0,4;0,0122;0,0333
+Frédéric Chopin;"Waltzes, Op. 64: No. 1 in D-Flat Major. Molto vivace ""Minute""";0;2023;classical;0,323;0,057;0,336
+Frédéric Chopin;Sonate pour piano No. 3 en si mineur, Op. 58: IV. Presto ma non tanto;0;2023;classical;0,264;0,218;0,179
+Frédéric Chopin;Prelude In E Minor;0;2023;classical;0,57;0,0463;0,378
+Frédéric Chopin;Berceuse, Op. 57;0;2023;classical;0,292;0,00787;0,131
+Frédéric Chopin;Waltz in A Minor, KK IVb No. 11;0;2023;classical;0,325;0,00851;0,0735
+Frédéric Chopin;Nocturnes, Op. 27: No. 1 in C-Sharp Minor. Larghetto;0;2023;classical;0,335;0,00726;0,0618
+Frédéric Chopin;Nocturne No. 1 In B Flat Minor, Op. 9 No. 1;0;2023;classical;0,311;0,0156;0,0387
+Frédéric Chopin;24 Préludes, Op. 28: No. 15 in D-Flat Major: Sostenuto;0;2023;classical;0,335;0,0118;0,0835
+Frédéric Chopin;Sonate pour piano No. 3 en si mineur, Op. 58: III. Largo;0;2023;classical;0,252;0,00575;0,131
+Frédéric Chopin;Nocturnes, Op. 9: No. 2 in E-Flat Major. Andante;0;2023;classical;0,352;0,0293;0,124
+Frédéric Chopin;Nocturne No. 8 In D Flat, Op. 27 No. 2 - 2005 Recording;0;2023;classical;0,215;0,0211;0,0383
+Ludwig van Beethoven;"Bagatelle in a Minor, WoO 59 ""Für Elise""";0;2023;classical;0,179;0,038;0,597
+Ludwig van Beethoven;Violin Romance No. 1 in G Major, Op. 40 - Live;0;2023;classical;0,255;0,0492;0,0944
+Ludwig van Beethoven;"Symphony No. 6 In F, Op. 68 -""Pastoral"": 1. Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande: Allegro ma non troppo";0;2023;classical;0,303;0,0639;0,185
+Ludwig van Beethoven;"Symphony No. 9 in D Minor, Op. 125 ""Choral"": IV. Presto - Allegro molto assai - Andante maestoso - Allegro energico, sempre ben marcato - Allegro ma non tanto - Pressitissmo";0;2023;classical;0,225;0,124;0,0638
+Frédéric Chopin;24 Preludes, Op. 28: No. 5 in D Major. Molto allegro;22;2023;classical;0,322;0,165;0,191
+Frédéric Chopin;24 Preludes, Op. 28: No. 6 in B Minor. Lento assai;22;2023;classical;0,281;0,00404;0,106
+Frédéric Chopin;24 Preludes, Op. 28: No. 7 in A Major. Andantino;21;2023;classical;0,524;0,00317;0,337
+Frédéric Chopin;24 Preludes, Op. 28: No. 14 in E Flat Minor. Allegro;20;2023;classical;0,19;0,276;0,181
+Frédéric Chopin;24 Preludes, Op. 28: No. 4 in E Minor. Largo;22;2023;classical;0,34;0,0076;0,0375
+Frédéric Chopin;24 Preludes, Op. 28: No. 19 in E Flat Major. Vivace;19;2023;classical;0,321;0,226;0,189
+Frédéric Chopin;24 Preludes, Op. 28: No. 3 in G Major. Vivace;22;2023;classical;0,274;0,117;0,4
+Frédéric Chopin;24 Preludes, Op. 28: No. 2 in A Minor. Lento;22;2023;classical;0,206;0,00201;0,0684
+Frédéric Chopin;24 Preludes, Op. 28: No. 9 in E Major. Largo;21;2023;classical;0,409;0,00853;0,0371
+Frédéric Chopin;24 Preludes, Op. 28: No. 23 in F Major. Moderato;18;2023;classical;0,215;0,209;0,297
+Frédéric Chopin;Waltz in E Minor, KK IVa No. 15;15;2023;classical;0,347;0,0789;0,206
+Frédéric Chopin;Waltzes, Op. 64: No. 3 in A-Flat Major. Moderato;17;2023;classical;0,196;0,106;0,188
+Frédéric Chopin;24 Preludes, Op. 28: No. 18 in C Minor. Molto allegro;19;2023;classical;0,351;0,295;0,313
+Frédéric Chopin;24 Preludes, Op. 28: No. 11 in B Major. Vivace;21;2023;classical;0,461;0,0348;0,326
+Frédéric Chopin;24 Preludes, Op. 28: No. 13 in F Sharp Minor. Lento;20;2023;classical;0,284;0,00821;0,144
+Frédéric Chopin;Waltzes, Op. 70: No. 2 in F Minor;18;2023;classical;0,302;0,0279;0,195
+Frédéric Chopin;24 Preludes, Op. 28: No. 16 in B Flat Minor. Presto con fuoco;19;2023;classical;0,355;0,254;0,562
+Frédéric Chopin;Waltzes, Op. 70: No. 3 in D-Flat Major;18;2023;classical;0,2;0,0382;0,325
+Frédéric Chopin;24 Preludes, Op. 28: No. 21 in B Flat Major. Cantabile;19;2023;classical;0,346;0,0232;0,04
+Frédéric Chopin;24 Preludes, Op. 28: No. 17 in A Flat Major. Allegretto;19;2023;classical;0,297;0,0285;0,0385
+Frédéric Chopin;24 Preludes, Op. 28: No. 24 in D Minor. Allegro appassionato;18;2023;classical;0,305;0,242;0,0358
+Frédéric Chopin;24 Preludes, Op. 28: No. 22 in G Minor. Molto agitato;18;2023;classical;0,329;0,426;0,721
+Frédéric Chopin;Waltzes, Op. 70: No. 1 in G-Flat Major;18;2023;classical;0,437;0,0427;0,272
+Frédéric Chopin;Grande valse brillante in E-Flat Major, Op. 18;17;2023;classical;0,409;0,13;0,357
+Frédéric Chopin;24 Preludes, Op. 28: No. 8 in F Sharp Minor. Molto agitato;21;2023;classical;0,188;0,176;0,0376
+Frédéric Chopin;Waltzes, Op. 69: No. 2 in B Minor;15;2023;classical;0,346;0,0229;0,123
+Frédéric Chopin;24 Preludes, Op. 28: No. 12 in G Sharp Minor. Presto;21;2023;classical;0,305;0,27;0,227
+Frédéric Chopin;Waltz in E-Flat Major, KK IVa No. 14;15;2023;classical;0,493;0,0516;0,511
+Frédéric Chopin;Waltz in E Major, KK IVa No. 12;15;2023;classical;0,426;0,0394;0,278
+Frédéric Chopin;Waltzes, Op. 64: No. 2 in C-Sharp Minor. Tempo giusto;18;2023;classical;0,279;0,0145;0,0995
+Frédéric Chopin;24 Preludes, Op. 28: No. 10 in C Sharp Minor. Molto allegro;21;2023;classical;0,451;0,0325;0,399
+Frédéric Chopin;Waltzes, Op. 69: No. 1 in A-Flat Major;16;2023;classical;0,324;0,0239;0,143
+Frédéric Chopin;Waltz in A-Flat Major, KK IVa No. 13;15;2023;classical;0,304;0,142;0,696
+Frédéric Chopin;Waltzes, Op. 34: No. 3 in F Major. Vivace;16;2023;classical;0,38;0,0741;0,446
+Frédéric Chopin;Waltzes, Op. 34: No. 1 in A-Flat Major. Vivace;17;2023;classical;0,366;0,0745;0,142
+Frédéric Chopin;Waltzes, Op. 34: No. 2 in A Minor. Lento;16;2023;classical;0,282;0,0152;0,0558
+Frédéric Chopin;Waltz in A-Flat Major, Op. 42;16;2023;classical;0,27;0,092;0,196
+Frédéric Chopin;Waltz in E-Flat Major, KK IVb No. 10;15;2023;classical;0,217;0,0081;0,322
+Frédéric Chopin;24 Préludes, Op. 28: No. 3 in G Major. Vivace;16;2023;classical;0,155;0,0456;0,204
+Franz Liszt;Liszt: 2 Légendes, S. 175: No. 1, Saint François d'Assise. La prédication aux oiseaux;0;2023;classical;0,296;0,0472;0,0396
+Frédéric Chopin;24 Preludes, Op. 28: No. 20 in C Minor. Largo;19;2023;classical;0,542;0,003;0,366
+Ludwig van Beethoven;"Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto (Arr. for String Quartet by Paul Cassidy)";38;2023;classical;0,0908;0,00361;0,0367
+Ludwig van Beethoven;"Violin Sonata No. 5 in F Major, Op. 24 ""Spring"": III. Scherzo. Allegro molto";14;2023;classical;0,695;0,271;0,406
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Tema (Vivace) - Variation I (Alla marcia maestoso);22;2023;classical;0,545;0,153;0,359
+Ludwig van Beethoven;7 Variations on 'God Save The King', WoO78: Variation V. Con espressione;24;2023;classical;0,294;0,0628;0,406
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 4 in E-Flat Major, Op. 7: II. Largo, con gran espressione;20;2023;classical;0,456;0,00351;0,123
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XIII (Vivace);20;2023;classical;0,602;0,0551;0,501
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation V (Allegro vivace);21;2023;classical;0,464;0,0631;0,306
+Ludwig van Beethoven;Violin Sonata No. 8 in G Major, Op. 30 No. 3: II. Tempo di minuetto, ma molto moderato e grazioso;22;2023;classical;0,171;0,0758;0,24
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation VII (Un poco più allegro);21;2023;classical;0,307;0,177;0,418
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation III (L'istesso tempo);22;2023;classical;0,378;0,0313;0,505
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation IX (Allegro pesante e risoluto);20;2023;classical;0,534;0,106;0,496
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XX (Andante);19;2023;classical;0,558;0,00166;0,0981
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XII (Un poco più moto);20;2023;classical;0,312;0,117;0,281
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: II. Largo e mesto;19;2023;classical;0,514;0,0077;0,109
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXIII (Allegro assai);18;2023;classical;0,34;0,156;0,651
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXVIII (Allegro);18;2023;classical;0,512;0,199;0,849
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation VI (Allegro ma non troppo e serioso);21;2023;classical;0,368;0,162;0,299
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXI (Allegro con brio - Meno allegro - Tempo I);18;2023;classical;0,399;0,145;0,197
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XI (Allegretto);20;2023;classical;0,387;0,025;0,167
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXX (Andante, sempre cantabile);18;2023;classical;0,489;0,0149;0,216
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation IV (Un poco più vivace);21;2023;classical;0,304;0,12;0,366
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation II (Poco allegro);21;2023;classical;0,266;0,0308;0,335
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XVIII (Poco moderato);19;2023;classical;0,403;0,0443;0,41
+Ludwig van Beethoven;Piano Sonata No. 1 in F minor, Op. 2 No. 1: 3. Menuetto (Allegretto);16;2023;classical;0,403;0,0862;0,298
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: I. Presto;17;2023;classical;0,346;0,137;0,268
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXXII: Fuga (Allegro - Poco adagio);17;2023;classical;0,394;0,288;0,0837
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: III. Menuetto. Allegro;19;2023;classical;0,348;0,048;0,176
+Ludwig van Beethoven;Piano Sonata No. 1 in F minor, Op. 2 No. 1: 2. Adagio;16;2023;classical;0,422;0,0204;0,177
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XIX (Presto);19;2023;classical;0,299;0,17;0,575
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: IV. Rondo. Allegro;16;2023;classical;0,397;0,122;0,182
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation VIII (Poco vivace);21;2023;classical;0,339;0,0237;0,304
+Ludwig van Beethoven;Piano Sonata No. 2 in A, Op. 2 No. 2: 2. Largo appassionato;15;2023;classical;0,482;0,0225;0,199
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXVII (Vivace);18;2023;classical;0,343;0,136;0,468
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXXI (Largo, molto espressivo);17;2023;classical;0,304;0,0304;0,0523
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXIV: Fughetta (Andante);18;2023;classical;0,39;0,0318;0,397
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation X (Presto);20;2023;classical;0,461;0,253;0,925
+Ludwig van Beethoven;Violin Sonata No. 7 in C Minor, Op. 30 No. 2: III. Scherzo. Allegro;11;2023;classical;0,538;0,156;0,535
+Ludwig van Beethoven;Piano Sonata No. 13 in E flat, Op. 27 No. 1: 1. Andante - Allegro - Tempo I;7;2023;classical;0,384;0,0266;0,148
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 6 in F Major, Op. 10 No. 2: III. Presto;17;2023;classical;0,523;0,169;0,708
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 6 in F Major, Op. 10 No. 2: I. Allegro;18;2023;classical;0,43;0,0986;0,277
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXXIII (Tempo di minuetto moderato, ma non tirarsi dietro);17;2023;classical;0,41;0,0291;0,115
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XVII;19;2023;classical;0,401;0,136;0,588
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XVI (Allegro);19;2023;classical;0,358;0,199;0,532
+Ludwig van Beethoven;Violin Sonata No. 3 in E-Flat Major, Op. 12 No. 3: I. Allegro con spirito;20;2023;classical;0,45;0,118;0,625
+Ludwig van Beethoven;Piano Sonata No. 6 in F, Op. 10 No. 2: 3. Presto;11;2023;classical;0,417;0,22;0,645
+Ludwig van Beethoven;Piano Sonata No. 3 in C, Op. 2 No. 3: 3. Scherzo (Allegro);13;2023;classical;0,431;0,159;0,384
+Ludwig van Beethoven;Piano Sonata No. 20 in G Major, Op. 49 No. 2: 2. Tempo di Menuetto;5;2023;classical;0,365;0,0332;0,355
+Ludwig van Beethoven;"Beethoven: Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"": III. Rondo. Allegro";15;2023;classical;0,371;0,0722;0,306
+Ludwig van Beethoven;Piano Sonata No. 2 in A, Op. 2 No. 2: 3. Scherzo (Allegretto);15;2023;classical;0,379;0,148;0,255
+Ludwig van Beethoven;Piano Sonata No. 4 in E flat, Op. 7: 2. Largo, con gran espressione;12;2023;classical;0,505;0,00227;0,147
+Ludwig van Beethoven;Beethoven: Piano Sonata No. 4 in E-Flat Major, Op. 7: III. Allegro;19;2023;classical;0,356;0,0524;0,37
+Ludwig van Beethoven;Piano Sonata No. 3 in C, Op. 2 No. 3: 4. Allegro assai;13;2023;classical;0,354;0,164;0,352
+Ludwig van Beethoven;Violin Sonata No. 3 in E-Flat Major, Op. 12 No. 3: III. Rondo. Allegro molto;17;2023;classical;0,608;0,162;0,806
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XXV (Allegro);18;2023;classical;0,473;0,0594;0,658
+Ludwig van Beethoven;Piano Sonata No. 7 in D, Op. 10 No. 3: 2. Largo e mesto;11;2023;classical;0,367;0,0067;0,06
+Ludwig van Beethoven;Piano Sonata No. 4 in E flat, Op. 7: 4. Rondo (Poco allegretto e grazioso);12;2023;classical;0,359;0,0837;0,196
+Ludwig van Beethoven;Piano Sonata No. 6 in F, Op. 10 No. 2: 1. Allegro;12;2023;classical;0,371;0,0816;0,202
+Ludwig van Beethoven;Piano Sonata No. 31 in A-Flat Major, Op. 110: II. Allegro Molto;17;2023;classical;0,49;0,112;0,311
+Ludwig van Beethoven;"Piano Sonata No. 14 in C sharp minor, Op. 27 No. 2 -""Moonlight"": 1. Adagio sostenuto";9;2023;classical;0,402;0,0179;0,114
+Ludwig van Beethoven;"Beethoven: Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"": I. Grave - Allegro di molto e con brio";16;2023;classical;0,376;0,138;0,12
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XIV (Grave e maestoso);19;2023;classical;0,451;0,0146;0,063
+Ludwig van Beethoven;Violin Sonata No. 7 in C Minor, Op. 30 No. 2: I. Allegro con brio;16;2023;classical;0,398;0,192;0,358
+Ludwig van Beethoven;Piano Sonata No. 10 in G, Op. 14 No. 2: 2. Andante;9;2023;classical;0,385;0,0171;0,22
+Frédéric Chopin;Chopin: Nocturne No. 20 in C-Sharp Minor, Op. Posth.;66;2000;classical;0,225;0,0047;0,186
+Ludwig van Beethoven;"Beethoven: Symphony No. 6 in F Major, Op. 68 ""Pastoral"": I. Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande. Allegro ma non troppo";53;2000;classical;0,247;0,0383;0,136
+Ludwig van Beethoven;String Quartet No. 13 in B-Flat Major, Op. 130: II. Presto;51;2000;classical;0,367;0,0814;0,62
+Frédéric Chopin;3 Nouvelles etudes, Op. posth.: II. Etude No. 26 in A-Flat Major;46;2000;classical;0,211;0,00954;0,0844
+Franz Liszt;Un sospiro;41;2000;classical;0,224;0,0591;0,0342
+Sergei Rachmaninoff;The Isle of the Dead, Op. 29;40;2000;classical;0,0725;0,0488;0,0343
+Felix Mendelssohn;"Symphony No. 3 in A Minor, Op. 56, MWV N 18 ""Scottish"": 4. Allegro vivacissimo - Allegro maestoso assai";43;2000;classical;0,326;0,284;0,213
+Ludwig van Beethoven;Symphony No. 7 in A, Op. 92: 2. Allegretto;41;2000;classical;0,176;0,0622;0,0655
+Frédéric Chopin;24 Preludes, Op. 28: Prelude No. 9 in E Major, Op. 28, No. 9;43;2000;classical;0,316;0,0349;0,0362
+Franz Liszt;Bunte Reihe, S484/R149: Gondellied in F Major;36;2000;classical;0,352;0,00867;0,11
+Ludwig van Beethoven;"Beethoven: Symphony No. 6 in F Major, Op. 68 ""Pastoral"": II. Scene am Bach. Andante molto moto";35;2000;classical;0,15;0,0161;0,066
+Franz Liszt;A Dante Symphony, S.109: 1. Inferno;35;2000;classical;0,231;0,126;0,0376
+Ludwig van Beethoven;"Beethoven: Symphony No. 6 in F Major, Op. 68 ""Pastoral"": V. Hirtengesang. Frohe und dankbare Gefühle nach dem Sturm. Allegretto";34;2000;classical;0,157;0,0454;0,0497
+Claude Debussy;Suite bergamasque, L. 75: 3. Clair de lune;31;2000;classical;0,271;0,00685;0,0384
+Ludwig van Beethoven;"Beethoven: Symphony No. 6 in F Major, Op. 68 ""Pastoral"": III. Lustiges Zusammensein der Landleute. Allegro";30;2000;classical;0,297;0,0333;0,448
+Claude Debussy;Debussy: String Quartet in G Minor, Op. 10, CD 91, L. 85: II. Assez vif et bien rythmé;31;2000;classical;0,396;0,136;0,375
+Ludwig van Beethoven;"Beethoven: Symphony No. 6 in F Major, Op. 68 ""Pastoral"": IV. Gewitter. Sturm. Allegro -";30;2000;classical;0,145;0,153;0,0558
+Frédéric Chopin;Nocturne No.1 en si bémol mineur Op.9 No.1 - Remasterisé en 1995;25;2000;classical;0,263;0,00557;0,0563
+Claude Debussy;Debussy: String Quartet in G Minor, Op. 10, CD 91, L. 85: I. Animé et très décidé;30;2000;classical;0,286;0,115;0,0951
+Frédéric Chopin;"12 Etudes, Op. 10: No. 3 in E Major ""Tristesse""";21;2000;classical;0,393;0,0831;0,0372
+Ludwig van Beethoven;Beethoven: Leonore Overture No. 3, Op. 72b;27;2000;classical;0,25;0,0405;0,0399
+Claude Debussy;Suite bergamasque, L. 75: 1. Prélude;21;2000;classical;0,281;0,0375;0,0947
+Franz Liszt;Hungarian Rhapsody No. 6 in D-Flat Major, S. 244;27;2000;classical;0,413;0,281;0,19
+Ludwig van Beethoven;String Quartet No. 13 in B-Flat Major, Op. 130: V. Cavatina: Adagio molto espressivo;23;2000;classical;0,0828;0,0235;0,0348
+Ludwig van Beethoven;"Symphony No. 9 in D Minor, Op. 125 ""Choral"": II. Molto vivace";30;2000;classical;0,459;0,148;0,253
+Franz Liszt;Liebestraum No. 3 in A-Flat Major, S. 541/3;21;2000;classical;0,337;0,0707;0,0362
+Frédéric Chopin;24 Preludes, Op. 28: Prelude No. 7 in A Major, Op. 28, No. 7;22;2000;classical;0,492;0,00184;0,123
+Sergei Rachmaninoff;Rachmaninov: 12 Romances, Op. 21: No. 7, How Fair This Spot (Arr. for Violin and Piano);20;2000;classical;0,167;0,152;0,039
+Claude Debussy;The Little Negro;23;2000;classical;0,394;0,182;0,301
+Frédéric Chopin;24 Preludes, Op. 28: Prelude No. 1 in C Major, Op. 28, No. 1;22;2000;classical;0,304;0,0899;0,284
+Ludwig van Beethoven;6 Minuets, WoO 10: No. 2 in G Major (version for orchestra);21;2000;classical;0,202;0,0849;0,35
+Sergei Rachmaninoff;Prelude in C-Sharp Minor, Op. 3, No. 2;17;2000;classical;0,55;0,0671;0,15
+Claude Debussy;Debussy: Beau soir, CD 84, L. 6;19;2000;classical;0,25;0,0201;0,0378
+Claude Debussy;Debussy: Nuit d'étoiles, CD 2, L. 4;17;2000;classical;0,337;0,0309;0,0675
+Sergei Rachmaninoff;Symphony No. 1 in D Minor, Op. 13: I. Grave - Allegro ma non troppo;19;2000;classical;0,11;0,0362;0,039
+Felix Mendelssohn;A Midsummer Night's Dream, Incidental Music, Op. 61, MWV M 13: 9. Wedding March;18;2000;classical;0,433;0,231;0,188
+Ludwig van Beethoven;Ode to Joy - Instrumental;14;2000;classical;0,34;0,298;0,418
+Franz Liszt;A Faust Symphony, S.108: 1. Faust;19;2000;classical;0,172;0,0586;0,0384
+Frédéric Chopin;"Chopin: Piano Sonata No. 2 in B-Flat Minor, Op. 35 ""Funeral March"": I. Grave - Doppio movimento";19;2000;classical;0,262;0,106;0,0389
+Ludwig van Beethoven;Symphony No. 7 in A, Op. 92: 1. Poco sostenuto - Vivace;18;2000;classical;0,325;0,223;0,11
+Frédéric Chopin;Piano Concerto No. 2 in F minor, Op. 21: 2. Larghetto;13;2000;classical;0,205;0,0642;0,0397
+Frédéric Chopin;Chopin: Nocturne No. 13 in C Minor, Op. 48 No. 1;18;2000;classical;0,214;0,0378;0,0399
+Felix Mendelssohn;"Symphony No. 3 in A Minor, Op. 56, MWV N 18 ""Scottish"": 1. Andante con moto - Allegro un poco agitato - Assai animato - Andante come prima";15;2000;classical;0,107;0,199;0,0394
+Frédéric Chopin;"Chopin: Piano Sonata No. 2 in B-Flat Minor, Op. 35 ""Funeral March"": III. Marche funèbre. Lento";17;2000;classical;0,397;0,00334;0,0568
+Frédéric Chopin;Chopin: Nocturne No. 5 in F-Sharp Major, Op. 15 No. 2;16;2000;classical;0,295;0,00831;0,0709
+Frédéric Chopin;Chopin: Nocturne No. 18 in E Major, Op. 62 No. 2;16;2000;classical;0,198;0,0034;0,0719
+Frédéric Chopin;Chopin: Barcarolle in F-Sharp Major, Op. 60;16;2000;classical;0,206;0,0231;0,0528
+Claude Debussy;Debussy: Syrinx, L. 129: Syrinx (Très modéré - Un peu mouvementé);16;2000;classical;0,353;0,0342;0,0622
+Frédéric Chopin;Chopin: Scherzo No. 2 in B-Flat Minor, Op. 31;17;2000;classical;0,359;0,0543;0,0884
+Sergei Rachmaninoff;Symphony No. 1 in D Minor, Op. 13: IV. Allegro con fuoco;16;2000;classical;0,226;0,204;0,0612
+Sergei Rachmaninoff;Symphony No. 1 in D Minor, Op. 13: II. Allegro animato;16;2000;classical;0,179;0,022;0,0494
+Sergei Rachmaninoff;Symphony No. 1 in D Minor, Op. 13: III. Larghetto;16;2000;classical;0,063;0,0111;0,0319
+Felix Mendelssohn;"Symphony No. 3 in A Minor, Op. 56, MWV N 18 ""Scottish"": 2. Vivace non troppo";14;2000;classical;0,342;0,303;0,376
+Frédéric Chopin;"Chopin: Piano Sonata No. 2 in B-Flat Minor, Op. 35 ""Funeral March"": II. Scherzo";15;2000;classical;0,275;0,0708;0,132
+Ludwig van Beethoven;Symphony No. 7 in A, Op. 92: 3. Presto - Assai meno presto;15;2000;classical;0,264;0,266;0,194
+Sergei Rachmaninoff;"Vespers (All-Night Vigil), Op. 37: 3. ""Blazhen muzh""";13;2000;classical;0,121;0,0512;0,0376
+Ludwig van Beethoven;Freude schoner Gotterfunken (Europa-Hymne);26;2000;classical;0,39;0,039;0,537
+Ludwig van Beethoven;Symphony No. 7 in A, Op. 92: 4. Allegro con brio;15;2000;classical;0,374;0,445;0,294
+Frédéric Chopin;Piano Concerto No. 1 in E Minor, Op. 11: II. Romance. Larghetto;9;2000;classical;0,225;0,0475;0,0496
+Claude Debussy;Debussy: Fêtes galantes, Livre I, CD 86, L. 80: I. En sourdine;12;2000;classical;0,317;0,0136;0,0396
+Claude Debussy;Debussy: 3 Chansons de Bilitis, CD 97, L. 90: No. 1, La Flûte de Pan;13;2000;classical;0,247;0,00917;0,0698
+Claude Debussy;Children's Corner, L. 113: 5. The little Shepherd;10;2000;classical;0,378;0,00295;0,28
+Felix Mendelssohn;Hark! the herald angels sing (arr. R. Manners): Hark! The Herald Angels Sing (arr. for brass ensemble);10;2000;classical;0,27;0,0344;0,161
+Franz Liszt;A Dante Symphony, S.109: Alternative conclusion (Text: Dante Alighieri);13;2000;classical;0,387;0,295;0,164
+Claude Debussy;Debussy: Fêtes galantes, Livre I, CD 86, L. 80: III. Clair de lune;11;2000;classical;0,31;0,032;0,0571
+Frédéric Chopin;Preludes, Op. 28: No. 4 in E Minor, Largo;48;2001;classical;0,441;0,00518;0,0365
+Frédéric Chopin;Preludes, Op. 28: No. 6 in B Minor, Lento assai;34;2001;classical;0,387;0,00217;0,039
+Claude Debussy;Prélude à l'après-midi d'un faune, CD 87a;36;2001;classical;0,159;0,0376;0,0327
+Ludwig van Beethoven;Rondo in C Major, Op. 51, No. 1;32;2001;classical;0,276;0,0938;0,125
+Frédéric Chopin;Preludes, Op. 28: No. 24 in D Minor, Allegro appassionato;31;2001;classical;0,268;0,227;0,045
+Frédéric Chopin;Les Sylphides: 2. Nocturne, Op. 32, No. 2;23;2001;classical;0,17;0,127;0,0398
+Claude Debussy;Berceuse heroique;30;2001;classical;0,313;0,0026;0,0396
+Frédéric Chopin;Preludes, Op. 28: No. 2 in A Minor, Lento;28;2001;classical;0,301;0,00124;0,111
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: 1. Allegro ma non tanto - Live;31;2001;classical;0,239;0,193;0,0633
+Franz Liszt;III. No. 3 'La Campanella';29;2001;classical;0,32;0,159;0,274
+Frédéric Chopin;Preludes, Op. 28: No. 3 in G Major, Vivace;29;2001;classical;0,15;0,0175;0,44
+Frédéric Chopin;Preludes, Op. 28: No. 20 in C Minor, Largo;27;2001;classical;0,563;0,000727;0,341
+Frédéric Chopin;Preludes, Op. 28: No. 23 in F Major, Moderato;28;2001;classical;0,301;0,0303;0,0932
+Ludwig van Beethoven;"Andante in F Major, WoO 57, ""Andante favori""";25;2001;classical;0,347;0,0597;0,0824
+Ludwig van Beethoven;Beethoven: 6 Minuets, WoO 10: No. 2 in G Major;17;2001;classical;0,401;0,0187;0,207
+Claude Debussy;Nocturnes, CD 98: I. Nuages;25;2001;classical;0,167;0,0119;0,033
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: 3. Finale (Alla breve) - Live;25;2001;classical;0,392;0,312;0,128
+Franz Liszt;Les jeux d'eau à la Villa d'Este;22;2001;classical;0,263;0,0496;0,038
+Frédéric Chopin;Preludes, Op. 28: No. 9 in E Major, Largo;24;2001;classical;0,335;0,0543;0,0385
+Ludwig van Beethoven;String Quartet No. 14 in C-Sharp Minor, Op. 131: VI. Adagio quasi un poco andante;24;2001;classical;0,221;0,0232;0,036
+Sergei Rachmaninoff;Rachmaninov: Piano Concerto No. 2 in C Minor, Op. 18: II. Adagio sostenuto (Excerpt);20;2001;classical;0,128;0,0361;0,053
+Frédéric Chopin;Prelude No 4 in E Minor, Op. 28: Largo;21;2001;classical;0,441;0,00518;0,0365
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: 2. Intermezzo. Adagio - Live;24;2001;classical;0,176;0,128;0,0373
+Frédéric Chopin;Preludes, Op. 28: No. 13 in F-Sharp Major, Lento;22;2001;classical;0,248;0,00206;0,194
+Frédéric Chopin;Preludes, Op. 28: No. 7 in A Major, Andantino;21;2001;classical;0,533;0,00167;0,0
+Claude Debussy;Nocturnes, CD 98: II. Fêtes;24;2001;classical;0,135;0,179;0,0749
+Frédéric Chopin;Les Sylphides: 3. Valse;15;2001;classical;0,171;0,125;0,141
+Frédéric Chopin;Etude in C-sharp minor, Op. 10, No. 4 - Instrumental;16;2001;classical;0,359;0,251;0,715
+Sergei Rachmaninoff;Kolokola (The Bells), Op. 35: I. Allegro, ma non tanto;22;2001;classical;0,253;0,0755;0,051
+Ludwig van Beethoven;"Rondo a Capriccio in G Major, Op. 129, ""Rage over a Lost Penny""";32;2001;classical;0,4;0,166;0,485
+Frédéric Chopin;Les Sylphides: 8. Valse;15;2001;classical;0,339;0,161;0,239
+Claude Debussy;Doctor Gradus ad Parnassum from Children's Corner - Instrumental;16;2001;classical;0,321;0,273;0,248
+Frédéric Chopin;Les Sylphides: 7. Valse;15;2001;classical;0,187;0,0962;0,0916
+Ludwig van Beethoven;"Piano Concerto No. 5 in E flat major Op. 73 -""Emperor"": 2. Adagio un poco mosso - Excerpt";23;2001;classical;0,194;0,0497;0,053
+Frédéric Chopin;"Preludes, Op. 28: No. 15 in D-Flat Minor, Sostenuto ""Raindrop""";20;2001;classical;0,411;0,00261;0,0984
+Ludwig van Beethoven;"Beethoven: Piano Trio No. 5 in D Major, Op. 70 No. 1 ""Ghost"": I. Allegro vivace e con brio";14;2001;classical;0,297;0,242;0,236
+Frédéric Chopin;Preludes, Op. 28: No. 1 in C Minor, Agitato;21;2001;classical;0,314;0,0263;0,135
+Franz Liszt;Schubert - Mullerlieder, S565/E249: No. 5, Wohin? (2nd Version);22;2001;classical;0,268;0,0298;0,0904
+Ludwig van Beethoven;"Beethoven: Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto";21;2001;classical;0,246;0,00609;0,255
+Claude Debussy;Beau Soir;13;2001;classical;0,251;0,0476;0,0372
+Franz Liszt;"Variations on the motif ""Weinen, klagen, sorgen, zagen"", S180/R24";21;2001;classical;0,149;0,0387;0,0344
+Ludwig van Beethoven;"Beethoven: Piano Trio No. 5 in D Major, Op. 70 No. 1 ""Ghost"": II. Largo assai ed espressivo";13;2001;classical;0,139;0,0704;0,0322
+Frédéric Chopin;Preludes, Op. 28: No. 21 in B-Flat Major, Cantabile;16;2001;classical;0,281;0,00558;0,0399
+Frédéric Chopin;"Impromptu No. 4 in C-Sharp Minor, Op. 66 ""Fantaisie-Impromptu""";18;2001;classical;0,126;0,0335;0,0389
+Claude Debussy;Page d'album;18;2001;classical;0,243;0,0115;0,0467
+Franz Liszt;12 Lieder von Schubert, S. 558: Schubert - 12 Lieder, S. 558/R. 243: No. 12, Ave Maria;20;2001;classical;0,245;0,0297;0,0386
+Felix Mendelssohn;Piano Concerto No. 2 in D Minor, Op. 40, MWV O11: 1. Allegro appassionato;19;2001;classical;0,343;0,179;0,144
+Ludwig van Beethoven;"Beethoven: Piano Concerto No. 5 in E-Flat Major, Op. 73 ""Emperor"": II. Adagio un poco mosso (Excerpt)";10;2001;classical;0,284;0,0421;0,102
+Franz Liszt;Prelude;19;2001;classical;0,167;0,184;0,0364
+Frédéric Chopin;Mazurkas, Op. 59: No. 3 in F-Sharp Minor;11;2001;classical;0,45;0,143;0,451
+Frédéric Chopin;Preludes, Op. 28: No. 12 in G-Sharp Minor, Presto;18;2001;classical;0,349;0,0872;0,234
+Claude Debussy;Nocturnes, CD 98: III. Sirènes;19;2001;classical;0,11;0,0722;0,0299
+Frédéric Chopin;Chopin: Piano Concerto No. 1 in E Minor, Op. 11: II. Romance. Larghetto (Excerpt);15;2001;classical;0,283;0,0308;0,0627
+Sergei Rachmaninoff;Symphony No. 2 in E minor, Op. 27: 3. Adagio - Extract;19;2001;classical;0,158;0,114;0,0358
+Ludwig van Beethoven;Symphony No. 5 in C minor, Op. 67: 4. Allegro;9;2001;classical;0,287;0,334;0,32
+Frédéric Chopin;Mazurka in F-sharp minor, Op. 6, No. 1 - Instrumental;9;2001;classical;0,478;0,105;0,442
+Ludwig van Beethoven;Symphony No. 5 in C minor, Op. 67: 2. Andante con moto;8;2001;classical;0,15;0,0347;0,0456
+Felix Mendelssohn;Elijah, Op. 70, MWV A 25: No. 28, Lift Thine Eyes (Sung in English) [Live];10;2001;classical;0,28;0,103;0,0369
+Franz Liszt;I: Valse Oubilée;11;2001;classical;0,227;0,0178;0,0383
+Claude Debussy;Mandoline;12;2001;classical;0,489;0,201;0,499
+Ludwig van Beethoven;"Adagio sostenuto from Piano Sonata No. 14 in C-sharp minor, Op. 27, No. 2 ""Moonlight""";9;2001;classical;0,247;0,131;0,0669
+Franz Liszt;Liszt: 3 Liebesträume, S. 541: No. 3 in A-Flat Major;14;2001;classical;0,255;0,0583;0,0372
+Frédéric Chopin;"Chopin: 24 Preludes, Op. 28: No. 15 in D-Flat Major ""Raindrop""";16;2001;classical;0,305;0,0109;0,0456
+Frédéric Chopin;Preludes, Op. 28: No. 19 in E-Flat Major, Vivace;15;2001;classical;0,386;0,0423;0,183
+Frédéric Chopin;Andante spianato et Grande polonaise brillante, Op. 22: II. Grande polonaise;12;2001;classical;0,368;0,163;0,096
+Ludwig van Beethoven;"Beethoven: Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": II. Allegretto";14;2001;classical;0,403;0,0375;0,229
+Felix Mendelssohn;Piano Concerto No. 1 In G Minor, Op. 25, MWV O7: 1. Molto allegro con fuoco;14;2001;classical;0,36;0,228;0,21
+Franz Liszt;III. No.3 'La Campanella';9;2001;classical;0,332;0,207;0,241
+Frédéric Chopin;Chopin: Nocturne No. 8 in D-Flat Major, Op. 27 No. 2;11;2001;classical;0,35;0,024;0,0554
+Frédéric Chopin;Preludes, Op. 28: No. 10 in C-Sharp Minor, Allegro molto;14;2001;classical;0,313;0,00647;0,414
+Frédéric Chopin;Preludes, Op. 28: No. 8 in F-Sharp Minor, Molto agitato;15;2001;classical;0,24;0,115;0,0705
+Frédéric Chopin;Preludes, Op. 28: No. 16 in B-Flat Minor, Presto con fuoco;14;2001;classical;0,307;0,139;0,247
+Frédéric Chopin;Largo;8;2001;classical;0,176;0,0272;0,0398
+Frédéric Chopin;Chopin: Waltz No. 7 in C-Sharp Minor, Op. 64 No. 2;12;2001;classical;0,255;0,022;0,122
+Felix Mendelssohn;Violin Sonata in F Major, MWV Q26: III. Assai vivace;13;2001;classical;0,436;0,234;0,597
+Ludwig van Beethoven;"Seven Variations on ""God Save the King""";7;2001;classical;0,421;0,253;0,5
+Ludwig van Beethoven;String Quartet No. 16 in F Major, Op. 135: III. Lento assai, cantante e tranquillo;12;2001;classical;0,0911;0,029;0,035
+Sergei Rachmaninoff;Christ's resurrection-. (S.Rachmaninov);10;2001;classical;0,189;0,232;0,0357
+Claude Debussy;Pelléas et Mélisande, CD 93, Suite (Arr. Leinsdorf): I. Act I. Opening - Interlude 1 - Interlude 2;15;2001;classical;0,141;0,0148;0,0345
+Claude Debussy;Pelléas et Mélisande, CD 93, Suite (Arr. Leinsdorf): II. Act II. Opening - Interlude 3 - Interlude 4;14;2001;classical;0,164;0,0145;0,0335
+Frédéric Chopin;Preludes, Op. 28: No. 18 in F Minor, Allegro molto;13;2001;classical;0,346;0,127;0,458
+Frédéric Chopin;"Chopin: Waltz No. 9 in A-Flat Major, Op. Posth. 69 No. 1 ""Farewell""";8;2001;classical;0,249;0,0112;0,0695
+Frédéric Chopin;Preludes, Op. 28: No. 5 in D Major, Allegro molto;13;2001;classical;0,307;0,0965;0,325
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 7 in A Major;41;2002;classical;0,475;0,00201;0,281
+Frédéric Chopin;Nocturne in E minor, Op. 72, No. 1;39;2002;classical;0,199;0,00834;0,0411
+Frédéric Chopin;Prélude in E minor, Op. 28, No. 4;37;2002;classical;0,388;0,00269;0,0397
+Frédéric Chopin;"12 Études, Op. 10: No. 3 in E Major ""Tristesse""";30;2002;classical;0,374;0,0913;0,0393
+Frédéric Chopin;"12 Études, Op. 25: No. 11 in A Minor ""Winter Wind""";31;2002;classical;0,328;0,203;0,104
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 4 in E Minor;32;2002;classical;0,338;0,0131;0,0353
+Frédéric Chopin;"12 Études, Op. 10: No. 12 in C Minor ""Revolutionary""";27;2002;classical;0,301;0,161;0,169
+Frédéric Chopin;Raindrop Prelude;25;2002;classical;0,279;0,0512;0,0399
+Frédéric Chopin;Prélude in C-Sharp Minor, Op. 45;25;2002;classical;0,315;0,0096;0,104
+Frédéric Chopin;Chopin: Ballade No. 4 in F Minor, Op. 52;22;2002;classical;0,269;0,0564;0,0381
+Ludwig van Beethoven;"String Quartet No. 7 in F Major, Op. 59 No. 1 ""Rasumovsky No. 1"": 3. Adagio molto e mesto";25;2002;classical;0,116;0,0285;0,0509
+Ludwig van Beethoven;"Beethoven: Piano Concerto No. 5 in E-Flat Major, Op. 73 ""Emperor"": II. Adagio un poco mosso";27;2002;classical;0,249;0,00687;0,0421
+Ludwig van Beethoven;Beethoven: Piano Concerto No. 1 in C Major, Op. 15: II. Largo;24;2002;classical;0,172;0,0146;0,0508
+Sergei Rachmaninoff;Symphony No. 1 in D Minor, Op. 13: Larghetto;21;2002;classical;0,139;0,00573;0,0299
+Frédéric Chopin;"12 Études, Op. 10: No. 4 in C-Sharp Minor ""Torrent""";20;2002;classical;0,301;0,225;0,447
+Frédéric Chopin;"12 Études, Op. 10: No. 5 in G-Flat Major ""Black Keys""";17;2002;classical;0,38;0,111;0,33
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 13 in F-Sharp Major;19;2002;classical;0,309;0,0026;0,125
+Frédéric Chopin;24 Préludes, Op. 28: No. 6 in B Minor: Lento assai;24;2002;classical;0,315;0,00464;0,0398
+Felix Mendelssohn;Mendelssohn: Concert Piece No. 2 in D Minor, Op. 114, MWV Q24: I. Presto;23;2002;classical;0,424;0,138;0,455
+Frédéric Chopin;"12 Études, Op. 10: No. 2 in A Minor ""Chromatique""";15;2002;classical;0,0;0,204;0,0
+Frédéric Chopin;Nocturne No. 20 in C-Sharp Minor, B.49, Op. posth. - 1980 recording;29;2002;classical;0,459;0,0767;0,111
+Frédéric Chopin;"12 Études, Op. 25: No. 1 in A-Flat Major ""Harp Study""";16;2002;classical;0,273;0,0514;0,0363
+Frédéric Chopin;"12 Études, Op. 25: No. 9 in G-Flat Major ""Butterfly's Wings""";14;2002;classical;0,439;0,362;0,293
+Sergei Rachmaninoff;"Rhapsody On A Theme Of Paganini - From ""Somewhere in Time""";22;2002;classical;0,266;0,161;0,038
+Claude Debussy;Danse Sacrée et Danse Profane, L. 103: I. Danse Sacrée;17;2002;classical;0,225;0,0103;0,0386
+Claude Debussy;La fille aux cheveux de lin;15;2002;classical;0,564;0,0411;0,181
+Felix Mendelssohn;Auf Flügeln des Gesanges, Op. 34, No. 2;18;2002;classical;0,145;0,0401;0,0805
+Felix Mendelssohn;Piano Trio No. 1 in D Minor, Op. 49, MWV Q29: II. Andante con moto tranquillo;14;2002;classical;0,23;0,037;0,0438
+Sergei Rachmaninoff;Vocalise, Op. 34, No. 14;23;2002;classical;0,167;0,0888;0,0473
+Felix Mendelssohn;Cello Sonata No. 2 in D Major, Op. 58: I. Allegro assai vivace;17;2002;classical;0,338;0,135;0,242
+Frédéric Chopin;Waltz;14;2002;classical;0,237;0,0954;0,213
+Frédéric Chopin;Nocturne No. 14 in F sharp minor, Op. 48 No. 2;11;2002;classical;0,257;0,0425;0,073
+Ludwig van Beethoven;"Beethoven: Piano Concerto No. 5 in E-Flat Major, Op. 73 ""Emperor"": I. Allegro";16;2002;classical;0,353;0,0859;0,0726
+Felix Mendelssohn;String Quartet No. 1 In E Flat, Op. 12, MWV R 25: Canzonetta;14;2002;classical;0,409;0,142;0,686
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 23 in F Major;15;2002;classical;0,16;0,0348;0,114
+Frédéric Chopin;Nocturne, B. 49: Lento con gran espressione in C-Sharp Minor;22;2002;classical;0,308;0,0146;0,11
+Frédéric Chopin;"12 Études, Op. 10: No. 6 in E-Flat Minor ""Lament""";12;2002;classical;0,315;0,0138;0,0751
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: I. Allegro ma non tanto - Live at the Proms;13;2002;classical;0,308;0,0711;0,0734
+Felix Mendelssohn;Suleika, Op. 34/4;17;2002;classical;0,201;0,0752;0,0378
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 6 in B Minor;15;2002;classical;0,442;0,00421;0,178
+Frédéric Chopin;"Waltz No. 6 In D Flat, Op. 64 No. 1 -""Minute"": Molto vivace";12;2002;classical;0,414;0,13;0,587
+Frédéric Chopin;"12 Études, Op. 25: No. 6 in G-Sharp Minor ""Thirds""";11;2002;classical;0,189;0,187;0,217
+Frédéric Chopin;Chopin: Ballade No. 3 in A-Flat Major, Op. 47;15;2002;classical;0,289;0,0784;0,0549
+Frédéric Chopin;"12 Études, Op. 25: No. 7 in C-Sharp Minor ""Cello""";11;2002;classical;0,231;0,0128;0,0392
+Frédéric Chopin;Mazurka;13;2002;classical;0,223;0,101;0,43
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 16 in B-Flat Minor;15;2002;classical;0,341;0,265;0,624
+Frédéric Chopin;"12 Études, Op. 25: No. 3 in F Major ""The Horseman";11;2002;classical;0,322;0,104;0,467
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 20 in C Minor;13;2002;classical;0,623;0,00189;0,264
+Claude Debussy;Deux arabesques, L. 66: No. 1 (Transcr. H. Renié);13;2002;classical;0,254;0,00883;0,0791
+Claude Debussy;Danse Sacrée et Danse Profane, L. 103: II. Danse Profane;14;2002;classical;0,184;0,0276;0,0378
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 1 in C Major;13;2002;classical;0,226;0,149;0,317
+Frédéric Chopin;24 Préludes, Op. 28: No. 16 in B-Flat Minor;12;2002;classical;0,418;0,348;0,495
+Frédéric Chopin;Chopin: 24 Preludes, Op. 28: No. 3 in G Major;13;2002;classical;0,331;0,0387;0,419
+Frédéric Chopin;Piano Sonata No. 2 in B-Flat Minor, Op. 35: I. Grave - Doppio movimento;12;2002;classical;0,344;0,28;0,0748
+Sergei Rachmaninoff;Piano Concerto No. 3 in D Minor, Op. 30: III. Finale. Alla breve - Live at the Proms;10;2002;classical;0,354;0,179;0,1
+Franz Liszt;Abschied, S. 251;13;2002;classical;0,455;0,00917;0,267
+Franz Liszt;Piano Concerto No. 2 in A, S.125: 4. Allegro animato;7;2002;classical;0,375;0,365;0,222
+Ludwig van Beethoven;Beethoven: Symphony No. 2 in D Major, Op. 36: III. Scherzo. Allegro;45;2003;classical;0,388;0,122;0,591
+Franz Liszt;En rêve, S. 207;37;2003;classical;0,278;0,0077;0,0389
+Sergei Rachmaninoff;Italian Polka;37;2003;classical;0,466;0,102;0,745
+Sergei Rachmaninoff;Ten Preludes, Op. 23: IV. Andante cantabile;33;2003;classical;0,244;0,0051;0,0836
+Claude Debussy;Nocturnes: No. 1. Nuages;33;2003;classical;0,0979;0,00275;0,0323
+Sergei Rachmaninoff;Prelude in C Sharp Minor, Op. 3, No. 2 (Arr. Orchestra) - Live;25;2003;classical;0,0658;0,0972;0,0612
+Ludwig van Beethoven;Beethoven: Symphony No. 2 in D Major, Op. 36: IV. Allegro molto;32;2003;classical;0,321;0,187;0,305
+Franz Liszt;"Grandes études de Paganini, S.141: No. 3 in G-Sharp Minor ""La campanella""";32;2003;classical;0,296;0,232;0,393
+Ludwig van Beethoven;Beethoven: Symphony No. 1 in C Major, Op. 21: I. Adagio molto - Allegro con brio;32;2003;classical;0,306;0,104;0,184
+Frédéric Chopin;Nocturne No. 20 in C-Sharp Minor, Op. posth (Arranged for Violin & Orchestra);27;2003;classical;0,204;0,13;0,084
+Claude Debussy;The Girl with Flaxen Hair;27;2003;classical;0,165;0,0706;0,0383
+Sergei Rachmaninoff;Piano Concerto No. 1 in F-Sharp Minor, Op. 1: I. Vivace;31;2003;classical;0,3;0,162;0,059
+Sergei Rachmaninoff;Piano Concerto No. 2, Op. 18: II. Adagio sostenuto;31;2003;classical;0,139;0,0968;0,0387
+Ludwig van Beethoven;"Beethoven: Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": I. Allegro con brio";31;2003;classical;0,229;0,118;0,185
+Ludwig van Beethoven;Beethoven: Symphony No. 7 in A Major, Op. 92: II. Allegretto;32;2003;classical;0,122;0,0321;0,0532
+Sergei Rachmaninoff;Piano Concerto No. 1 in F-Sharp Minor, Op. 1: II. Andante;28;2003;classical;0,296;0,0495;0,0349
+Ludwig van Beethoven;Beethoven: Symphony No. 2 in D Major, Op. 36: I. Adagio - Allegro con brio;29;2003;classical;0,255;0,151;0,155
+Ludwig van Beethoven;Beethoven: Symphony No. 1 in C Major, Op. 21: II. Andante cantabile con moto;30;2003;classical;0,359;0,0276;0,0856
+Ludwig van Beethoven;Beethoven: Symphony No. 1 in C Major, Op. 21: III. Menuetto. Allegro molto e vivace;29;2003;classical;0,489;0,228;0,176
+Ludwig van Beethoven;"Beethoven / Arr Leon: Piano Concerto No. 5 in E-Flat Major, Op. 73, ""Emperor"": II. Adagio un poco mosso";29;2003;classical;0,372;0,0556;0,0788
+Ludwig van Beethoven;Beethoven: Symphony No. 1 in C Major, Op. 21: IV. Adagio - Allegro molto e vivace;29;2003;classical;0,431;0,217;0,328
+Ludwig van Beethoven;"Beethoven: Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": II. Marcia funebre. Adagio assai";29;2003;classical;0,101;0,0438;0,0388
+Ludwig van Beethoven;Cello Sonata No. 3 in A Major, Op. 69: III. Adagio cantabile -;26;2003;classical;0,195;0,0292;0,156
+Ludwig van Beethoven;"Beethoven: Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": IV. Finale. Allegro molto";28;2003;classical;0,249;0,143;0,24
+Ludwig van Beethoven;"Beethoven: Symphony No. 3 in E-Flat Major, Op. 55 ""Eroica"": III. Scherzo. Allegro vivace";28;2003;classical;0,381;0,197;0,304
+Sergei Rachmaninoff;Piano Concerto No. 1 in F-Sharp Minor, Op. 1: III. Allegro vivace;26;2003;classical;0,311;0,227;0,113
+Ludwig van Beethoven;Beethoven: Symphony No. 7 in A Major, Op. 92: I. Poco sostenuto - Vivace;27;2003;classical;0,327;0,172;0,123
+Ludwig van Beethoven;"Beethoven: Symphony No. 9 in D Minor, Op. 125 ""Choral"": I. Allegro ma non troppo, un poco maestoso";28;2003;classical;0,173;0,0803;0,118
+Ludwig van Beethoven;Beethoven: Symphony No. 4 in B-Flat Major, Op. 60: I. Adagio - Allegro vivace;27;2003;classical;0,287;0,0988;0,17
+Ludwig van Beethoven;Beethoven: Symphony No. 2 in D Major, Op. 36: II. Larghetto;26;2003;classical;0,215;0,019;0,0797
+Ludwig van Beethoven;"Beethoven: Symphony No. 9 in D Minor, Op. 125 ""Choral"": IV. (b) ""O Freunde, nicht diese Töne!"" (Ode to Joy)";28;2003;classical;0,281;0,223;0,0622
+Ludwig van Beethoven;String Quintet in C Minor, Op.104: II. Andante cantabile con variazioni;22;2003;classical;0,216;0,0574;0,279
+Ludwig van Beethoven;Beethoven: Symphony No. 7 in A Major, Op. 92: III. Presto - Assai meno presto;25;2003;classical;0,244;0,175;0,242
+Ludwig van Beethoven;Beethoven: Symphony No. 4 in B-Flat Major, Op. 60: II. Adagio;25;2003;classical;0,121;0,0189;0,0771
+Ludwig van Beethoven;"Beethoven: Symphony No. 9 in D Minor, Op. 125 ""Choral"": III. Adagio molto e cantabile - Andante moderato";25;2003;classical;0,0706;0,018;0,0396
+Ludwig van Beethoven;Beethoven: Symphony No. 7 in A Major, Op. 92: IV. Allegro con brio;25;2003;classical;0,277;0,285;0,307
+Ludwig van Beethoven;Beethoven: Symphony No. 8 in F Major, Op. 93: I. Allegro vivace e con brio;25;2003;classical;0,336;0,169;0,219
+Ludwig van Beethoven;Beethoven: Symphony No. 4 in B-Flat Major, Op. 60: IV. Allegro ma non troppo;24;2003;classical;0,357;0,222;0,464
+Ludwig van Beethoven;Beethoven: Symphony No. 4 in B-Flat Major, Op. 60: III. Menuetto. Allegro vivace;24;2003;classical;0,336;0,0561;0,238
+Ludwig van Beethoven;Beethoven: Symphony No. 8 in F Major, Op. 93: II. Allegretto scherzando;24;2003;classical;0,547;0,0299;0,291
+Sergei Rachmaninoff;Piano Concerto No. 2, Op. 18: I. Moderato;22;2003;classical;0,265;0,229;0,0779
+Ludwig van Beethoven;Beethoven: Symphony No. 8 in F Major, Op. 93: III. Tempo di menuetto;23;2003;classical;0,287;0,0415;0,194
+Ludwig van Beethoven;Beethoven: Symphony No. 8 in F Major, Op. 93: IV. Allegro vivace;23;2003;classical;0,388;0,225;0,246
+Felix Mendelssohn;Piano Concerto No. 1 in G Minor, Op. 25, MWV O7: II. Andante;20;2003;classical;0,239;0,0155;0,0384
+Sergei Rachmaninoff;Piano Concerto No. 3, Op. 30: III. Finale. Allegro;21;2003;classical;0,342;0,314;0,114
+Franz Liszt;Liebeslied (Widmung), S. 566;21;2003;classical;0,165;0,0368;0,0388
+Franz Liszt;"Grandes Etudes de Paganini, S.141: No. 3 In G Sharp Minor (""La Campanella"")";17;2003;classical;0,366;0,347;0,483
+Sergei Rachmaninoff;Piano Concerto No. 1, Op. 1: I. Vivace;15;2003;classical;0,221;0,256;0,0755
+Franz Liszt;Liebestraum No. 3 in A-Flat Major, S. 541;16;2003;classical;0,191;0,0239;0,0351
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43;14;2003;classical;0,269;0,262;0,121
+Sergei Rachmaninoff;Piano Concerto No. 2, Op. 18: III. Allegro scherzando;15;2003;classical;0,339;0,26;0,102
+Frédéric Chopin;Douze études, Op. 25: No. 1 in A-Flat Major, Allegro sostenuto;11;2003;classical;0,308;0,0874;0,0393
+Frédéric Chopin;Chopin: Polonaise in F-Sharp Minor, Op. 44;14;2003;classical;0,286;0,0891;0,116
+Sergei Rachmaninoff;Piano Concerto No. 3, Op. 30: II. Intermezzo. Adagio;13;2003;classical;0,174;0,131;0,0399
+Claude Debussy;2 Arabesques: Arabesque No. 1;43;2004;classical;0,273;0,0175;0,118
+Frédéric Chopin;Andante spiniato in G: Allegro maestoso;43;2004;classical;0,192;0,00927;0,0387
+Ludwig van Beethoven;'Ode To Joy' From Symphony No. 9 In D Minor 'Choral', Op. 125;34;2004;classical;0,266;0,516;0,236
+Frédéric Chopin;Impromptu No. 3 in G-Flat Major, Op. 51;32;2004;classical;0,158;0,0254;0,217
+Franz Liszt;"3 Concert Études, S. 144: No. 3 in D-Flat Major, ""un sospiro""";37;2004;classical;0,241;0,0636;0,0338
+Ludwig van Beethoven;Beethoven: Triple Concerto for Violin, Cello and Piano in C Major, Op. 56: II. Largo (Live);36;2004;classical;0,164;0,0413;0,039
+Ludwig van Beethoven;String Quartet No. 14 in C-Sharp Minor, Op. 131: 6. Adagio quasi un poco andante;30;2004;classical;0,19;0,0308;0,032
+Frédéric Chopin;12 Etudes, Op. 10: Etude No. 4 in C-Sharp Minor, Op. 10, No. 4;29;2004;classical;0,463;0,25;0,313
+Claude Debussy;Suite bergamasque: Clair de lune;23;2004;classical;0,358;0,0111;0,0539
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Bless the Lord, O my soul";27;2004;classical;0,192;0,13;0,0484
+Frédéric Chopin;Waltz, Op. 64 No. 2 in C-Sharp Minor - Remastered;27;2004;classical;0,248;0,0662;0,181
+Frédéric Chopin;"12 Etudes, Op. 25: Etude No. 13 in A-Flat Major, Op. 25, No. 1, ""Harp Study""";21;2004;classical;0,211;0,0473;0,0373
+Ludwig van Beethoven;Sonata for Cello and Piano No. 3 in A, Op. 69: 3. Adagio cantabile - Allegro vivace;25;2004;classical;0,28;0,103;0,21
+Frédéric Chopin;Scherzo No. 4 in E Major, Op. 54;18;2004;classical;0,375;0,0473;0,0436
+Claude Debussy;2 Arabesques: Arabesque No. 2;22;2004;classical;0,411;0,0908;0,167
+Sergei Rachmaninoff;"All-night Vigil, Op. 37, ""Vespers"": Come, let us worship";24;2004;classical;0,252;0,231;0,142
+Ludwig van Beethoven;"Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"": 2. Adagio cantabile";20;2004;classical;0,36;0,00581;0,0715
+Claude Debussy;La plus que lente;20;2004;classical;0,352;0,0274;0,0485
+Ludwig van Beethoven;"String Quartet No. 11 in F Minor, Op. 95 ""Serioso"": 4. Larghetto espressivo - Allegretto agitato";20;2004;classical;0,34;0,0861;0,102
+Ludwig van Beethoven;Für Elise;33;2004;classical;0,38;0,0749;0,487
+Claude Debussy;Children's Corner: The little shepherd;17;2004;classical;0,38;0,0033;0,129
+Claude Debussy;Children's Corner: The snow is dancing;16;2004;classical;0,148;0,0342;0,0958
+Ludwig van Beethoven;"Beethoven: 6 Variations on Paisiello's ""Nel Cor Più"" in G Major, WoO 70: Variation I -";16;2004;classical;0,312;0,204;0,736
+Claude Debussy;Preludes, Book 1: No. 10: La cathedrale engloutie;14;2004;classical;0,452;0,00379;0,0347
+Franz Liszt;Harmonies poetiques et religieuses, S173/R14: Funerailles;19;2004;classical;0,247;0,0338;0,0547
+Claude Debussy;Le petit negre;15;2004;classical;0,342;0,222;0,424
+Claude Debussy;Valse romantique;13;2004;classical;0,29;0,0429;0,0381
+Felix Mendelssohn;Ein Sommernachtstraum, Op. 61: III. Elfenreigen (Allegro vivace);17;2004;classical;0,325;0,0526;0,0711
+Frédéric Chopin;Nocturne In D-Flat Major, Op. 27, No. 2;16;2004;classical;0,277;0,016;0,04
+Frédéric Chopin;Etude Op. 10, no. 3;13;2004;classical;0,614;0,143;0,0814
+Felix Mendelssohn;Songs Without Words, Op. 19b: No. 1, Andante con moto, MWV U86;16;2004;classical;0,251;0,0217;0,107
+Frédéric Chopin;Waltz, Op. 34 No. 2, Valse brillante, in A Minor - Remastered;14;2004;classical;0,209;0,0153;0,118
+Frédéric Chopin;Mazurka in C-Sharp Minor, Op. 50, No. 3;14;2004;classical;0,319;0,0625;0,124
+Sergei Rachmaninoff;Rachmaninov : Rhapsody on a Theme of Paganini Op.43 : III Variation 7;18;2004;classical;0,523;0,00356;0,514
+Claude Debussy;Images, Book 1: No. 1. Reflets dans l'eau (Reflections in the water);12;2004;classical;0,245;0,031;0,0322
+Claude Debussy;Rêverie: Reverie;13;2004;classical;0,245;0,014;0,0672
+Frédéric Chopin;12 Etudes, Op. 10: Etude No. 1 in C Major, Op. 10, No. 1;17;2004;classical;0,353;0,2;0,0504
+Frédéric Chopin;Scherzo No. 2 in B-Flat Minor, Op. 31;10;2004;classical;0,262;0,0793;0,11
+Frédéric Chopin;"Waltz No. 6 in D-Flat Major, Op. 64 No. 1 ""Minute"" - Remastered";11;2004;classical;0,311;0,127;0,598
+Sergei Rachmaninoff;Variation XVIII;16;2004;classical;0,155;0,0585;0,0369
+Ludwig van Beethoven;Piano Sonata No. 14] Arr. Dominic Miller, Nick Patrick, Nick Ingman: Moonlight Sonata;16;2004;classical;0,308;0,071;0,063
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: I. Moderato - Allegro;11;2004;classical;0,297;0,154;0,0399
+Claude Debussy;Children's Corner: Golliwog's cakewalk;12;2004;classical;0,451;0,0429;0,295
+Claude Debussy;Debussy / Arr. Roelens: Suite bergamasque, CD 82, L. 75: III. Clair de lune;15;2004;classical;0,163;0,0291;0,0684
+Felix Mendelssohn;Songs Without Words, Op. 19b: No. 4, Moderato, MWV U73;14;2004;classical;0,479;0,0108;0,267
+Frédéric Chopin;"12 Etudes, Op. 25: Etude No. 23 in A Minor, Op. 25, No. 11, ""Winter Wind""";12;2004;classical;0,341;0,233;0,0993
+Claude Debussy;"Suite bergamasque, L. 75: III. Clair de lune (Featured in ""Man on Fire"")";11;2004;classical;0,224;0,00639;0,043
+Claude Debussy;Estampes: La soiree dans Grenade;12;2004;classical;0,243;0,0306;0,0351
+Claude Debussy;Estampes: Jardins sous la pluie;12;2004;classical;0,174;0,124;0,0361
+Ludwig van Beethoven;String Quartet No. 15 in A Minor, Op. 132: 3. Molto adagio;12;2004;classical;0,0911;0,0153;0,0444
+Frédéric Chopin;Nocturne No. 11 In G Minor, Op. 37 No. 1;43;2005;classical;0,246;0,00854;0,0951
+Frédéric Chopin;Nocturne No. 3 In B, Op. 9 No. 3;44;2005;classical;0,196;0,0408;0,0618
+Frédéric Chopin;Nocturne No. 4 In F, Op. 15 No. 1;43;2005;classical;0,256;0,0151;0,0802
+Frédéric Chopin;Nocturne No. 5 In F Sharp, Op. 15 No. 2;42;2005;classical;0,297;0,0204;0,0855
+Frédéric Chopin;Nocturne No. 6 In G Minor, Op. 15 No. 3;42;2005;classical;0,384;0,00866;0,122
+Frédéric Chopin;Nocturne No. 7 In C Sharp Minor, Op. 27 No. 1 - 2005 Recording;41;2005;classical;0,286;0,0111;0,0469
+Frédéric Chopin;Nocturne No. 19 In E Minor, Op. 72 No. 1;40;2005;classical;0,261;0,0121;0,0571
+Frédéric Chopin;Nocturne No. 9 In B, Op. 32 No. 1;40;2005;classical;0,231;0,013;0,103
+Frédéric Chopin;Nocturne No. 10 In A Flat, Op. 32 No. 2;40;2005;classical;0,204;0,0432;0,145
+Frédéric Chopin;Nocturne No. 15 In F Minor, Op. 55 No. 1;39;2005;classical;0,364;0,0184;0,113
+Frédéric Chopin;Nocturne No. 13 In C Minor, Op. 48 No. 1;39;2005;classical;0,227;0,0527;0,0462
+Frédéric Chopin;Nocturne No. 12 In G, Op. 37 No. 2;39;2005;classical;0,342;0,0197;0,038
+Sergei Rachmaninoff;The Flight of the Bumblebee;37;2005;classical;0,403;0,166;0,185
+Frédéric Chopin;Nocturne No. 18 In E, Op. 62 No. 2;37;2005;classical;0,248;0,0312;0,0941
+Frédéric Chopin;Nocturne No. 14 In F Sharp Minor, Op. 48 No. 2;38;2005;classical;0,268;0,00685;0,0818
+Frédéric Chopin;Nocturne No. 16 In E Flat, Op. 55 No. 2;37;2005;classical;0,28;0,0359;0,0829
+Frédéric Chopin;Nocturne No. 17 In B, Op. 62 No. 1;37;2005;classical;0,205;0,0146;0,0584
+Sergei Rachmaninoff;Rhapsody on a Theme of Paganini, Op. 43: Variation No. 18 - Live;33;2005;classical;0,267;0,0687;0,0377
+Frédéric Chopin;Nocturne No. 2 in E-Flat Major, Op. 9 (Arr. by Pierre Fournier);30;2005;classical;0,151;0,095;0,135
+Ludwig van Beethoven;"Concerto for Violin, Cello & Piano in C Major, Op. 56 ""Triple Concerto"": II. Largo";30;2005;classical;0,148;0,11;0,0373
+Ludwig van Beethoven;String Quartet No. 7 In F Major, Op. 59 No. 1: I. Allegro;28;2005;classical;0,315;0,0414;0,109
+Ludwig van Beethoven;"Piano Trio No. 5 in D Major, Op. 70, No. 1, ""Ghost"": II. Largo assai ed espressivo";24;2005;classical;0,132;0,0354;0,0331
+Claude Debussy;Beau soir;22;2005;classical;0,151;0,0059;0,0371
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 4 in E minor, Presto;16;2005;classical;0,26;0,2;0,0972
+Sergei Rachmaninoff;Rachmaninov: Piano Concerto No. 1 in F-Sharp Minor, Op. 1: I. Vivace;24;2005;classical;0,226;0,117;0,0391
+Sergei Rachmaninoff;12 Songs, Op. 21 (version for piano): Siren' (Lilacs), Op. 21, No. 5;23;2005;classical;0,272;0,0215;0,0835
+Sergei Rachmaninoff;Prelude in G Minor, Op. 23, No. 5: Alla marcia;23;2005;classical;0,431;0,172;0,0974
+Ludwig van Beethoven;Piano Trio No. 6 in E-Flat Major, Op. 70, No. 2: III. Allegretto ma non troppo;22;2005;classical;0,312;0,0516;0,15
+Felix Mendelssohn;"String Quartet No. 2 in A Minor, Op. 13, MWV R22: I. Adagio; Allegro vivace";20;2005;classical;0,29;0,128;0,148
+Ludwig van Beethoven;Sonata in A Major Op. 69: III. Adagio cantabile;23;2005;classical;0,176;0,0163;0,143
+Frédéric Chopin;E flat major, Op 9, n? 2;18;2005;classical;0,414;0,00711;0,077
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: I. Moderato - Live;14;2005;classical;0,17;0,0984;0,0383
+Sergei Rachmaninoff;Rachmaninov / Arr. Heifetz for Violin and Piano: 12 Romances, Op. 21: No. 7, How Fair This Spot;21;2005;classical;0,205;0,168;0,118
+Sergei Rachmaninoff;Rachmaninov - String Quartet No.1: Romance;17;2005;classical;0,202;0,0645;0,0494
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: II. Adagio sostenuto - Live;13;2005;classical;0,175;0,0379;0,037
+Ludwig van Beethoven;Beethoven: String Trio in E-Flat Major, Op. 3: I. Allegro con brio;13;2005;classical;0,459;0,0693;0,515
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 5 in D flat, Adagio sostenuto;11;2005;classical;0,266;0,00353;0,0374
+Frédéric Chopin;24 Préludes, Op. 28: No. 4 in E Minor. Largo;16;2005;classical;0,411;0,0139;0,036
+Ludwig van Beethoven;"Symphony No. 6 in F Major, Op. 68 ""Pastoral"": III. Lustiges Zusammensein der Landleute (Allegro)";18;2005;classical;0,254;0,113;0,371
+Felix Mendelssohn;String Quartet No. 6 in F Minor, Op. 80, MWV R 37: I. Allegro vivace assai;16;2005;classical;0,312;0,151;0,196
+Sergei Rachmaninoff;Piano Concerto No. 2 in C Minor, Op. 18: III. Allegro scherzando - Live;11;2005;classical;0,32;0,125;0,05
+Felix Mendelssohn;String Quartet No. 2 in A Minor, Op. 13, MWV R22: II. Adagio non lento;17;2005;classical;0,19;0,0448;0,0704
+Sergei Rachmaninoff;Elégie: Op. 3, No. 1;20;2005;classical;0,352;0,0324;0,0486
+Frédéric Chopin;D flat major, Op. 27 n? 2;15;2005;classical;0,356;0,00384;0,0571
+Frédéric Chopin;F sharp major, op. 15 n? 2;14;2005;classical;0,238;0,0133;0,0952
+Felix Mendelssohn;"String Quartet No. 2 in A Minor, Op. 13, MWV R22: III. Intermezzo; Allegretto con moto";16;2005;classical;0,377;0,0982;0,416
+Felix Mendelssohn;String Quartet No. 1 in E Flat Major, Op. 12, MWV R 25: II. Canzonetta: Allegretto;16;2005;classical;0,501;0,0834;0,698
+Frédéric Chopin;A flat major, Op. 32 n? 2;13;2005;classical;0,215;0,0131;0,139
+Sergei Rachmaninoff;Morceaux de Fantasie, Op. 3: No. 1 Elegie;9;2005;classical;0,375;0,0429;0,0683
+Felix Mendelssohn;"String Quartet No. 1 in E Flat Major, Op. 12, MWV R 25: I. Adagio non troppo; Allegro non tardante";15;2005;classical;0,201;0,129;0,138
+Felix Mendelssohn;String Quartet No. 6 in F Minor, Op. 80, MWV R 37: II. Allegro assai;15;2005;classical;0,412;0,0721;0,213
+Felix Mendelssohn;String Quartet No. 2 in A Minor, Op. 13, MWV R22: IV. Presto;15;2005;classical;0,34;0,132;0,119
+Felix Mendelssohn;String Quartet in E Minor, Op. 44, No. 2, MWV R26: I. Allegro assai appassionato;15;2005;classical;0,208;0,114;0,205
+Frédéric Chopin;F minor, Op. 55, n? 1;12;2005;classical;0,253;0,00716;0,117
+Ludwig van Beethoven;Grosse Fuge in B Flat Major, Op.133;14;2005;classical;0,359;0,218;0,227
+Ludwig van Beethoven;Beethoven: String Trio in E-Flat Major, Op. 3: II. Andante;9;2005;classical;0,517;0,0371;0,633
+Sergei Rachmaninoff;Rachmaninov: 10 Preludes, Op. 23: No. 5 in G Minor;14;2005;classical;0,406;0,219;0,126
+Frédéric Chopin;Chopin: Polonaise in G Minor;15;2005;classical;0,443;0,0771;0,265
+Claude Debussy;Clair de lune;14;2005;classical;0,106;0,00685;0,0375
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 3 in B minor, Andante cantabile;7;2005;classical;0,515;0,0131;0,11
+Sergei Rachmaninoff;6 Moments musicaux, Op. 16: No. 1 in B flat minor, Andantino;7;2005;classical;0,276;0,0382;0,0393
+Ludwig van Beethoven;Beethoven: String Trio in E-Flat Major, Op. 3: III. Menuet (Allegretto);9;2005;classical;0,319;0,0309;0,596
+Ludwig van Beethoven;Beethoven: String Trio in D Major, Op. 8, 'Serenade': I. Adagio;9;2005;classical;0,209;0,0592;0,285
+Felix Mendelssohn;String Quartet No. 6 in F Minor, Op. 80, MWV R 37: III. Adagio;13;2005;classical;0,128;0,0399;0,0967
+Felix Mendelssohn;Mendelssohn: Songs Without Words, Book VI, Op. 67: No. 2, Allegro leggiero, MWV U145;52;2006;classical;0,227;0,0561;0,218
+Ludwig van Beethoven;"Piano Sonata No. 8 In C Minor, Op. 13 -""Pathétique"": 2. Adagio cantabile - Live";45;2006;classical;0,261;0,00746;0,062
+Ludwig van Beethoven;Fur Elise;41;2006;classical;0,213;0,193;0,548
+Claude Debussy;Preludes, Book 1: No. 8. La fille aux cheveux de lin (arr. for guitar);40;2006;classical;0,289;0,0117;0,115
+Frédéric Chopin;Fantaisie-impromptu in C-Sharp Minor, Op. 66;38;2006;classical;0,224;0,0304;0,0819
+Ludwig van Beethoven;"Piano Sonata No. 8 In C Minor, Op. 13 -""Pathétique"": 1. Grave - Allegro di molto e con brio - Live";36;2006;classical;0,312;0,148;0,0637
+Claude Debussy;Beau soir, L. 6 (Arranged for Violin and Piano by Jascha Heifetz);35;2006;classical;0,196;0,0496;0,0365
+Frédéric Chopin;Nocturne No. 20 in C-Sharp Minor, Op. posth (The Pianist);35;2006;classical;0,31;0,0141;0,0625
+Felix Mendelssohn;Mendelssohn: Songs Without Words, Book I, Op. 19b: No. 1, Andante con moto, MWV U86;26;2006;classical;0,345;0,0149;0,14
+Frédéric Chopin;Chopin: Cantabile in B-Flat Major;23;2006;classical;0,365;0,00173;0,625
+Sergei Rachmaninoff;Francesca da Rimini, Op. 25: Scene II: Moderato;31;2006;classical;0,157;0,0414;0,0358
+Frédéric Chopin;Chopin: Prelude No. 4 in E Minor, Op. 28 No. 4 (Arr. for cello);25;2006;classical;0,106;0,0296;0,0361
+Ludwig van Beethoven;"Piano Sonata No. 8 In C Minor, Op. 13 -""Pathétique"": 3. Rondo (Allegro) - Live";29;2006;classical;0,319;0,12;0,254
+Felix Mendelssohn;"Festgesang, MWV D4, ""Gutenberg-Kantate"": No. 2. (adap. W.H. Cummings as Hark! The Herald Angels Sing)";29;2006;classical;0,239;0,21;0,207
+Ludwig van Beethoven;"Piano Sonata No. 8 in C Minor, Op. 13 ""Pathétique"": III. Rondo. Allegro";24;2006;classical;0,266;0,13;0,158
+Claude Debussy;Suite bergamasque, L. 75: 4. Passepied;20;2006;classical;0,274;0,0229;0,137
+Sergei Rachmaninoff;Aleko: The Young Gypsy's Romance;28;2006;classical;0,254;0,0779;0,197
+Claude Debussy;Petite Suite, L. 65: I. En bateau;22;2006;classical;0,117;0,054;0,105
+Ludwig van Beethoven;"Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto - Redbook Stereo";28;2006;classical;0,237;0,0133;0,272
+Frédéric Chopin;Chopin: Impromptu No. 1 in A-Flat Major, Op. 29;24;2006;classical;0,274;0,0362;0,0695
+Ludwig van Beethoven;String Quintet in C Major, Op. 29: II. Adagio molto espressivo;21;2006;classical;0,239;0,166;0,155
+Frédéric Chopin;Nocturne in E flat;20;2006;classical;0,155;0,0581;0,0731
+Franz Liszt;Weihnachtsbaum, S613/R307 (arr. A. Collins): Games;22;2006;classical;0,559;0,199;0,462
+Felix Mendelssohn;Piano Trio No. 1 in D Minor, Op. 49, MWV Q29: I. Molto allegro agitato;23;2006;classical;0,27;0,138;0,119
+Sergei Rachmaninoff;Aleko: Men's Dance;22;2006;classical;0,318;0,0695;0,226
+Frédéric Chopin;Nocturne in C sharp minor, Op. posth.;25;2006;classical;0,414;0,0584;0,23
+Ludwig van Beethoven;"Symphony No. 9 in D Minor, Op. 125 ""Choral"": III. Adagio molto e cantabile";22;2006;classical;0,0634;0,0113;0,0398
+Franz Liszt;Weihnachtsbaum, S613/R307 (arr. A. Collins): V. Scherzoso: Man zundet die Kerzen des Baumes an (Lighting the Tree);20;2006;classical;0,405;0,103;0,109
+Felix Mendelssohn;String Octet in E-Flat Major, Op. 20, MWV R20: I. Allegro moderato, ma con fuoco;22;2006;classical;0,315;0,137;0,148
+Felix Mendelssohn;Frühlingslied Op.62 No.6;24;2006;classical;0,442;0,0789;0,918
+Felix Mendelssohn;"Lieder ohne Worte, Op. 62: VI. Allegretto grazioso ""Frühlingslied""";19;2006;classical;0,338;0,0253;0,682
+Ludwig van Beethoven;Piano Sonata No. 30 in E Major, Op. 109: 1. Vivace, ma non troppo - Adagio espressivo - Tempo I;16;2006;classical;0,246;0,0338;0,0634
+Franz Liszt;Liszt: Valse-Impromptu, S. 213;22;2006;classical;0,341;0,0833;0,0403
+Frédéric Chopin;Piano Concerto No. 2 in F minor Op. 21: II. Larghetto;24;2006;classical;0,179;0,0545;0,0399
+Sergei Rachmaninoff;Suite No. 2 in C Major, Op. 17: II. Valse: Presto;19;2006;classical;0,308;0,049;0,104
+Ludwig van Beethoven;Piano Sonata No. 31 in A-Flat Major, Op. 110: 1. Moderato cantabile molto espressivo;15;2006;classical;0,316;0,0327;0,0535
+Ludwig van Beethoven;Piano Sonata No. 30 in E Major, Op. 109: 3. Gesangvoll, mit innigster Empfindung. Andante molto cantabile ed espressivo;15;2006;classical;0,335;0,0444;0,0381
+Sergei Rachmaninoff;Trio elegiaque No. 2 in D Minor, Op. 9: II. Quasi variazione: Andante - Allegro - Lento - Allegro scherzando - Moderato - L'istesso tempo - Allegro vivace - Andante - Moderato;18;2006;classical;0,165;0,0334;0,0375
+Felix Mendelssohn;String Octet in E-Flat Major, Op. 20, MWV R20: III. Scherzo: Allegro leggierissimo;20;2006;classical;0,381;0,116;0,293
+Ludwig van Beethoven;Piano Sonata No. 30 in E Major, Op. 109: 2. Prestissimo;15;2006;classical;0,246;0,0848;0,218
+Felix Mendelssohn;Violin Concerto in E Minor, Op. 64, MWV O 14: 2. Andante;21;2006;classical;0,163;0,0724;0,0371
+Frédéric Chopin;"Chopin: Waltz No. 6 in D-Flat Major, Op. 64 No. 1 ""Minute""";21;2006;classical;0,302;0,0987;0,26
+Sergei Rachmaninoff;Vocalise, Op. 34, No. 14 (Arranged for Violin & Orchestra);18;2006;classical;0,181;0,25;0,0399
+Ludwig van Beethoven;Piano Sonata No. 31 in A-Flat Major, Op. 110: 4. Fuga. Allegro ma non troppo;14;2006;classical;0,245;0,0684;0,038
+Felix Mendelssohn;Piano Trio No. 2 in C Minor, Op. 66, MWV Q33: I. Allegro energico e con fuoco;17;2006;classical;0,212;0,116;0,128
+Frédéric Chopin;Etude in E major, Op.10 No.3;22;2006;classical;0,408;0,0528;0,0386
+Frédéric Chopin;Piano Concerto No. 1 in E minor, Op. 11: 2. Romance (Larghetto);11;2006;classical;0,283;0,0347;0,0392
+Ludwig van Beethoven;Piano Sonata No. 31 in A-Flat Major, Op. 110: 3. Adagio ma non troppo;14;2006;classical;0,379;0,00195;0,0346
+Ludwig van Beethoven;Piano Sonata No. 32 in C Minor, Op. 111: 1. Maestoso - Allegro con brio ed appassionato;14;2006;classical;0,357;0,155;0,104
+Ludwig van Beethoven;Piano Sonata No. 31 in A-Flat Major, Op. 110: 2. Allegro molto;14;2006;classical;0,445;0,0898;0,614
+Ludwig van Beethoven;Piano Sonata No. 32 in C Minor, Op. 111: 2. Arietta. Adagio molto semplice e cantabile;14;2006;classical;0,281;0,0528;0,0365
+Sergei Rachmaninoff;Rachmaninov: Cello Sonata in G Minor, Op. 19: III. Andante;19;2006;classical;0,177;0,0318;0,0386
+Claude Debussy;Suite bergamasque: III. Clair de lune (E la nave va, And the Ship Sails On);22;2006;classical;0,353;0,0136;0,0395
+Felix Mendelssohn;Piano Trio No. 1 in D Minor, Op. 49, MWV Q29: IV. Finale: Allegro assai appassionato;16;2006;classical;0,272;0,123;0,28
+Frédéric Chopin;Piano Sonata No. 2 in B flat minor, Op. 35: 3. Marche funèbre (Lento);17;2006;classical;0,465;0,00418;0,0948
+Frédéric Chopin;Chopin: Fantaisie-Impromptu in C-Sharp Minor, Op. 66 (Allegro agitato - Moderato cantabile);21;2006;classical;0,183;0,0936;0,068
+Frédéric Chopin;Chopin: Piano Concerto No. 2 in F Minor, Op. 21: II. Larghetto;9;2006;classical;0,222;0,263;0,0771
+Felix Mendelssohn;Piano Trio No. 1 in D Minor, Op. 49, MWV Q29: III. Scherzo: Leggiero e vivace;17;2006;classical;0,572;0,15;0,611
+Felix Mendelssohn;String Octet in E-Flat Major, Op. 20, MWV R20: IV. Presto;17;2006;classical;0,375;0,246;0,436
+Sergei Rachmaninoff;"All-Night Vigil, Op. 37 ""Vespers"": No. 6, Ave Maria";15;2006;classical;0,119;0,0488;0,039
+Claude Debussy;Deux Arabesques, L. 66: I. Première Arabesque;17;2006;classical;0,288;0,0327;0,112
+Claude Debussy;Debussy: Préludes, Livre I, CD 125, L. 117: No. 8, La fille aux cheveux de lin (Arr. for Harp);9;2006;classical;0,431;0,149;0,223
+Frédéric Chopin;Chopin: Grande valse brillante in E-Flat Major, Op. 18;18;2006;classical;0,347;0,225;0,302
+Ludwig van Beethoven;"Sonata No. 14 ""Moonlight"" in C-Sharp Minor"", Op. 27 No. 2: I. Adagio sostenuto";69;2007;classical;0,184;0,00527;0,151
+Claude Debussy;Suite Bergamasque, L. 75: III. Clair de lune (Andante très expressif);59;2007;classical;0,36;0,0249;0,0396
+Ludwig van Beethoven;"Piano Sonata No. 17 In D Minor, Op. 31, No. 2 -""The Tempest"": 3. Allegretto - Live";49;2007;classical;0,227;0,113;0,175
+Ludwig van Beethoven;Violin Concerto In D, Op. 61: 2. Larghetto -;33;2007;classical;0,111;0,0275;0,0378
+Claude Debussy;Estampes, L. 100: I. Pagodes (modérément animé);37;2007;classical;0,238;0,0174;0,0885
+Ludwig van Beethoven;"Sonata No. 14 ""Moonlight"" in C-Sharp Minor"", Op. 27 No. 2: III. Presto agitato";37;2007;classical;0,318;0,204;0,058
+Frédéric Chopin;"Waltzes, Op. 69, B. 35: No. 1 in A-Flat Major, ""L'adieu"". Lento";35;2007;classical;0,197;0,0351;0,0666
+Sergei Rachmaninoff;Morceaux de fantaisie, Op. 3: 5 Morceaux de fantasie, Op. 3: No. 2. Prelude in C-Sharp Minor;34;2007;classical;0,423;0,0639;0,0408
+Claude Debussy;Children's Corner, L. 113: IV. The Snow is Dancing (Modérément animé);33;2007;classical;0,272;0,039;0,0969
+Claude Debussy;Deux Arabesques, L. 66: I. Andantino con moto;30;2007;classical;0,295;0,0775;0,139
+Claude Debussy;Valse romantique, L. 71;32;2007;classical;0,33;0,0253;0,0468
+Ludwig van Beethoven;"Sonata No. 14 ""Moonlight"" in C-Sharp Minor"", Op. 27 No. 2: II. Allegretto";33;2007;classical;0,447;0,0589;0,368
+Frédéric Chopin;"Polonaise No. 15 in B-Flat Minor, ""Adieu""";32;2007;classical;0,351;0,0269;0,0899
+Ludwig van Beethoven;Violin Concerto In D, Op. 61: 3. Rondo (Allegro);24;2007;classical;0,422;0,0696;0,235
+Ludwig van Beethoven;Violin Concerto In D, Op. 61: 1. Allegro ma non troppo;23;2007;classical;0,269;0,0653;0,0834
+Claude Debussy;Ballade slave, L. 70;29;2007;classical;0,264;0,0258;0,0347
+Ludwig van Beethoven;"Piano Sonata No. 29 in B-Flat Major, Op. 106 ""Hammerklavier"": 1. Allegro";28;2007;classical;0,335;0,151;0,0989
+Ludwig van Beethoven;"Piano Sonata No. 29 in B-Flat Major, Op. 106 ""Hammerklavier"": 3. Adagio sostenuto";28;2007;classical;0,32;0,0128;0,0349
+Claude Debussy;Six Épigraphes Antiques, L. 131: I. Pour invoquer Pan, dieu du vent d'été;28;2007;classical;0,306;0,00549;0,18
+Ludwig van Beethoven;"Symphony No. 3 in E-Flat Major, Op. 55 - ""Eroica"": III. Scherzo. Allegro vivace";30;2007;classical;0,462;0,2;0,19
+Claude Debussy;Images inédites, L. 87: I. Lent (mélancolique et doux);27;2007;classical;0,413;0,00748;0,0379
+Franz Liszt;"Der Tanz in der Dorfschenke, S. 514 ""Mephisto Waltz No. 1"": Der Tanz in der Dorfschenke, S. 514/R. 181, ""Mephisto Waltz No. 1""";29;2007;classical;0,341;0,12;0,0376
+Sergei Rachmaninoff;10 Preludes, Op. 23: No. 2 in B-Flat Major: Maestoso;26;2007;classical;0,221;0,272;0,268
+Claude Debussy;Suite Bergamasque, L. 75: I. Prélude (Moderato);26;2007;classical;0,369;0,124;0,136
+Claude Debussy;Children's Corner, L. 113: I. Doctor Gradus ad Parnassum (Modérément animé);26;2007;classical;0,12;0,116;0,0691
+Claude Debussy;La plus que lente, L.121;24;2007;classical;0,227;0,0278;0,0427
+Claude Debussy;"Romance ""L'âme évaporée""";29;2007;classical;0,253;0,0286;0,0614
+Franz Liszt;Lacrymosa;21;2007;classical;0,546;0,0526;0,0431
+Sergei Rachmaninoff;10 Preludes, Op. 23: No. 4 in D Major: Andante cantabile;25;2007;classical;0,261;0,0181;0,0414
+Claude Debussy;Suite Bergamasque, L. 75: IV. Passepied (Allegretto ma non troppo);24;2007;classical;0,362;0,11;0,345
+Franz Liszt;Paraphrase de concert sur Rigoletto, S. 434: Verdi - Rigoletto: Paraphrase de concert , S. 434/R. 267;26;2007;classical;0,331;0,19;0,0563
+Sergei Rachmaninoff;Rachmaninov: Piano Concerto No. 3 in D Minor, Op. 30: III. Finale. Alla breve;23;2007;classical;0,312;0,188;0,0826
+Ludwig van Beethoven;Sonata No. 1 in F Minor, Op. 2 No. 1: I. Allegro;24;2007;classical;0,403;0,171;0,14
+Claude Debussy;Petite suite, L. 65: I. En bateau (Orch. by Henri Busser);23;2007;classical;0,168;0,0224;0,038
+Franz Liszt;Annees de pelerinage, 2nd year, Italy, S. 161/R. 10b, No. 7. Apres une lecture du Dante: Annees de pelerinage, 2nd year, Italy, S. 161/R. 10b: No. 7, Apres une lecture du Dante (Arr. V. Bresciani for 2 pianos);25;2007;classical;0,346;0,163;0,0356
+Claude Debussy;Pour le Piano, L. 95: II. Sarabande (Avec une élégance grave et lente);21;2007;classical;0,448;0,00482;0,0506
+Ludwig van Beethoven;Piano Trio No. 1 in E-Flat Major, Op. 1, No. 1: II. Adagio cantabile;20;2007;classical;0,232;0,0247;0,0881
+Claude Debussy;Children's Corner, L. 113: III. Serenade for the Doll (Allegretto ma non troppo, léger et gracieux);21;2007;classical;0,404;0,0329;0,227
+Claude Debussy;Nocturne en Ré bémol Majeur, L. 82;21;2007;classical;0,27;0,0113;0,0362
+Claude Debussy;Images inédites, L. 87: II. Souvenir du Louvre;21;2007;classical;0,433;0,00972;0,0385
+Claude Debussy;Suite Bergamasque, L. 75: II. Menuet (Andantino);22;2007;classical;0,268;0,119;0,227
+Franz Liszt;"En rêve, S. 207 ""Nocturne""";23;2007;classical;0,307;0,0141;0,0453
+Felix Mendelssohn;"Symphony No. 4 in A Major, Op. 90, MWV N16, ""Italian"": III. Con moto moderato";25;2007;classical;0,2;0,0216;0,0895
+Ludwig van Beethoven;33 Piano Variations In C, Op. 120 On A Waltz By Anton Diabelli: Variation XIV. Grave e maestoso;15;2007;classical;0,494;0,0448;0,103
+Ludwig van Beethoven;Sonata No. 1 in F Minor, Op. 2 No. 1: II. Adagio;21;2007;classical;0,35;0,0559;0,151
+Ludwig van Beethoven;Sonata No. 1 in F Minor, Op. 2 No. 1: IV. Prestissimo;20;2007;classical;0,312;0,153;0,149
+Sergei Rachmaninoff;Etudes-tableaux, Op. 33: No. 5 in D Minor. Moderato;23;2007;classical;0,332;0,116;0,0849
+Claude Debussy;Images, Livre II, L. 111, Book I, L. 110: I. Reflets dans l'eau;19;2007;classical;0,362;0,0642;0,0339
+Claude Debussy;Mazurka, L. 67;20;2007;classical;0,249;0,0281;0,0777
+Claude Debussy;Children's Corner, L. 113: VI. Golliwogg's Cake-Walk (Allegro giusto);20;2007;classical;0,459;0,077;0,313
+Claude Debussy;Pour le Piano, L. 95: III. Toccata;20;2007;classical;0,27;0,136;0,0593
+Sergei Rachmaninoff;Etudes-tableaux, Op. 39: No. 6 in A Minor. Allegro;20;2007;classical;0,268;0,246;0,13
+Ludwig van Beethoven;"Sonata No. 23 ""Appassionata"" in F Minor, Op. 57: I. Allegro assai";20;2007;classical;0,314;0,164;0,0392
+Ludwig van Beethoven;Sonata No. 1 in F Minor, Op. 2 No. 1: III. Menuetto. Allegretto;20;2007;classical;0,34;0,128;0,224
+Claude Debussy;Children's Corner, L. 113: V. The Little Shepherd (Très modéré);19;2007;classical;0,426;0,00953;0,142
+Claude Debussy;Deux Arabesques, L. 66: II. Allegretto scherzando;20;2007;classical;0,416;0,109;0,308
+Claude Debussy;Children's Corner, L. 113: II. Jimbo's Lullaby (Assez modéré);20;2007;classical;0,326;0,0145;0,0591
+Felix Mendelssohn;"Symphony No. 4 in A Major, Op. 90, MWV N16, ""Italian"": I. Allegro vivace";21;2007;classical;0,283;0,183;0,236
+Claude Debussy;Images, Livre II, L. 111, Book I, L. 110: II. Hommage à Rameau;19;2007;classical;0,419;0,0173;0,0423
+Claude Debussy;Danse bohémienne, L. 9;19;2007;classical;0,416;0,0554;0,19
+Franz Liszt;Hungaria, S103/R420;21;2007;classical;0,233;0,0495;0,0398
+Frédéric Chopin;Mazurka No. 49 In A Minor, Op. 68 No. 2: Lento;24;2007;classical;0,404;0,0188;0,053
+Claude Debussy;"Images inédites, L. 87: III. Quelques aspects de ""Nous n'irons plus au bois"" parce qu'il fait un temps épouvantable";19;2007;classical;0,197;0,0574;0,0357
+Claude Debussy;Pour le Piano, L. 95: I. Prélude (Assez animé et très rythmé);18;2007;classical;0,239;0,0882;0,0347
+Claude Debussy;Debussy: Children's Corner, CD 119, L. 113: No. 1, Doctor Gradus ad Parnassum;20;2007;classical;0,195;0,149;0,0766
+Frédéric Chopin;Waltz No. 8 in A-Flat Major, Op. 64 No. 3: Moderato;22;2007;classical;0,168;0,165;0,157
+Sergei Rachmaninoff;Etudes-tableaux, Op. 39: No. 5 in E-Flat Minor. Appassionato;19;2007;classical;0,251;0,173;0,0366
+Ludwig van Beethoven;Sonata No. 2 in A Major, Op. 2 No. 2: I. Allegro vivace;19;2007;classical;0,42;0,179;0,266
+Franz Liszt;Liebestraum No. 3 in A-Flat, S. 541: Liebestraum No. 3 in A-Flat, S. 541 - Live;12;2007;classical;0,299;0,0546;0,0548
+Claude Debussy;Pour l'œuvre du vêtement du blessé, L. 133;17;2007;classical;0,313;0,00476;0,039
+Claude Debussy;Danse (Tarentelle styrienne), L. 69;17;2007;classical;0,251;0,107;0,0417
+Claude Debussy;Six Épigraphes Antiques, L. 131: IV. Pour la danseuse aux crotales;17;2007;classical;0,268;0,0109;0,0624
+Ludwig van Beethoven;Sonata No. 2 in A Major, Op. 2 No. 2: II. Largo appassionato;18;2007;classical;0,394;0,014;0,324
+Ludwig van Beethoven;Sonata No. 3 in C Major, Op. 2 No. 3: I. Allegro con brio;18;2007;classical;0,339;0,188;0,239
+Sergei Rachmaninoff;Etudes-tableaux, Op. 39: No. 1 in C Minor. Allegro agitato;19;2007;classical;0,302;0,16;0,112
+Ludwig van Beethoven;Sonata No. 2 in A Major, Op. 2 No. 2: III. Scherzo. Allegretto;18;2007;classical;0,385;0,115;0,166
+Ludwig van Beethoven;"Sonata No. 23 ""Appassionata"" in F Minor, Op. 57: III. Allegro ma non troppo";18;2007;classical;0,26;0,243;0,0861
+Ludwig van Beethoven;Sonata No. 2 in A Major, Op. 2 No. 2: IV. Rondo. Grazioso;17;2007;classical;0,285;0,138;0,216
+Sergei Rachmaninoff;Etudes-tableaux, Op. 39: No. 3 in F-Sharp Minor. Allegro molto;18;2007;classical;0,298;0,165;0,132
+Claude Debussy;Images, Livre II, L. 111, Book I, L. 110: III. Mouvement (avec une légèreté fantasque et précise);16;2007;classical;0,275;0,158;0,165
+Claude Debussy;Le petit nègre, L. 114;17;2007;classical;0,535;0,0408;0,394
+Claude Debussy;Les soirs illuminés par l'ardeur du charbon, CD 150;16;2007;classical;0,393;0,00139;0,0954
+Claude Debussy;Préludes, Livre 1, L. 117: No. 8, La fille aux cheveux de lin;16;2007;classical;0,168;0,00485;0,101
+Ludwig van Beethoven;Sonata No. 3 in C Major, Op. 2 No. 3: III. Scherzo;16;2007;classical;0,431;0,164;0,51
+Sergei Rachmaninoff;Etudes-tableaux, Op. 33: No. 2 in C Major. Allegro;18;2007;classical;0,298;0,0336;0,0373
+Ludwig van Beethoven;"Symphony No. 3 in E-Flat Major, Op. 55 - ""Eroica"": I. Allegro con brio";21;2007;classical;0,253;0,115;0,165
+Claude Debussy;Images, Livre II, L. 111, Livre II, L. 111: II. Et la lune descend sur le temple qui fut;15;2007;classical;0,471;0,00431;0,0433
+Claude Debussy;Images, Livre II, L. 111, Livre II, L. 111: I. Cloches à travers les feuilles;16;2007;classical;0,233;0,0427;0,0359
+Sergei Rachmaninoff;Etudes-tableaux, Op. 39: No. 8 in D Minor. Allegro moderato;17;2007;classical;0,197;0,149;0,184
+Sergei Rachmaninoff;Etudes-tableaux, Op. 33: No. 8 in G Minor. Moderato;18;2007;classical;0,366;0,00697;0,0843
+Sergei Rachmaninoff;Etudes-tableaux, Op. 39: No. 2 in A Minor. Lento assai;18;2007;classical;0,281;0,00972;0,073
+Sergei Rachmaninoff;Etudes-tableaux, Op. 33: No. 7 in E-Flat Major. Allegro con fuoco;18;2007;classical;0,382;0,202;0,195
+Ludwig van Beethoven;Sonata No. 3 in C Major, Op. 2 No. 3: II. Adagio;17;2007;classical;0,375;0,00986;0,177
+Claude Debussy;Six Épigraphes Antiques, L. 131: II. Pour un tombeau sans nom;15;2007;classical;0,354;0,00223;0,0356
+Claude Debussy;Hommage à Haydn, L. 115;15;2007;classical;0,411;0,0183;0,0375
+Claude Debussy;Elégie, L. 138;15;2007;classical;0,251;0,00136;0,276
+Claude Debussy;Six Épigraphes Antiques, L. 131: V. Pour l'Egyptienne;14;2007;classical;0,298;0,00271;0,0423
+Felix Mendelssohn;"Mendelssohn: Symphony No. 3 in A Minor, Op. 56, MWV N18 ""Scottish"": I. Andante con moto - Allegro un poco agitato";18;2007;classical;0,107;0,188;0,0384
+Felix Mendelssohn;"Songs without Words, Op. 30: VI. Allegretto tranquillo ""Venetian Boat Song""";14;2007;classical;0,289;0,0393;0,0564
+Frédéric Chopin;Études, Op.10: No. 3 in E Major, Tristesse;22;2007;classical;0,381;0,0268;0,0444
+Ludwig van Beethoven;Sonata No. 4 in E-Flat Major, Op. 7: I. Allegro molto e con brio;15;2007;classical;0,236;0,145;0,155
+Ludwig van Beethoven;"Music to Goethe's Tragedy ""Egmont"" op.84: Overture";14;2007;classical;0,225;0,0651;0,0729
+Ludwig van Beethoven;"Sonata No. 23 ""Appassionata"" in F Minor, Op. 57: II. Andante con moto";15;2007;classical;0,295;0,0257;0,0775
+Sergei Rachmaninoff;5 Morceaux de fantaisie, Op. 3: No. 1 Elégie - Adapted by Mischa Maisky;15;2007;classical;0,12;0,109;0,0388
+Ludwig van Beethoven;Sonata No. 3 in C Major, Op. 2 No. 3: IV. Allegro assai;15;2007;classical;0,249;0,259;0,372
+Ludwig van Beethoven;"Sonata No. 13 ""Quasi una Fantasia"" in E-Flat Major, Op. 27 No. 1: II. Allegro molto e vivace";15;2007;classical;0,381;0,207;0,239
+Ludwig van Beethoven;_: Beethoven: 'Moonlight' Sonata - First movement (Immortal Beloved);9;2007;classical;0,287;0,00937;0,131
+Claude Debussy;Images, Livre II, L. 111: III. Poissons d'or;15;2007;classical;0,254;0,0947;0,0377
+Claude Debussy;Six Épigraphes Antiques, L. 131: III. Pour que la nuit soit propice;14;2007;classical;0,285;0,00956;0,0357
+Claude Debussy;Debussy: Children's Corner, CD 119, L. 113: No. 3, Serenade for the Doll;17;2007;classical;0,476;0,0692;0,238
+Claude Debussy;Estampes, L. 100, CD 108: I. Pagodas;11;2007;classical;0,212;0,0275;0,05
+Claude Debussy;Six Épigraphes Antiques, L. 131: VI. Pour remercier la pluie au matin;13;2007;classical;0,255;0,0257;0,0349
+Claude Debussy;Berceuse héroïque, L. 132;13;2007;classical;0,293;0,00226;0,117
+Claude Debussy;Le roi Lear, L. 107: II. Le sommeil de Lear;13;2007;classical;0,464;0,000785;0,0395
+Sergei Rachmaninoff;Etudes-tableaux, Op. 33: No. 1 in F Minor. Allegro non troppo;17;2007;classical;0,5;0,139;0,344
+Sergei Rachmaninoff;Etudes-tableaux, Op. 39: No. 9 in D Major. Allegro moderato. Tempo di marcia;16;2007;classical;0,412;0,247;0,134
+Ludwig van Beethoven;Sonata No. 4 in E-Flat Major, Op. 7: IV. Rondo. Poco allegretto e grazioso;14;2007;classical;0,329;0,121;0,128
+Sergei Rachmaninoff;13 Preludes, Op. 32: No. 12 in G-Sharp Minor: Allegro;15;2007;classical;0,29;0,0696;0,0379
+Ludwig van Beethoven;Sonata No. 4 in E-Flat Major, Op. 7: II. Largo con gran espressione;15;2007;classical;0,416;0,00252;0,126
+Sergei Rachmaninoff;Etudes-tableaux, Op. 33: No. 3 in C Minor. Grave;16;2007;classical;0,301;0,00193;0,0718
+Frédéric Chopin;Preludes, Op. 28: No. 4, Largo;60;2008;classical;0,376;0,0164;0,0364
+Felix Mendelssohn;Songs Without Words, Book VI Opus 67: No. 2 in F-Sharp Minor;56;2008;classical;0,262;0,0868;0,503
+Claude Debussy;Deux Arabesques, L. 66, CD 74: I. Première Arabesque;51;2008;classical;0,236;0,017;0,0777
+Felix Mendelssohn;3 Etudes Opus 104b: No. 1 in B-Flat Minor;54;2008;classical;0,328;0,0554;0,0786
+Felix Mendelssohn;Prelude In B Minor Opus 104a No.2;50;2008;classical;0,282;0,256;0,31
+Claude Debussy;La plus que lente, L. 121 (Arr. Roques);43;2008;classical;0,213;0,0652;0,0563
+Sergei Rachmaninoff;The Sleeping Beauty Suite, Op. 66a (arr. S. Rachmaninov for piano 4 hands): V. Waltz;41;2008;classical;0,445;0,189;0,45
+Frédéric Chopin;Preludes, Op. 28: No. 15, Sostenuto;40;2008;classical;0,384;0,0177;0,0384
+Claude Debussy;Suite Bergamasque, L. 75, CD 82: Suite bergamasque, L. 75, CD 82: III. Clair de Lune;36;2008;classical;0,271;0,00557;0,0429
+Sergei Rachmaninoff;The Sleeping Beauty Suite, Op. 66a (arr. S. Rachmaninov for piano 4 hands): III. Characteristic Dance;33;2008;classical;0,423;0,0416;0,173
+Sergei Rachmaninoff;The Sleeping Beauty Suite, Op. 66a (arr. S. Rachmaninov for piano 4 hands): IV. Panorama;32;2008;classical;0,437;0,0121;0,0911
+Ludwig van Beethoven;Symphony No. 8 in F Major, Op. 93: II. Allegro scherzando;30;2008;classical;0,411;0,0352;0,326
+Ludwig van Beethoven;Piano Sonata No. 31 in A-Flat Major, Op. 110: I. Moderato cantabile, molto espressivo;33;2008;classical;0,339;0,0557;0,0628
+Frédéric Chopin;Deux Nocturnes, Op. 62: 2. Nocturne In E (Lento);24;2008;classical;0,191;0,0207;0,0676
+Ludwig van Beethoven;Romance for Violin & Orchestra No. 1 in G Major, Op. 40;32;2008;classical;0,266;0,0341;0,101
+Claude Debussy;Debussy: 2 Arabesques, CD 74, L. 66: No. 2, Allegretto scherzando;32;2008;classical;0,371;0,0734;0,314
+Claude Debussy;La mer, L. 109: II. Jeux de vagues;32;2008;classical;0,139;0,119;0,0387
+Felix Mendelssohn;Violin Concerto In E Minor, Op. 64, MWV O14: I. Allegro molto appassionato;25;2008;classical;0,217;0,1;0,124
+Frédéric Chopin;Piano Concerto No. 1 in E minor, Op. 11: II. Romanza: Larghetto;25;2008;classical;0,191;0,0261;0,0361
+Ludwig van Beethoven;Beethoven: String Quartet No. 15 in A Minor, Op. 132: III. Molto adagio;30;2008;classical;0,092;0,011;0,0527
+Felix Mendelssohn;A Midsummer Night's Dream, Op. 61: Scherzo (Transcr. by Sergueï Rachmaninov);32;2008;classical;0,407;0,161;0,757
+Frédéric Chopin;24 Préludes, Op. 28: 4. In E Minor;21;2008;classical;0,395;0,00394;0,0378
+Ludwig van Beethoven;ベートーヴェン:交響曲第7番イ長調作品92より 第1楽章・第4楽章 ドラマエディット;32;2008;classical;0,306;0,275;0,17
+Felix Mendelssohn;Rondo Capriccioso In e Minor Opus 14;31;2008;classical;0,293;0,0895;0,095
+Franz Liszt;Totentanz, S126/R457;27;2008;classical;0,371;0,138;0,0964
+Ludwig van Beethoven;"Piano Sonata No. 26 in E-Flat Major, Op. 81a ""Les Adieux"": II. Andante espressivo ""L'Absence""";27;2008;classical;0,426;0,0105;0,0433
+Felix Mendelssohn;3 Etudes Opus 104b: No. 3 in A minor;28;2008;classical;0,375;0,271;0,327
+Felix Mendelssohn;Violin Concerto In E Minor, Op. 64, MWV O14: II. Andante;18;2008;classical;0,209;0,0597;0,0398
+Frédéric Chopin;"3 Valses, Op. 64: No. 1 Molto vivace in D Major ""Minute Waltz""";25;2008;classical;0,253;0,105;0,333
+Ludwig van Beethoven;Joyful, Joyful, We Adore Thee;18;2008;classical;0,438;0,209;0,343
+Claude Debussy;Suite Bergamasque, L. 75, CD 82: Suite bergamasque, L. 75, CD 82: IV. Passepied;23;2008;classical;0,392;0,0425;0,189
+Ludwig van Beethoven;Beethoven: String Quartet No. 1 in F Major, Op. 18 No. 1: II. Adagio affettuoso ed appassionato;21;2008;classical;0,197;0,0412;0,038
+Felix Mendelssohn;Violin Concerto In E Minor, Op. 64, MWV O14: III. Allegretto non troppo - Allegro molto vivace;16;2008;classical;0,329;0,158;0,371
+Frédéric Chopin;24 Préludes, Op. 28: 7. In A Major;14;2008;classical;0,587;0,00263;0,181
+Claude Debussy;III. Clair de lune;22;2008;classical;0,0792;0,16;0,049
+Felix Mendelssohn;Lied opus 34 no.2, transcription Franz Liszt: Auf Flügeln Des Gesanges;24;2008;classical;0,332;0,0115;0,038
+Frédéric Chopin;"24 Préludes, Op. 28: 15. In D Flat Major (""Raindrop"")";13;2008;classical;0,327;0,00919;0,043
+Claude Debussy;Debussy: String Quartet in G Minor, Op. 10, CD 91, L. 85: III. Andantino. Doucement expressif;21;2008;classical;0,0646;0,0177;0,0345
+Frédéric Chopin;24 Préludes, Op. 28: 6. In B Minor;12;2008;classical;0,394;0,00147;0,109
+Ludwig van Beethoven;Sing with All the Saints in Glory;16;2008;classical;0,439;0,155;0,435
+Frédéric Chopin;24 Préludes, Op. 28: 17. In A Flat Major;12;2008;classical;0,289;0,0349;0,0398
+Frédéric Chopin;24 Préludes, Op. 28: 1. In C Major;12;2008;classical;0,229;0,174;0,291
+Frédéric Chopin;24 Préludes, Op. 28: 2. In A Minor;12;2008;classical;0,292;0,00241;0,114
+Felix Mendelssohn;Song Without Words In C Minor No.2 Opus 38, Book III;24;2008;classical;0,292;0,126;0,0519
+Claude Debussy;Mélodies: Nuit d'etoiles;17;2008;classical;0,247;0,0402;0,0394
+Frédéric Chopin;24 Préludes, Op. 28: 11. In B Major;11;2008;classical;0,163;0,0523;0,386
+Frédéric Chopin;24 Préludes, Op. 28: 3. In G Major;11;2008;classical;0,302;0,0396;0,55
+Felix Mendelssohn;Songs Without Words, Book VI Opus 67: No. 5 in B Minor;23;2008;classical;0,395;0,0128;0,0391
+Frédéric Chopin;24 Préludes, Op. 28: 5. In D Major;11;2008;classical;0,197;0,236;0,195
+Frédéric Chopin;24 Préludes, Op. 28: 12. In G Sharp Minor;11;2008;classical;0,294;0,25;0,543
+Frédéric Chopin;24 Préludes, Op. 28: 10. In C Sharp Minor;11;2008;classical;0,372;0,07;0,487
+Frédéric Chopin;24 Préludes, Op. 28: 9. In E Major;11;2008;classical;0,499;0,0137;0,0371
+Frédéric Chopin;24 Préludes, Op. 28: 13. In F Sharp Major;11;2008;classical;0,284;0,00239;0,164
+Frédéric Chopin;24 Préludes, Op. 28: 8. In F Sharp Minor;11;2008;classical;0,0717;0,184;0,0842
+Frédéric Chopin;24 Préludes, Op. 28: 16. In B Flat Minor;11;2008;classical;0,321;0,262;0,476
+Sergei Rachmaninoff;The Sleeping Beauty Suite, Op. 66a (arr. S. Rachmaninov for piano 4 hands): II. Adagio - Pas d'action;20;2008;classical;0,317;0,2;0,0377
+Felix Mendelssohn;String Quartet No. 6 in F Minor, Op. 80, MWV R30: I. Allegro vivace assai;20;2008;classical;0,247;0,173;0,158
+Felix Mendelssohn;Song Without Words In a Minor No.2 Opus 19, Book I;22;2008;classical;0,326;0,0175;0,118
+Frédéric Chopin;Mazurka No. 47 in A Minor, Op. 67 No. 4;23;2008;classical;0,178;0,0416;0,207
+Felix Mendelssohn;3 Etudes Opus 104b: No. 2 in F Major;22;2008;classical;0,33;0,122;0,838
+Frédéric Chopin;Preludes, Op. 28: No. 7, Andantino;20;2008;classical;0,569;0,00284;0,242
+Frédéric Chopin;Mazurka No. 39 in B Major, Op. 63 No. 1;23;2008;classical;0,31;0,0638;0,209
+Frédéric Chopin;Piano Concerto No. 1 in E Minor, Op. 11: 2. Romance (Larghetto);11;2008;classical;0,203;0,0365;0,0381
+Claude Debussy;Rêverie, L. 68 (Transcr. Y. Kondonassis);11;2008;classical;0,339;0,02;0,0396
+Felix Mendelssohn;3 fantaisies ou caprices, Op. 16: Scherzo In E Minor;21;2008;classical;0,509;0,228;0,425
+Felix Mendelssohn;Variations Sérieuses In D Minor Opus 54;21;2008;classical;0,344;0,163;0,056
+Frédéric Chopin;Preludes, Op. 28: No. 6, Lento Assai;20;2008;classical;0,337;0,00547;0,112
+Frédéric Chopin;24 Préludes, Op. 28: 19. In E Flat Major;10;2008;classical;0,194;0,163;0,202
+Frédéric Chopin;24 Préludes, Op. 28: 24. In D Minor;10;2008;classical;0,225;0,22;0,113
+Frédéric Chopin;24 Préludes, Op. 28: 14. In E Flat Minor;10;2008;classical;0,203;0,218;0,0374
+Frédéric Chopin;24 Préludes, Op. 28: 21. In B Flat Major;10;2008;classical;0,29;0,032;0,0421
+Sergei Rachmaninoff;Variation XVIII: Andante Cantabile;17;2008;classical;0,303;0,182;0,0418
+Frédéric Chopin;Preludes, Op. 28: No. 1, Agitato;20;2008;classical;0,229;0,237;0,0772
+Frédéric Chopin;Deux Nocturnes, Op. 62: 1. Nocturne In B (Andante);9;2008;classical;0,203;0,0191;0,0389
+Frédéric Chopin;24 Préludes, Op. 28: 23. In F Major;9;2008;classical;0,153;0,0579;0,193
+Felix Mendelssohn;Song Without Words In A Major No.5 Opus 102, Book VIII;20;2008;classical;0,336;0,12;0,193
+Ludwig van Beethoven;Ich liebe dich, WoO 123;23;2008;classical;0,208;0,0213;0,197
+Frédéric Chopin;Preludes, Op. 28: No. 20, Largo;18;2008;classical;0,665;0,00129;0,228
+Claude Debussy;Deux Arabesques, L. 66: Arabesque No. 1 in E Major;14;2008;classical;0,233;0,0111;0,0639
+Claude Debussy;Debussy: String Quartet in G Minor, Op. 10, CD 91, L. 85: IV. Très modéré - Très mouvementé et avec passion;17;2008;classical;0,303;0,2;0,0576
+Frédéric Chopin;Preludes, Op. 28: No. 2, Lento;19;2008;classical;0,262;0,00361;0,0637
+Frédéric Chopin;24 Préludes, Op. 28: 18. In F Minor;9;2008;classical;0,195;0,151;0,315
+Frédéric Chopin;24 Préludes, Op. 28: 22. In G Minor;9;2008;classical;0,275;0,459;0,486
+Ludwig van Beethoven;Bagatelle in A Minor WoO 59: Fur Elise;16;2008;classical;0,469;0,267;0,398
+Frédéric Chopin;Prélude In C Sharp Minor, Op. 45;9;2008;classical;0,22;0,0163;0,069
+Frédéric Chopin;Preludes, Op. 28: No. 3, Vivace;18;2008;classical;0,323;0,0767;0,481
+Frédéric Chopin;Prélude In A Flat Major, Op. Posth.;8;2008;classical;0,168;0,166;0,297
+Franz Liszt;"3 Etudes de Concert, S.144: No. 3 in D Flat ""Un sospiro"" (Allegro affettuoso)";13;2008;classical;0,266;0,119;0,0346
+Ludwig van Beethoven;Mass in C Major, Op. 86: I. Kyrie;14;2008;classical;0,143;0,0801;0,0383
+Felix Mendelssohn;Hark The Herald Angels Sing;12;2008;classical;0,231;0,233;0,139
+Felix Mendelssohn;Caprices Opus 33: No. 2 in E major;19;2008;classical;0,272;0,0696;0,0646
+Frédéric Chopin;Chopin: Nocturne No. 9 in B Major, Op. 32 No. 1;11;2008;classical;0,455;0,0202;0,174
+Frédéric Chopin;Preludes, Op. 28: No. 16, Presto con fuoco;18;2008;classical;0,388;0,27;0,36
+Frédéric Chopin;Preludes, Op. 28: No. 9, Largo;17;2008;classical;0,311;0,0335;0,0349
+Sergei Rachmaninoff;The Sleeping Beauty Suite, Op. 66a (arr. S. Rachmaninov for piano 4 hands): I. Introduction - The Lilac Fairy;13;2008;classical;0,371;0,101;0,0702
+Frédéric Chopin;Preludes, Op. 28: No. 11, Vivace;17;2008;classical;0,365;0,146;0,294
+Frédéric Chopin;Preludes, Op. 28: No. 5, Allegro molto;17;2008;classical;0,247;0,226;0,321
+Frédéric Chopin;Preludes, Op. 28: No. 8, Molto Agitato;18;2008;classical;0,281;0,252;0,0394
+Frédéric Chopin;Preludes, Op. 28: No. 24, Allegro appassionato;16;2008;classical;0,301;0,271;0,0397
+Claude Debussy;Cello Sonata in D Minor, L. 135: I. Prologue (Lent, sostenuto et molto risoluto);13;2008;classical;0,214;0,0316;0,152
+Claude Debussy;Debussy: Images, Livre I, CD 105, L. 110: No. 1, Reflets dans l'eau;13;2008;classical;0,322;0,0257;0,0309
+Felix Mendelssohn;Lied opus 34 no.4, transcription Franz Liszt: Suleika;18;2008;classical;0,27;0,09;0,0459
+Felix Mendelssohn;Caprices Opus 33: No. 3 in B-Flat Minor;18;2008;classical;0,453;0,116;0,202
+Felix Mendelssohn;String Quartet No. 6 in F Minor, Op. 80, MWV R30: IV. Finale: Allegro molto;16;2008;classical;0,357;0,195;0,205
+Frédéric Chopin;Preludes, Op. 28: No. 10, Allegro molto;16;2008;classical;0,506;0,0956;0,344
+Frédéric Chopin;Preludes, Op. 28: No. 12, Presto;17;2008;classical;0,278;0,241;0,51
+Frédéric Chopin;Preludes, Op. 28: No. 17, Allegretto;16;2008;classical;0,351;0,141;0,0493
+Frédéric Chopin;Piano Sonata No.2 In B Flat Minor Op.35 - Funeral March;17;2008;classical;0,593;0,0269;0,252
+Claude Debussy;Page d'Album, L. 133, CD 141;13;2008;classical;0,337;0,00794;0,0731
+Claude Debussy;Deux Arabesques, L. 66, CD 74: II. Deuxième Arabesque;13;2008;classical;0,301;0,0863;0,281
+Claude Debussy;Danse bohémienne, L. 9, CD 4;14;2008;classical;0,372;0,074;0,299
+Claude Debussy;3 Chansons de Charles d'Orleans: Trois Chansons de Charles d'Orleans: Dieu! Qu'il la fait bon regarder!;14;2008;classical;0,157;0,0431;0,0339
+Ludwig van Beethoven;Mass in C Major, Op. 86: III. Credo;13;2008;classical;0,177;0,117;0,112

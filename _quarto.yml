@@ -9,7 +9,8 @@ website:
       - href: index.qmd
         text: Preview of Dataset
       - about.qmd
-      - about copy.qmd
+      - href: about copy.qmd
+        text: Classical Music: Present
 
 format:
   html:

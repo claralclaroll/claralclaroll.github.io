@@ -11,7 +11,6 @@ Question: How well-liked is classical music today?
 Percentage Audience for Music Genre
 
 ```{r, out.height= "800px",out.width= "700px",echo=FALSE,eval=TRUE}
-
 knitr::include_graphics("dataset for listening.png") 
 ```
 
@@ -32,7 +31,7 @@ library(dplyr)
 library(GGally)
 ```
 
-```{r, eval=TRUE,echo=F}
+```{r, eval=TRUE,echo=F,warning= F, message = F}
 target<- c("['Robert Schumann', 'Vladimir Horowitz']","['Franz Joseph Haydn', 'Pro Arte Quartet']","['Felix Mendelssohn', 'Vladimir Horowitz']", "['Frédéric Chopin', 'Vladimir Horowitz']", "['Franz Liszt', 'Vladimir Horowitz']","['Sergei Rachmaninoff', 'Vladimir Horowitz']", "['Ludwig van Beethoven', 'Staatskapelle Berlin', 'Richard Strauss']")
 spotifydata<-read.csv("spotify-data.csv")
 predictdata<- spotifydata %>%
@@ -44,7 +43,6 @@ predictdata<- spotifydata %>%
 
 ```{r, eval=TRUE,echo=F}
 updateddata<-read.csv2("spotifyuse.csv", skip = 1)
-glimpse(updateddata)
 ```
 
 ```{r, eval=TRUE,echo=F}

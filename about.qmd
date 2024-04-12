@@ -140,4 +140,5 @@ The dataset I have tided for analysis is from an larger dataset. My decision to 
 
 
 **Conclusions**
+
 From the various forms of analysis done, it appears then, that classical music has cemented its place in the present and in the future. However, it is worthy to note that the public prefers classical pieces that are lower energy and hence less active and intense. This agrees with my next finding that pieces that are of lower valence are more relevant and popular. This suggests that the public audience prefer pieces that are slower and sadder compared to upbeat, energetic songs. In the future, it is likely that the popularity of classical music will fluctuate. However, its popularity as a genre will follow the general trend of an increase. In view of the sudden drop in popularity after 2020, I feel this may have been possible due to external events like Covid-19 in which the musicians were unable to perform. Hence, there is decreased appreciation of music. However, I find this reason quite doubtful and feel it more likely that there was an error in the dataset instead. 

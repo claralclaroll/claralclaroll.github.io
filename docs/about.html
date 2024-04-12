@@ -87,10 +87,8 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
- <span class="menu-text">Data Story: Classical Music</span></a>
+ <span class="menu-text">Classical Music-Present</span></a>
   </li>  
-  <li class="dropdown-header">
- <span class="menu-text">about copy.qmd</span></li>
 </ul>
             <div class="quarto-navbar-tools ms-auto">
 </div>
@@ -145,10 +143,24 @@ ul.task-list li input[type="checkbox"] {
 <p>#1 Realistically, less and less people listen each year per capita and even opera houses are kept open by public funding and private donations instead of sales. With lack of sufficient support from governments and lowered interest, it seems inevitable that classical music will fall out of favor.</p>
 <p>#2 Classical music is no longer the same genre as it was - currently it is only comprised and recognised for pieces by the most prominent, superstar composers like Beethoven. There are still classical pieces made currently, but these pieces often go unnoticed and receive no recognition.</p>
 <p>#3 Classical music competes head-on with modern music - which is evolving and changing all the time. Furthermore, as music becomes more experimentally and its form expands, it appears that current popular music could not deviate further from classical music.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 1,540
+Columns: 8
+$ artist_name  &lt;chr&gt; "Claude Debussy", "Sergei Rachmaninoff", "Frédéric Chopin…
+$ track_name   &lt;chr&gt; "Rêverie, L. 68: Rêverie", "Piano Concerto No. 2 in C Min…
+$ popularity   &lt;int&gt; 61, 60, 54, 49, 43, 45, 40, 43, 39, 39, 40, 39, 37, 27, 2…
+$ year         &lt;int&gt; 2012, 2012, 2012, 2012, 2012, 2012, 2012, 2012, 2012, 201…
+$ genre        &lt;chr&gt; "classical", "classical", "classical", "classical", "clas…
+$ danceability &lt;dbl&gt; 0.296, 0.194, 0.191, 0.144, 0.319, 0.209, 0.370, 0.184, 0…
+$ energy       &lt;dbl&gt; 0.00896, 0.05450, 0.01570, 0.11100, 0.14800, 0.00759, 0.0…
+$ valence      &lt;dbl&gt; 0.0673, 0.0385, 0.0869, 0.0393, 0.0670, 0.0593, 0.1930, 0…</code></pre>
+</div>
+</div>
 <p><strong>Popularity of Music Over Time</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="about_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Based on this graph, there is an overall significant increase in average popularity of classical pieces over time. However, this increase is volatile as seen in the random decrease in average popularity in certain years. Nonetheless, the popularity of classical pieces seems to be stabilising as each drop and increase in average popularity is less drastic. This suggests that classical music is becoming increasingly well-liked.</p>
@@ -156,28 +168,29 @@ ul.task-list li input[type="checkbox"] {
 <p>#1. Energy</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<p><img src="about_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>As seen in the graph, classical music pieces are usually more popular if they are less intense and active. However, we also note that the data points is most dense close to the bottom left of the graph. This reveals that majority of the data points have low energy levels and usually received similarly by the audience.</p>
 <p>#2. Danceability</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<p><img src="about_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>In general, as seen in the even spread of data, all types of classical music with different liveliness (as defined in the variable danceability) does not affect the popularity of classical music. This suggests that to the public audience, both danceable and lively pieces of classical music are well-liked.</p>
 <p>#3. Valence</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="about_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>As seen in the scatter plot, classical music is significantly more popular when it has lower valence with a score of below 0.5. This suggests that classical music which are more somber and sad is more well-liked among the audience rather than pieces which are more upbeat and happier.</p>
 <p><strong>Classical Music In The Future</strong></p>
+<p>We will be using the second dataset here.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid" width="672"></p>
+<p><img src="about_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>As seen in the graphs above, the high r-value of 0.771 suggests that average popularity rating and years have a strong positive linear correlation. Hence, it is appropriate to use this dataset to create a prediction model that can reflect the popularity rating of the dataset in the following years.</p>
@@ -187,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <p>While the dataset I used can be used to predict the popularity of classical music in the future. It is still ultimately a dataset made for years that are outside of the data range of the original dataset. This affects the reliability of the data and the conclusions that I have made. The graph below shows the extent to which the linear regression model I have made is valid as the shaded area visualises its confidence interval.</p>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="about_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+<p><img src="about_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>#2 Classical Music Constantly Evolving</p>

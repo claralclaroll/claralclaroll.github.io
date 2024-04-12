@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">Data Story: Classical Music</span></a>
+ <span class="menu-text">Classical Music-Present</span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
@@ -123,7 +123,44 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<p>First Dataset</p>
 <div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>          artist_name
+1      Claude Debussy
+2 Sergei Rachmaninoff
+3     Frédéric Chopin
+4 Sergei Rachmaninoff
+5 Sergei Rachmaninoff
+6     Frédéric Chopin
+                                                      track_name popularity
+1                                        Rêverie, L. 68: Rêverie         61
+2   Piano Concerto No. 2 in C Minor, Op. 18: 2. Adagio sostenuto         60
+3                           Waltz in C-sharp minor, Op. 64 No. 2         54
+4           Piano Concerto No. 2 in C Minor, Op. 18: 1. Moderato         49
+5 Piano Concerto No. 2 in C Minor, Op. 18: 3. Allegro scherzando         43
+6                        Nocturne in E-Flat Major, Op. 55, No. 2         45
+  year     genre danceability  energy valence
+1 2012 classical        0.296 0.00896  0.0673
+2 2012 classical        0.194 0.05450  0.0385
+3 2012 classical        0.191 0.01570  0.0869
+4 2012 classical        0.144 0.11100  0.0393
+5 2012 classical        0.319 0.14800  0.0670
+6 2012 classical        0.209 0.00759  0.0593</code></pre>
+</div>
+</div>
+<p>Second Dataset</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 149
+Columns: 6
+$ name         &lt;chr&gt; "Polonaise-Fantaisie in A-Flat Major, Op. 61", "Piano Son…
+$ artists      &lt;chr&gt; "['Frédéric Chopin', 'Vladimir Horowitz']", "['Frédéric C…
+$ year         &lt;int&gt; 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 1928, 192…
+$ danceability &lt;dbl&gt; 0.210, 0.170, 0.305, 0.337, 0.355, 0.188, 0.444, 0.280, 0…
+$ energy       &lt;dbl&gt; 0.2040, 0.0823, 0.0830, 0.0699, 0.0452, 0.0891, 0.0431, 0…
+$ popularity   &lt;int&gt; 1, 1, 1, 2, 2, 3, 1, 1, 1, 2, 2, 1, 1, 1, 1, 15, 8, 15, 1…</code></pre>
+</div>
 <div class="cell-output cell-output-stdout">
 <pre><code>                                            name
 1    Polonaise-Fantaisie in A-Flat Major, Op. 61
@@ -138,19 +175,13 @@ ul.task-list li input[type="checkbox"] {
 3 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.305 0.0830          1
 4 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.337 0.0699          2
 5 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.355 0.0452          2
-6 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.188 0.0891          3
-  valence
-1  0.0693
-2  0.3460
-3  0.0479
-4  0.1350
-5  0.2760
-6  0.1640</code></pre>
+6 ['Frédéric Chopin', 'Vladimir Horowitz'] 1928        0.188 0.0891          3</code></pre>
 </div>
 </div>
 <p><strong>Overview of Dataset</strong></p>
-<p>The dataset I am using is filtered from an original, larger dataset that included 1 Million song tracks between 2000 and 2023. This original dataset was retrieved from Spotify platform using the Python library “Spotipy”. This allows users to access music data provided via APIs. The larger dataset collected also includes 19 features, a total of 61,445 unique artists and 82 genres in the data.</p>
-<p><strong>Features/Variables of Dataset</strong></p>
+<p>The first dataset I am using is filtered from an original, larger dataset that included 1 Million song tracks between 2000 and 2023. This original dataset was retrieved from Spotify platform using the Python library “Spotipy”. This allows users to access music data provided via APIs. The larger dataset collected also includes 19 features, a total of 61,445 unique artists and 82 genres in the data.</p>
+<p>The second dataset I am using is a spotify dataset from a PySpark Course. All the variables in this dataset corresponds and has the same function with the first dataset. Other than the fundamental variables like names of the tracks the values for the musical elements such as the danceability was extracted using an algorithim geneerated by Spotify based on a range of technical parameters. I will be using this dataset as a prediction dataset to reflect how popular classical music was predicted to be in the following years.</p>
+<p><strong>Features/Variables of Datasets</strong></p>
 <ol type="1">
 <li>Popularity refers to the popularity of the track by the public. The popularity rating ranges from 0 to 100.</li>
 <li>Year refers to the release year of the track.</li>

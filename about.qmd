@@ -107,7 +107,10 @@ We will be using the second dataset here.
 
 ```{r, eval=TRUE,echo=F}
 library(ggplot2)
-ggpairs(data=newdata, columns=1:2, title="Average popularity rating and years", ggplot2::aes(colour= "royalblue") )
+newpreddata<- predictdata %>%
+  group_by(year)%>%
+  reframe(summ = ave(popularity))
+ggpairs(data=newpreddata, columns=1:2, title="Average popularity rating and years", ggplot2::aes(colour= "royalblue") )
 ```
 
 As seen in the graphs above, the high r-value of 0.771 suggests that average popularity rating and years have a strong positive linear correlation. Hence, it is appropriate to use this dataset to create a prediction model that can reflect the popularity rating of the dataset in the following years. 
@@ -123,7 +126,7 @@ As seen in the graphs above, the high r-value of 0.771 suggests that average pop
 While the dataset I used can be used to predict the popularity of classical music in the future. It is still ultimately a dataset made for years that are outside of the data range of the original dataset. This affects the reliability of the data and the conclusions that I have made. The graph below shows the extent to which the linear regression model I have made is valid as the shaded area visualises its confidence interval.
 
 ```{r, eval=TRUE,echo=F, warning=FALSE, message=FALSE}
-ggplot(data = avgdata, aes(x= year, y= summ))+
+ggplot(data = newpreddata, aes(x= year, y= summ))+
   geom_point(col="royalblue2")+ 
   geom_smooth(method = "lm", col ="pink") + 
   theme(panel.background = element_rect(fill = "white"),

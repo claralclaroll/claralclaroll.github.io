@@ -8,13 +8,12 @@ library(dplyr)
 ```
 
 First Dataset
-``` {r, eval=TRUE,echo=F}
+``` {r, eval=TRUE,echo=F, message = FALSE, warning = FALSE}
 spotifydata<- read.csv2("spotifyuse.csv", skip =1 )
-glimpse(spotifydata)
 head(spotifydata)
 ```
 Second Dataset 
-```{r, eval=TRUE,echo=TRUE}
+```{r, eval=TRUE,echo=F, message = F, warning = F}
 library(tidyverse)
 library(randomForest)
 library(dplyr)

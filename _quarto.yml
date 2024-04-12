@@ -9,7 +9,7 @@ website:
       - href: index.qmd
         text: Preview of Dataset
       - href: about.qmd
-        text: Data Story: Classical Music
+        text: Classical Music-Present
 
 format:
   html:
@@ -18,3 +18,5 @@ format:
     toc: true
 
 editor: visual
+
+

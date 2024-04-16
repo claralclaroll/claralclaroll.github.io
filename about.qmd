@@ -82,7 +82,7 @@ As seen in the graph, classical music pieces are usually more popular if they ar
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +
   aes(x=danceability, y=popularity) +
-  geom_point(colour= "royalblue3") +
+  geom_point(colour= "purple3") +
   labs(x= "Danceability", y = "Popularity", title="Danceability And Popularity Of Pieces")  
 ```
 In general, as seen in the spread of data, majority of the pieces are most popular when they are slightly lively between 0.2 to 0.4. This shows that the public prefer moderately lively classical pieces.
@@ -91,7 +91,7 @@ In general, as seen in the spread of data, majority of the pieces are most popul
 
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +
-  aes(x=valence, y=popularity) +
+  aes(x = valence, y=popularity) +
   geom_hex(colour = "royalblue3") +
   labs(x= "Valence", y = "Popularity", title="Valence And Its Popularity")
 ```

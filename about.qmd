@@ -69,8 +69,7 @@ Based on this graph, there is an overall significant increase in average popular
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +
   aes(x=energy, y= popularity) +
-  geom_point() + 
-  geom_line(colour= "darkblue") +
+  geom_point(colour= "darkblue") +
   labs(x= "Energy Levels", y="Popularity", title="Energy Levels And Popularity Of Pieces")
 ```
 As seen in the graph, classical music pieces are usually more popular if they are less intense and active. 
@@ -93,7 +92,7 @@ In general, as seen in the spread of data, majority of the pieces are most popul
 ```{r, eval=TRUE,echo=F}
 ggplot(data=updateddata) +
   aes(x=valence, y=popularity) +
-  geom_point(colour = "royalblue3") +
+  geom_hex(colour = "royalblue3") +
   labs(x= "Valence", y = "Popularity", title="Valence And Its Popularity")
 ```
 

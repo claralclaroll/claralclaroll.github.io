@@ -7,6 +7,11 @@ library(tidyverse)
 library(dplyr)
 ```
 
+```{r, out.height= "300px",out.width= "600px",echo=F,eval=TRUE}
+knitr::include_graphics("pic.png") 
+```
+
+
 **First Dataset**
 ``` {r, eval=TRUE,echo=F, message = FALSE, warning = FALSE}
 spotifydata<- read.csv2("spotifyuse.csv", skip =1 )

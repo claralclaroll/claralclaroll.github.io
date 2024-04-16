@@ -29,7 +29,6 @@ updateddata<- spotifydata %>%
   filter(artists%in%target)%>%
   filter(popularity >= 1)%>%
   arrange(year)
-glimpse(updateddata)
 head(updateddata)
 ```
 
